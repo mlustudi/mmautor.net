@@ -1,0 +1,8 @@
+<ul>
+{% assign pages_list = site.pages | where:"lang", page.lang %}
+{% for node in pages_list %}
+{%- unless node.exclude or node.title == nil %}
+    <li><a href="{{ node.url }}" {% if node.url == page.url %}class="active"{% endif %}>{{ node.title }}</a></li>
+{%- endunless %}
+{% endfor %}
+</ul>

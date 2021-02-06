@@ -1,0 +1,17 @@
+---
+title:  "Grauwert 303"
+decription: ""
+layout: project
+categories: leben
+permalink: /showroom/grauwert-303
+image: grauwert-303.jpg
+imageAlternativeText: "Ein Schwarz-Weiß-Photo einer Person, die in der Dunkelheit steht und auf ihr Handy schaut. Das Gesicht ist erleuchtet."
+lang: de
+highlight: true
+---
+
+# Grauwert 303
+
+[Grauwert303](http://grauwert303.de/) ist ein **Nischenpodcast aus dem Mikrokosmos illegaler Graffiti**. Er setzt sich zusammen aus dem, was einst nur Gedanken, Staub und Farbe war. Besagter Mikrokosmos liegt hinter dem Ereignishorizont der Alltagsgesellschaft. In ihm blitzen Sprüher auf wie Sterne, nur um kurz darauf wieder im Dunkeln zu verschwinden. **Toys, Kings und die Exekutive zirkulieren auf kollidierenden Umlaufbahnen** im verhangenen Orbit. Andächtig in ihrer Mitte treiben die Homepage, der Podcast und der Instagramkanal von Grauwert303.
+
+Grauwert303 entstand als **Masterprojekt** im Studiengang MultiMedia & Autorschaft an der MLU Halle-Wittenberg. Besonderer Dank geht an Studiengangsleiterin Maren Schuster. Ohne ihren Support, ihr Engagement und ihre Hingabe würde weder der Studiengang, noch Grauwert303 existieren. Ihre Arbeit kann kaum genug gewürdigt werden, vielen Dank!

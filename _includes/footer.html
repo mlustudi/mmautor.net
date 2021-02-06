@@ -1,0 +1,11 @@
+<footer>
+    <nav>
+        <ul>
+            {% assign pages_list = site.pages | where:"lang", page.lang %}
+            {% assign pages_list_footer = pages_list | where:"footer", true %}
+            {% for node in pages_list_footer %}
+                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</footer>

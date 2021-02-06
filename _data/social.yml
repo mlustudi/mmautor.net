@@ -1,0 +1,13 @@
+twitter:
+  name: Twitter
+  handle: "@mmautor"
+  url: "https://twitter.com/mmautor"
+instagram:
+  name: Instagram
+  handle: "@multimedia_und_autorschaft"
+  url: "https://instagram.com/multimedia_und_autorschaft"
+youtube:
+  name: YouTube
+  handle: ""
+  url: https://youtube.com/
+  hidden: true

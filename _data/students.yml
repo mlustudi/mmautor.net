@@ -1,0 +1,283 @@
+2019:
+- name: Meret Aupperle
+  image: students/2019/meret-aupperle.png
+  references:
+    - website:
+      url: https://meretaupperle.com/
+      handle: "Website"
+- name: Sören Engels
+  image: students/2019/soeren-engels.jpg
+  references:
+    - website:
+      url: https://soerenengels.de/
+      handle: Website
+    - twitter:
+      url: https://twitter.com/soerenengels
+      handle: "Twitter"
+- name: Milena Giskes
+  image: students/2019/milena-giskes.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/mi_lena_fox/
+      handle: Instagram
+  statement: 
+    "Das hätte ich ohne MMA nie gemacht? eine Untersuchung der Produktionsprozesse der deutschen Pornoindustrie Diese Erkenntnis im Studium hat mich beeindruckt: Wie spannend Mediengeschichte sein kann 3 Zutaten, die auf den ersten Blick nicht zusammen passen und in MMA positiv zusammenkommen: Journalismus, Universität und Praxisprojekte: auf den ersten Blick keine naheliegende Kombination, aber perfekt, um Neues auszuprobieren"
+- name: Maike Grabow
+  image: students/2019/maike-grabow.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/maike_gr_/
+      handle: Instagram
+- name: Oliver Haupt
+  image: students/2019/oliver-haupt.jpg
+  references:
+    - twitter:
+      url: https://twitter.com/oliverhpt
+      handle: Twitter
+- name: Sarah-Maria Köpf
+  image: students/2019/sarah-maria-koepf.jpg
+  references:
+    - website:
+      url: https://www.thefashionableblog.com/
+      handle: Website
+    - instagram:
+      url: https://www.instagram.com/sarahfashionable/
+      handle: Instagram
+- name: Jenny Lehmann
+  image: students/2019/jenny-lehmann.jpg
+- name: Alexandra Pubantz
+  image: students/2019/alexandra-pubantz.jpg
+- name: Frauke Rummler
+  image: students/2019/frauke-rummler.jpg
+- name: Irene Schulz
+  image: students/2019/irene-schulz.jpg
+- name: Yevgeniya Shcherbakova
+  image: students/2019/yevgeniya-shcherbakova.jpg
+- name: Denise Stell
+  image: students/2019/denise-stell.jpg
+- name: David Sticker
+  image: students/2019/david-sticker.jpg
+- name: Maren Wilczek
+  image: students/2019/maren-wilczek.jpg
+- name: Britta Zwigart
+  image: students/2019/britta-zwigart.jpg
+
+2017:
+- name: Björn Berger
+  image: students/2017/bjoern-berger.jpg
+- name: Ann-Sophie Henne
+  image: students/2017/ann-sophie-henne.jpg
+- name: Marco Hennig
+  image: students/2017/marco-henning.jpg
+- name: Robin Jüngling
+  image: students/2017/robin-juengling.jpg
+- name: Lukas Kammer
+  image: students/2017/lukas-kammer.jpg
+- name: Ulrike Kurth
+  image: students/2017/ulrike-kurth.jpg
+- name: Lisa Ossowski
+  image: students/2017/lisa-ossowski.jpg
+- name: Christin Pomplitz
+  image: students/2017/christin-pomplitz.jpg
+- name: Florian Pontalti
+  image: students/2017/florian-pontalti.jpg
+- name: Daniela Schulze
+  image: students/2017/daniela-schulze.jpg
+- name: Alisa Sonntag
+  image: students/2017/alisa-sonntag.jpg
+- name: Anja Tanita Steckel
+  image: students/2017/anja-tanita-steckel.jpg
+- name: Steffen Wrede
+  image: students/2017/steffen-wrede.jpg
+
+2015:
+- name: Fabian Lamster
+  graduation-project_title: „Das Stadionunglück in Halle/Saale“
+- name: Jacob Hanitzsch
+- name: Elitsa Kirova
+  graduation-project_title: „Jüdisches Leben in Halle/Saale“
+- name: Mathilde Kowalski
+- name: Rahel Metzner
+  graduation-project_title: „Manab und Furat – Von Syrien nach Halle“
+- name: Stefan Michel
+  graduation-project_title: „Es ist Zeitz – Geisterstadt.Rezession.Wende.Veränderung.Bunt.Kreativwirtschaft“
+- name: Juliane Radtke
+- name: Burkhard Schütz
+  graduation-project_title: „Moderne Spuren – Das Bauhaus in Sachsen-Anhalt“
+- name: Marie Schultz
+  graduation-project_title: „Florapolis – Gartennetzwerk Halle/Saale“
+- name: Susanne Siegert
+  graduation-project_title: „Die vegane Szene von Magdeburg“
+- name: Laura Wagenbrett
+  graduation-project_title: „Menschenbilder – Sinti und Roma in Halle/Saale“
+
+2013:
+- name: Benjamin Abicht
+  graduation-project_title: „Meine LuWu“ – ein Multimediaprojekt über den sozialen Wandel in der Ludwig-Wucherer-Straße in Halle (Saale).
+- name: Christina Brause
+  graduation-project_title: 'KitaWelt: Burnout statt Bildung?'
+- name: Maria Göckeritz
+  graduation-project_title: „Sagenumwoben“ – Orte und ihre Sagen in Halle und Umgebung
+- name: Henning Grabow
+  graduation-project_title: „Kein Reich Komme“ – Auf den Spuren von „Matthias“ BAADER Holst
+- name: Daniel Heißenstein
+  graduation-project_title: „Rund und bunt“ – Ein Fotoprojekt über die Fußballlandschaft in Halle
+- name: Christin Iffert
+- name: Marie-Kristin Kirschning
+  graduation-project_title: „Ultrarun“ – In 11 Tagen von Halle nach Eppan
+- name: Luise Kotulla
+  graduation-project_title: „Drei neue Leben“ – Aus der Welt in die Saalestadt
+- name: Evi Lemberger
+  graduation-project_title: „Meine Welt, Deine Welt, Unsere Welt“ – Jugendliche und Kinder erzählen von sich, ihren Träumen, Wünschen und Meinungen
+- name: Markus Reiniger
+  graduation-project_title: „Ab durch die Heide“ – ein multimedialer Rundgang durch Halles Stadtwald!
+- name: Carolin Schneider
+  graduation-project_title: „Der 20. Jahrestag des Gebirgsschlags in Teutschenthal“ – Ein Multimedia-Projekt über die Geschichte des Kaliwerkes, die Folgen des Gebirgsschlages und die Sicherungsmaßnahmen bis heute.
+- name: Stefanie Weiser
+  graduation-project_title: „Ohne Perspektive? – Über den Integrationswillen von Flüchtlingen in Halle“
+- name: Jessica Zanner
+  graduation-project_title: „Die Geschichte um das Schloss Rammelburg“
+- name: Kristin Zimmermann
+  graduation-project_title: „Das Paulusviertel“
+
+2011:
+- name: Claudia Brüggemann
+- name: Inga Dauter
+- name: Bianca Dittrich
+- name: Janine Gürtler
+- name: Doreen Hoyer
+- name: Timo Leich
+- name: Carolin Mitulla
+- name: Anne Pannecke
+- name: Sindy Peukert
+- name: Veronika Pilch
+- name: Christopher Roos
+- name: Elisabeth Schinner
+  graduation-project_title: Grünes Halle
+- name: Anja Willanzheimer
+
+2009:
+- name: Alexandra Brand
+  appendix: Multimedia & Autorschaft (1. Sem.), Online-Journalismus (2. Sem.)
+- name: Chris Brinkel
+  appendix: Online-Journalismus
+- name: Andreas Bullik
+- name: Zornitsa Nedyalkova Dimitrova
+- name: Nicole Goltze
+- name: Stefanie Greiner
+  appendix: Online-Journalismus
+- name: Anja Gutmair
+- name: Marco Härtl
+- name: Cornelia Hennersdorf
+  appendix: Online-Journalismus
+- name: Romina Kempt
+- name: Jessica Kirschner
+  appendix: Multimedia & Autorschaft (1. Sem.)
+- name: Annekathrin Lang
+  appendix: Online-Journalismus
+- name: Simon Leimig
+- name: Jennifer Lorenz
+- name: Maximilian Lotz
+  appendix: Online-Journalismus
+- name: Daniel Partzsch
+- name: Martin Paul
+- name: Martin Rehberg
+- name: Maren Schuster
+  appendix: Online-Journalismus
+- name: Jan Trützschler
+  appendix: Online-Journalismus
+- name: Cornelia Winkler
+  appendix: Online-Journalismus
+- name: Stephanie Wölke
+- name: Yulia Yuklyaevskikh
+
+2007:
+- name: Anja Heinicke
+- name: Theresa Henning
+  appendix: Online-Journalismus
+- name: Mercedes Hervás de Mora
+- name: Frauke Holz
+  appendix: Online-Journalismus
+- name: Gitte Kießling
+- name: Hendrik König
+  appendix: Online-Journalismus
+- name: Arne-K. Mertens
+  appendix: Online-Journalismus
+- name: Annika Reinhardt-Kopschinski
+  appendix: Online-Journalismus
+  graduation-project_title: Gemeinsam für Schochwitz
+  graduation-project_url: www.gemeinsam-fuer-schochwitz.de
+- name: Franziska Roscher
+  appendix: Online-Journalismus
+- name: Steffi Schramm
+- name: Stefan Schwarz
+  appendix: Online-Journalismus
+
+2005:
+- name: Alexandra Aderhold
+- name: Astrid Beier
+  heute: Mitarbeiterin für den Bereich Weiterbildung des Transferzentrums der Hochschule für Kunst und Design Halle | www.burg-halle.de
+  graduation-project_title: Die Kulturinsel
+- name: Frank Franke
+  appendix: Online-Journalismus
+  heute: Unternehmensberater, im Coaching und in der PR aktiv | www.wirk-kom.de
+  graduation-project_title: Rock in Halle
+- name: Sonja Heitmann
+  heute: Produktionsassistentin bei einer Filmproduktionsfirma in Berlin | www.cinecentrum.de
+  graduation-project_title: alternative kunst- und kulturräume
+- name: Marcella Brigitta Kaufhold
+- name: Axel Koch
+  heute: Grafiker bei BIGPOINT, einem Browsergames-Produzenten | http://home.arcor.de/schiemaere
+  graduation-project_title: Eine hypermediale Präsentation des Botanischen Gartens zu Halle
+- name: Romy Kornau
+  heute: freiberuflich in Presse- und Öffentlichkeitsarbeit tätig
+  graduation-project_title: Der Stadtgottesacker
+- name: Yasmin Muskala
+  appendix: Online-Journalismus
+  heute: Finanzberaterin | www.muskala.de
+  graduation-project_title: Feng Shui, multimedial präsentiert
+- name: Claudette Ocando
+  heute: Screendesignerin bei GMX
+  graduation-project_title: The Hospitality Club Project
+- name: Thomas Pencs
+  heute: freier E-Learning und Multimedia-Autor
+  graduation-project_title: Der Dom in Halle
+- name: Sven Roloff
+  heute: freier Webdesigner und Filmkurator www.wirkwerk.com | www.mz-web.de
+  graduation-project_title: Kinogeschichte, Filmforum und Filmfestival in Halle
+- name: Franziska Schmöller
+  graduation-project_title: Historische Gebäude in Halle
+- name: Stefanie Unger
+  graduation-project_title: Außergewöhnliche Sportarten
+- name: Susanne Weigel
+  heute: stellvertretende Geschäftsführerin eines Verlages mit Werbeagentur | www.colorino.de
+  graduation-project_title: Zoo erleben
+
+2003:
+- name: Grit Blume
+  heute: freiberufliche Webdesignerin, u.a. bei „LVZ-online“, Dozentin für Webdesign und Medienkompetenz
+- name: Nele Hatoum
+  heute: freischaffende Künstlerin und in der Erwachsenenbildung tätig
+  references:
+    - website:
+      handle: Website
+      url: www.klick-germany.de/firmen-branchen/mode-design/nele-hatoum
+- name: Henry Gerlach
+  heute: freier Webdesigner
+  references:
+    - website:
+      handle: Website
+      url: www.anitainment.com
+- name: Daniela Küllertz
+  heute: Promoventin an der OvGU Magdeburg, FB Erziehungswissenschaften, Arbeitsgebiet Medienbildungsforschung
+- name: Brigitte Neufeldt
+  heute: selbstständige Künstlerin
+- name: Sadasivam Y. Rao
+  heute: Filmemacher
+  references:
+    - website:
+      handle: Website
+      url: www.mercury-films.de
+- name: Roland Stratz
+  heute: Senior-Projektmanager für das Leipziger Stadt- und Standortmarketing | www.leipziger-freiheit.de
+  graduation-project_title: Der Campus in Halle

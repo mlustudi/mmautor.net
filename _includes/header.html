@@ -1,0 +1,29 @@
+<header>
+    {% assign languagecode = page.lang %}
+    <div>
+        <h1><a href="/{{ languagecode }}">MMA</a></h1>
+        <p><a href="/{{ languagecode }}">journalism & theory</a></p>
+    </div>
+    <div class="switcher">
+        {% if languagecode == site.data.languages[0].short %}
+            {% assign differentlanguagecode = site.data.languages[1] %}
+        {% else %}
+            {% assign differentlanguagecode = site.data.languages[0] %}
+        {% endif %}
+        <a href="{{ "/" | append: differentlanguagecode.short }}" class="languageSwitcher">{{ differentlanguagecode.label }}</a>
+        <!--<a href="{{ "/" | append: differentlanguagecode.short | append: "/" | append: page.lang-ref }}" class="languageSwitcher">{{ differentlanguagecode.label }}</a>-->
+        
+        <a href="javascript:void(0);" onclick="toggleMenu()">
+            <svg class="menuicon" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="90" x="10" height="20" rx="14"></rect>
+                <rect y="30" width="100" height="20" rx="12"></rect>
+                <rect y="60" x="10" width="90" height="20" rx="14"></rect>
+            </svg>
+        </a>
+    </div>
+</header>
+<nav id="menu">
+    <!-- Show Burger-Menü on Smartphone -->
+    
+    {% include navigation.html %}
+</nav>
