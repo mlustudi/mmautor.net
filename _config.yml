@@ -14,3 +14,5 @@ github_username: mmautor
 exclude: ["README.md"]
 plugins:
   - jekyll-feed
+  - jekyll-admin
+  
