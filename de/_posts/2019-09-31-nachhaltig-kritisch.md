@@ -4,7 +4,7 @@ decription: ""
 layout: project
 categories: klimawandel
 permalink: /showroom/nachhaltig-kritisch
-image: nachhaltig-kritisch.png
+image: showroom/nachhaltig-kritisch.png
 imageAlternativeText: ""
 lang: de
 highlight: true

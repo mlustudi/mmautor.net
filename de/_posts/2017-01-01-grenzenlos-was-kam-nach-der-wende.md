@@ -4,7 +4,7 @@ decription: ""
 layout: project
 categories: zeitgeschichte
 permalink: /showroom/grenzenlos-was-kam-nach-der-wende
-image: grenzenlos-was-kam-nach-der-wende.png
+image: showroom/grenzenlos-was-kam-nach-der-wende.png
 imageAlternativeText: ""
 lang: de
 highlight: true

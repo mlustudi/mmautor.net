@@ -4,7 +4,7 @@ decription: ""
 layout: project
 categories: leben
 permalink: /showroom/grauwert-303
-image: grauwert-303.jpg
+image: showroom/grauwert-303.png
 imageAlternativeText: "Ein Schwarz-Weiß-Photo einer Person, die in der Dunkelheit steht und auf ihr Handy schaut. Das Gesicht ist erleuchtet."
 lang: de
 highlight: true
