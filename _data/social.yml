@@ -1,12 +1,18 @@
-twitter:
+# Das ist die Datei für alle Social Media Accounts
+# Es ist wichtig die Formatierung bzw. Einrückung im selben Muster beizubehalten
+- twitter:
   name: Twitter
   handle: "@mmautor"
   url: "https://twitter.com/mmautor"
-instagram:
+- instagram:
   name: Instagram
   handle: "@multimedia_und_autorschaft"
   url: "https://instagram.com/multimedia_und_autorschaft"
-youtube:
+- facebook:
+  name: Facebook
+  handle: mmautorschaft
+  url: "https://www.facebook.com/mmautorschaft/"
+- youtube:
   name: YouTube
   handle: ""
   url: https://youtube.com/
