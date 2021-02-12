@@ -1,36 +1,36 @@
-<!DOCTYPE html>
-<html lang="{% if page.lang %}{{ page.lang }}{% else %}de{% endif %}">
-<head>
-    {% include head.html %}
-</head>
-<body>
-    <section class="header">
-        {% include header.html %}
-    </section>
-    <section class="teaser">
-        <svg viewBox="0 0 200 100" width="100vw" height="auto">
-            <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
-        </svg>
-        {% assign pages_list = site.posts | where:"lang", page.lang %}
-        {% assign highlights = pages_list | where:"highlight", true %}
-        <div class="teaser_slider">
-            {% for node in highlights %}
-            <section {% if forloop.first == true %}class="teaser_slider-active"{% endif %}>
-                <img src="{{ site.url | append: "/assets/images/showroom/" | append: node.image }}" alt="{{ node.imageAlternativeText }}" /></li>
-            </section>
-            {% endfor %}
-        </div>
-        <ul class="showroom-highlights">
+---
+layout: base
+---
+
+<!-- Teaser -->
+<section class="teaser">
+    <svg class="schmuck" viewBox="0 0 200 100" width="100vw" height="auto">
+        <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
+    </svg>
+    {% assign pages_list = site.posts | where:"lang", page.lang %}
+    {% assign highlights = pages_list | where:"highlight", true %}
+    <div id="card-slider" class="showroom splide">
+        <div class="splide__track">
+            <ul class="splide__list">
                 {% for node in highlights %}
-                    <li class="teaser_slider-dots"><a href="{{ site.url | append: "/" | append: page.lang | append: "/" | append: node.url }}"><span></span></a></li>
+                <li class="splide__slide">
+                    <a href="{{ site.url | append: "/" | append: page.lang | append: node.url }}"><img data-splide-lazy="{{ site.url | append: site.imageurl | append: node.image }}" alt="{{ node.imageAlternativeText }}"></a>
+                        <h4>{{ node.title }}</h4>
+                        <div>
+                            Logline: {{ node.abstract }}
+                        </div>
+                </li>
                 {% endfor %}
-        </ul>
-    </section>
-    
-    <main>
-        {{ content }}
-        {% include footer.html %}
-    </main>
-    
-</body>
-</html>
+            </ul>
+        </div>
+    </div>
+    <div id="storefront" class="showroom">
+    </div>
+    <script src="{{ site.url }}/assets/js/showroom.js"></script>
+</section>
+
+<!-- Content -->
+<main>
+    {{ content }}
+    {% include footer.html %}
+</main>

@@ -1,23 +1,66 @@
-<!DOCTYPE html>
-<html lang="{% if page.lang %}{{ page.lang }}{% else %}de{% endif %}">
-<head>
-    {% include head.html %}
-</head>
-<body>
-    <section class="header">
-        {% include header.html %}
-    </section>
-    <section class="teaser">
-        <svg viewBox="0 0 200 100" width="100vw" height="auto">
-            <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
+---
+layout: base
+---
+
+<!-- Teaser -->
+<section class="teaser">
+    <svg class="schmuck" viewBox="0 0 200 100" width="100vw" height="auto">
+        <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" />
+    </svg>
+    <!-- <img src="{{ site.url }}/assets/images/collage-home-2021.png" alt=""> -->
+    <figure class="collage">
+        <svg viewBox="0 0 1536 1024" width="100%" height="auto">
+            <defs>
+                <style>
+                    a image:hover, a image:focus, #blacksquare:hover {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                    a image, #blacksquare {
+                        transform: scale(0.95);
+                        opacity: 0.7;
+                        transform-origin: 50% 50%;
+                        transition: transform .5s, opacity .5s;
+                    }
+                    #blacksquare {
+                        fill: black;
+                        opacity: 1;
+                    }
+                </style>
+            </defs> 
+         
+            <image width="1536" height="1024" xlink:href="{{ site.url }}/assets/images/collage-home-2021.png">
+                <title>Collage zur Orientierung</title>
+            </image>
+            <image width="1536" height="1024" xlink:href="{{ site.url | append: site.imageurl }}collages/home/hintergrund.png">
+                <title>Zeitungen als Hintergrund</title>
+            </image>
+            <a href="https://www.uni-halle.de/">
+                <image x="200" y="800" width="400" height="200" xlink:href="{{ site.url | append: site.imageurl }}collages/home/universitaet-halle-wittenberg.png">
+                    <title>Logo der Universität Halle</title>
+                </image>
+            </a>
+            <a href="https://de.wikipedia.org/wiki/Das_Schwarze_Quadrat">
+                <rect x="50" y="400" width="200" height="200" id="blacksquare">
+                    <title>Das Schwarze Quadrat</title>
+                </rect>
+            </a>
+            <a href="https://mmz-halle.de/">
+                <image x="300" y="100" width="500" height="350" xlink:href="{{ site.url | append: site.imageurl }}collages/home/mmz-halle.png">
+                    <title>Mitteldeutsches Multimediazentrum Halle/Saale</title>
+                </image>
+            </a>
+            <a href="https://wetterberichtigung.org/">
+                <image x="700" y="200" width="400" height="300" xlink:href="{{ site.url | append: site.imageurl }}collages/home/fernsehen-wetter-tief-ahmet.png">
+                    <title>Wetterberichtigung der Neuen deutschen Medienmacher:innen</title>
+                </image>
+            </a>
         </svg>
-        <img src="{{ site.url }}/assets/images/collage-home-2021.png" alt="">
-    </section>
+    </figure>
+</section>
     
-    <main>
-        {{ content }}
-        {% include footer.html %}
-    </main>
-    
-</body>
-</html>
+<!-- Content -->
+<main>
+    {{ content }}
+    {% include footer.html %}
+</main>

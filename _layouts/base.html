@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}de{% endif %}">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include header.html %}
+    {{ content }}
+</body>
+<script src="{{ site.url }}/assets/js/splide.min.js"></script>
+</html>

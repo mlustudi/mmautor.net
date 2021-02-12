@@ -1,20 +1,47 @@
 <meta property="og:title" content="{{ page.title }} — {{ site.title }}" />
 <meta property="og:locale" content="{% if page.lang == 'en' %}en-US{% else %}de-DE{% endif %}" />
-{%- if site.posts.first.description %}
-<meta name="description" content="{{ site.posts.first.description }}" />
-<meta property="og:description" content="{{ site.posts.first.description }}" />
-<meta property="twitter:image" content="{{ site.url }}/assets/{{ site.posts.first.eventImage }}" />
-<meta property="twitter:image:alt" content="{{ site.posts.first.eventImageAlt }}" />
-
+{%- if page.twitter != true %}
+{%- if page.description %}
+<meta name="description" content="{{ page.description }}" />
+<meta property="og:description" content="{{ page.description }}" />
+{% else %}
+<meta name="description" content="{{ site.description }}" />
+<meta property="og:description" content="{{ site.description }}" />
+{% endif %}
 <meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="{{ site.testurl | append: site.imageurl }}twitter_summary-large_default" />
+<meta property="twitter:image:alt" content="{{ site.title }}" />
 {%- else %}
 <meta name="description" content="{{ site.description }}" />
 <meta property="og:description" content="{{ site.description }}" />
 <meta name="twitter:card" content="{{ site.twitter.card}}" />
 {%- endif %}
-<link rel="canonical" href="{{ site.url}}{{ site.posts.first.permalink }}" />
-<meta property="og:url" content="{{ site.url}}/{{ page.permalink }}" />
-<meta property="site_name" content="{{ site.title }}" />
+
+<link rel="canonical" href="{{ site.url}}/{{ page.url }}" />
+<link rel="me" href="https://twitter.com/mmautor" />
+<meta property="og:url" content="{{ site.url}}/{{ page.url }}" />
+<meta property="site_name" content="{{ page.title }} — {{ site.title }}" />
 <meta property="twitter:title" content="{{ page.title }} — {{ site.title }}" />
-<meta name="twitter:site" content="{{ site.twitter.username }}" />
-<meta name="twitter:creator" content="{{ site.author.twitter }}" />
+<meta name="twitter:site" content="{{ site.data.social.twitter.handle }}" />
+
+<script type="application/ld+json">
+    {
+  "@context": "http://schema.org",
+  "@type": "EducationalOccupationalProgram",
+  "@id": "{{ site.url }}/#program",
+  "url": "{{ site.url }}",
+  "name": "{{ site.title }}",
+  "logo": {
+    "url": "{{ site.url | append: site.imageurl }}logo-512.png",
+    "width": "512",
+    "@context": "http://schema.org",
+    "@type": "ImageObject"
+  },
+  "sameAs": [
+    {%- for media in site.data.social %}
+    "{{ media.url }}"{%- if forloop.last != true %},{%- endif %}
+    {%- endfor %}
+  ],
+  "parentOrganization": "https://www.wikidata.org/wiki/Q32120"
+}
+</script>
