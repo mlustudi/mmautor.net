@@ -1,0 +1,95 @@
+description: false
+students:
+- name: Meret Aupperle
+  image: students/2019/meret-aupperle.png
+  description: false
+  references:
+    - website:
+      url: https://meretaupperle.com/
+      handle: "Website"
+- name: Sören Engels
+  image: students/2019/soeren-engels.jpg
+  references:
+    - website:
+      url: https://soerenengels.de/
+      handle: "Website"
+    - twitter:
+      url: https://twitter.com/soerenengels
+      handle: "Twitter"
+- name: Milena Giskes
+  image: students/2019/milena-giskes.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/mi_lena_fox/
+      handle: Instagram
+  statement: 
+    "Das hätte ich ohne MMA nie gemacht? eine Untersuchung der Produktionsprozesse der deutschen Pornoindustrie Diese Erkenntnis im Studium hat mich beeindruckt: Wie spannend Mediengeschichte sein kann 3 Zutaten, die auf den ersten Blick nicht zusammen passen und in MMA positiv zusammenkommen: Journalismus, Universität und Praxisprojekte: auf den ersten Blick keine naheliegende Kombination, aber perfekt, um Neues auszuprobieren"
+- name: Maike Grabow
+  image: students/2019/maike-grabow.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/maike_gr_/
+      handle: Instagram
+- name: Oliver Haupt
+  image: students/2019/oliver-haupt.jpg
+  references:
+    - twitter:
+      url: https://twitter.com/oliverhpt
+      handle: Twitter
+- name: Sarah-Maria Köpf
+  image: students/2019/sarah-maria-koepf.jpg
+  references:
+    - website:
+      url: https://www.thefashionableblog.com/
+      handle: Website
+    - instagram:
+      url: https://www.instagram.com/sarahfashionable/
+      handle: Instagram
+- name: Jenny Lehmann
+  image: students/2019/jenny-lehmann.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/pfirsich.eistee/
+      handle: Instagram
+- name: Alexandra Pubantz
+  image: students/2019/alexandra-pubantz.jpg
+- name: Frauke Rummler
+  image: students/2019/frauke-rummler.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/fraukerummler/
+      handle: Instagram
+- name: Irene Schulz
+  image: students/2019/irene-schulz.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/ireneundso/
+      handle: Instagram
+- name: Yevgeniya Shcherbakova
+  image: students/2019/yevgeniya-shcherbakova.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/shcherbenkoffer/
+      handle: Instagram
+    - project:
+      url: https://www.instagram.com/alles.koscher/
+      handle: "@alles.koscher"
+- name: Denise Stell
+  image: students/2019/denise-stell.jpg
+  references:
+    - instagram:
+      url: https://www.instagram.com/undenisebar/
+      handle: Instagram
+- name: David Sticker
+  image: students/2019/david-sticker.jpg
+- name: Maren Wilczek
+  image: students/2019/maren-wilczek.jpg
+  references:
+    - twitter:
+      handle: Twitter
+      url: https://twitter.com/averagepony
+    - project:
+      handle: Sachsen naht
+      url: https://sachsennaht.de
+- name: Britta Zwigart
+  image: students/2019/britta-zwigart.jpg

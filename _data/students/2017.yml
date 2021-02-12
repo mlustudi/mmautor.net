@@ -1,0 +1,27 @@
+students:
+  - name: Björn Berger
+    image: students/2017/bjoern-berger.jpg
+  - name: Ann-Sophie Henne
+    image: students/2017/ann-sophie-henne.jpg
+  - name: Marco Hennig
+    image: students/2017/marco-henning.jpg
+  - name: Robin Jüngling
+    image: students/2017/robin-juengling.jpg
+  - name: Lukas Kammer
+    image: students/2017/lukas-kammer.jpg
+  - name: Ulrike Kurth
+    image: students/2017/ulrike-kurth.jpg
+  - name: Lisa Ossowski
+    image: students/2017/lisa-ossowski.jpg
+  - name: Christin Pomplitz
+    image: students/2017/christin-pomplitz.jpg
+  - name: Florian Pontalti
+    image: students/2017/florian-pontalti.jpg
+  - name: Daniela Schulze
+    image: students/2017/daniela-schulze.jpg
+  - name: Alisa Sonntag
+    image: students/2017/alisa-sonntag.jpg
+  - name: Anja Tanita Steckel
+    image: students/2017/anja-tanita-steckel.jpg
+  - name: Steffen Wrede
+    image: students/2017/steffen-wrede.jpg

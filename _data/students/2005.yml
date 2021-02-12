@@ -1,0 +1,39 @@
+students:
+  - name: Alexandra Aderhold
+  - name: Astrid Beier
+    heute: Mitarbeiterin für den Bereich Weiterbildung des Transferzentrums der Hochschule für Kunst und Design Halle | www.burg-halle.de
+    graduation-project_title: Die Kulturinsel
+  - name: Frank Franke
+    appendix: Online-Journalismus
+    heute: Unternehmensberater, im Coaching und in der PR aktiv | www.wirk-kom.de
+    graduation-project_title: Rock in Halle
+  - name: Sonja Heitmann
+    heute: Produktionsassistentin bei einer Filmproduktionsfirma in Berlin | www.cinecentrum.de
+    graduation-project_title: alternative kunst- und kulturräume
+  - name: Marcella Brigitta Kaufhold
+  - name: Axel Koch
+    heute: Grafiker bei BIGPOINT, einem Browsergames-Produzenten | http://home.arcor.de/schiemaere
+    graduation-project_title: Eine hypermediale Präsentation des Botanischen Gartens zu Halle
+  - name: Romy Kornau
+    heute: freiberuflich in Presse- und Öffentlichkeitsarbeit tätig
+    graduation-project_title: Der Stadtgottesacker
+  - name: Yasmin Muskala
+    appendix: Online-Journalismus
+    heute: Finanzberaterin | www.muskala.de
+    graduation-project_title: Feng Shui, multimedial präsentiert
+  - name: Claudette Ocando
+    heute: Screendesignerin bei GMX
+    graduation-project_title: The Hospitality Club Project
+  - name: Thomas Pencs
+    heute: freier E-Learning und Multimedia-Autor
+    graduation-project_title: Der Dom in Halle
+  - name: Sven Roloff
+    heute: freier Webdesigner und Filmkurator www.wirkwerk.com | www.mz-web.de
+    graduation-project_title: Kinogeschichte, Filmforum und Filmfestival in Halle
+  - name: Franziska Schmöller
+    graduation-project_title: Historische Gebäude in Halle
+  - name: Stefanie Unger
+    graduation-project_title: Außergewöhnliche Sportarten
+  - name: Susanne Weigel
+    heute: stellvertretende Geschäftsführerin eines Verlages mit Werbeagentur | www.colorino.de
+    graduation-project_title: Zoo erleben

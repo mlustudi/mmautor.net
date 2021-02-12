@@ -1,0 +1,28 @@
+students:
+  - name: Grit Blume
+    heute: freiberufliche Webdesignerin, u.a. bei „LVZ-online“, Dozentin für Webdesign und Medienkompetenz
+  - name: Nele Hatoum
+    heute: freischaffende Künstlerin und in der Erwachsenenbildung tätig
+    references:
+      - website:
+        handle: Website
+        url: https://www.klick-germany.de/firmen-branchen/mode-design/nele-hatoum
+  - name: Henry Gerlach
+    heute: freier Webdesigner
+    references:
+      - website:
+        handle: Website
+        url: https://www.anitainment.com
+  - name: Daniela Küllertz
+    heute: Promoventin an der OvGU Magdeburg, FB Erziehungswissenschaften, Arbeitsgebiet Medienbildungsforschung
+  - name: Brigitte Neufeldt
+    heute: selbstständige Künstlerin
+  - name: Sadasivam Y. Rao
+    heute: Filmemacher
+    references:
+      - website:
+        handle: Website
+        url: https://www.mercury-films.de
+  - name: Roland Stratz
+    heute: Senior-Projektmanager für das Leipziger Stadt- und Standortmarketing | www.leipziger-freiheit.de
+    graduation-project_title: Der Campus in Halle

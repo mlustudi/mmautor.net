@@ -1,0 +1,20 @@
+students:
+  - name: Fabian Lamster
+    graduation-project_title: „Das Stadionunglück in Halle/Saale“
+  - name: Jacob Hanitzsch
+  - name: Elitsa Kirova
+    graduation-project_title: „Jüdisches Leben in Halle/Saale“
+  - name: Mathilde Kowalski
+  - name: Rahel Metzner
+    graduation-project_title: „Manab und Furat – Von Syrien nach Halle“
+  - name: Stefan Michel
+    graduation-project_title: „Es ist Zeitz – Geisterstadt.Rezession.Wende.Veränderung.Bunt.Kreativwirtschaft“
+  - name: Juliane Radtke
+  - name: Burkhard Schütz
+    graduation-project_title: „Moderne Spuren – Das Bauhaus in Sachsen-Anhalt“
+  - name: Marie Schultz
+    graduation-project_title: „Florapolis – Gartennetzwerk Halle/Saale“
+  - name: Susanne Siegert
+    graduation-project_title: „Die vegane Szene von Magdeburg“
+  - name: Laura Wagenbrett
+    graduation-project_title: „Menschenbilder – Sinti und Roma in Halle/Saale“
