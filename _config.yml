@@ -1,18 +1,51 @@
-
-title: Masterstudiengang Multimedia & Autorschaft
+title: "Master: Multimedia & Autorschaft"
 email: info@mmautor.net
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mmautor.net"
-twitter_username: mmautor
+url: ""
+# change necessary in robots.txt + head-seo.html
+testurl: "https://dev-mma.soerenengels.de"
+imageurl: /assets/images/
 github_username: mmautor
 
-# Build settings
+# Einstellungen zu Suchmaschinenoptimierung
+seo:
+  twitter:
+    handle: mmautor
+    card: summary_large_image
+    image: social/twitter_card_summary-large.png
+
+# Default-Einstellungen
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "de"
+    values:
+      lang: "de"
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+
+# Build-Einstellungen
 exclude: ["README.md"]
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-admin
-  
