@@ -3,6 +3,7 @@
     --colors-purple: #520B76;
     --colors-beige: #FDFAED;
     --colors-orange: #F48A66;
+    --colors-green: #418B80;
 
     --colors-font: rgba(0,0,0,0.85);
     --languageSwitcher: var(--colors-purple);
@@ -15,7 +16,6 @@
     /* Sonstiges */
     --global-spacer: .5rem;
     --text-spacer: .5em;
-    
 }
 
 * { margin: 0; padding: 0; }
@@ -76,17 +76,21 @@ main a:hover {
     justify-content: center;
     position: relative;
     top: 0;
+    overflow: hidden;
 }
 .teaser img { margin: 2em; z-index: 20; }
-.teaser > svg {
+.schmuck {
     width: 100%;
     height: auto;
     z-index: 10;
     position: absolute;
     top: 0;
 }
-.teaser > svg polygon {
+.schmuck polygon {
     fill: var(--colors-purple);
+}
+.teaser .collage {
+    z-index: 30;
 }
 
 /* Teaser: Slider */
@@ -107,7 +111,7 @@ main a:hover {
     justify-content: center;
     list-style-type: none;
 }
-.showroom-highlights span {
+.showroom-highlights a {
     height: 1em; 
     width: 1em; 
     background: var(--colors-purple); 
@@ -116,7 +120,7 @@ main a:hover {
     display: inline-block;
     transition: background-color .1s ease-out;
 }
-.showroom-highlights span:hover {
+.showroom-highlights a:hover {
     height: 1em; 
     width: 1em; 
     background: var(--colors-beige);
@@ -134,12 +138,25 @@ main a:hover {
 .showroom-list li {
     margin-right: var(--global-spacer);
 }
+.showroom {
+    margin: 2em;
+    z-index: 30;
+}
+.showroom img {
+    margin: 0;
+}
 
 /* Header */
 
 /* Menü */
 .menuicon rect {
     fill: var(--colors-purple);
+}
+.menu {
+    display: none;
+}
+.menu.menu-opened {
+    display: block;
 }
 
 .header {
@@ -170,9 +187,6 @@ main a:hover {
 }
 .header p {
     font-size: calc(var(--title-size) * 4 / 9);
-}
-.header nav {
-    display: none;
 }
 .header nav ul {
     margin: calc(1 * var(--global-spacer)) 0;

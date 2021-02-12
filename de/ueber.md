@@ -1,7 +1,8 @@
 ---
-title: Über
 layout: default
 lang: de
+title: Über
+description: 
 ---
 
 ## Fakten & Hintergründe 
@@ -42,3 +43,9 @@ Was wir ohne MMA nie gemacht hätten, welche Erkenntnis uns im Studium beeindruc
 
 Logos der Partner*innen können wir aus der Präsi von Maren vom 01.02. übernehmen. 
 Ergänzen durch 1. areweeurope 2. Institute Medizin und 3. Ethnologie bzw. schaut Maren nochmal.
+
+<section>
+{% for partner in site.data.cooperations.partner %}
+<img src="{{ site.url | append: "/assets/images/" | append: partner.image }}" alt="{{ partner.name }}">
+{% endfor %}
+</section>
