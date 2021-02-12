@@ -28,10 +28,10 @@ layout: base
                 </style>
             </defs> 
          
-            <image width="1536" height="1024" xlink:href="{{ site.url }}/assets/images/collage-home-2021.png">
+            <!--<image width="1400" height="1224" xlink:href="{{ site.url }}/assets/images/collage-home-2021.png">
                 <title>Collage zur Orientierung</title>
-            </image>
-            <image width="1536" height="1024" xlink:href="{{ site.url | append: site.imageurl }}collages/home/hintergrund.png">
+            </image>-->
+            <image width="900" height="900" x="250" y="100" xlink:href="{{ site.url | append: site.imageurl }}collages/home/hintergrund.png">
                 <title>Zeitungen als Hintergrund</title>
             </image>
             <a href="https://www.uni-halle.de/">
@@ -54,22 +54,22 @@ layout: base
                     <title>Wetterberichtigung der Neuen deutschen Medienmacher:innen</title>
                 </image>
             </a>
-            <a href="https://scidea.uni-halle.de/">
-                <image x="800" y="650" width="500" height="500" xlink:href="{{ site.url | append: site.imageurl }}collages/home/virtual-reality.png">
-                    <title>Inkubator mit Möglichkeiten für VR-Projekte</title>
-                </image>
-            </a>
             {% if page.bewerbung_aktiv %}
             <a href="/bewerbung" id="button">
-                <rect x="1010" y="1010" width="400" height="100" fill="#418B80" rx="50" ry="50"></rect>
+                <rect x="610" y="810" width="400" height="100" fill="#418B80" rx="50" ry="50"></rect>
                 <g>
-                    <rect x="1000" y="1000" width="400" height="100" fill="#520B76" rx="50" ry="50"></rect>
-                    <text x="1100" y="1070" font-size="50" fill="#FDFAED">
+                    <rect x="600" y="800" width="400" height="100" fill="#520B76" rx="50" ry="50"></rect>
+                    <text x="700" y="870" font-size="50" fill="#FDFAED">
                         Bewerben
                     </text>
                 </g>
             </a>
             {% endif %}
+            <a href="https://scidea.uni-halle.de/">
+                <image x="800" y="650" width="500" height="500" xlink:href="{{ site.url | append: site.imageurl }}collages/home/virtual-reality.png">
+                    <title>Inkubator mit Möglichkeiten für VR-Projekte</title>
+                </image>
+            </a>
         </svg>
     </figure>
 </section>
