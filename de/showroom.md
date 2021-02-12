@@ -21,7 +21,7 @@ Für was Leben wir und was beeinflusst unser Leben? Die großen Fragen des Dasei
 {% assign leben = posts | where: "categories","leben" %}
 <ul class="showroom-list">
 {% for post in leben %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url }}" data-slug="{{ post.slug }}">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Zeitgeschichte
