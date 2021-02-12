@@ -1,10 +1,11 @@
 ---
-title: Privacy
+title: Imprint
 layout: default
 lang: en
-lang-ref: datenschutz
 exclude: true
 footer: true
 ---
 
-# Privacy
+# Imprint
+
+Text
