@@ -21,7 +21,7 @@ Für was Leben wir und was beeinflusst unser Leben? Die großen Fragen des Dasei
 {% assign leben = posts | where: "categories","leben" %}
 <ul class="showroom-list">
 {% for post in leben %}
-<li><a href="{{ post.url }}" data-slug="{{ post.slug }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Zeitgeschichte
@@ -31,7 +31,7 @@ Welche Ereignisse prägten die Stadt Halle und das Land Sachsen-Anhalt in der Ve
 {% assign zeitgeschichte = posts | where: "categories","zeitgeschichte" %}
 <ul class="showroom-list">
 {% for post in zeitgeschichte %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Klimawandel
@@ -41,7 +41,7 @@ Wie sieht ein Leben aus, das nicht zu Lasten der Umwelt und der eigenen Gesundhe
 {% assign klimawandel = posts | where: "categories","klimawandel" %}
 <ul class="showroom-list">
 {% for post in klimawandel %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Orte in Sachsen-Anhalt
@@ -51,7 +51,7 @@ Von Hühnern, Sagen und dem Mauerfall: diese Stories aus Sachsen-Anhalt haben un
 {% assign sachsenanhalt = posts | where: "categories","sachsenanhalt" %}
 <ul class="showroom-list">
 {% for post in sachsenanhalt %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Stadtgeschichten Halle
@@ -61,7 +61,7 @@ Die Stadt Halle ist nicht nur der Standort des MMA, sondern auch Schauplatz vers
 {% assign halle = posts | where: "categories","halle" %}
 <ul class="showroom-list">
 {% for post in halle %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Biografien
@@ -71,5 +71,5 @@ Zwischen Erinnerungskultur und Zukunftsperspektive beschäftigen sich diese Proj
 {% assign biografien = posts | where: "categories","biografien" %}
 <ul class="showroom-list">
 {% for post in biografien %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>

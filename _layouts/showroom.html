@@ -17,7 +17,7 @@ layout: base
                     <a href="{{ site.url | append: "/" | append: page.lang | append: node.url }}"><img data-splide-lazy="{{ site.url | append: site.imageurl | append: node.image }}" alt="{{ node.imageAlternativeText }}"></a>
                         <h4>{{ node.title }}</h4>
                         <div>
-                            Logline: {{ node.abstract }}
+                            {{ node.description }}
                         </div>
                 </li>
                 {% endfor %}
@@ -25,6 +25,10 @@ layout: base
         </div>
     </div>
     <div id="storefront" class="showroom">
+        <img id="storefront-img" loading="lazy">
+        <h4 id="storefront-title"></h4>
+        <p id="storefront-description">
+        </p>
     </div>
     <script src="{{ site.url }}/assets/js/showroom.js"></script>
 </section>

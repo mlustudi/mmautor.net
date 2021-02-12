@@ -1,7 +1,7 @@
 ---
 layout: none
 ---
-/* Teaser: Slider */
+/* Teaser: Slider (Splide.js) */
 document.addEventListener( 'DOMContentLoaded', function () {
 	new Splide( '#card-slider', {
 		perPage    : 1,
@@ -10,17 +10,12 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	} ).mount();
 } );
 
-/* Main: a:hover */
-var projects = {{ site.posts | jsonify }};
-var imageurl = "{{ site.url | append: site.imageurl }}";
-console.log(projects);
+/* Main: .storefront-anchor:hover */
 
-/* Wenn die Seite geladen ist ... */
-window.onload = function() {
+/* Wenn die Seite geladen ist, mache die Projekttitel interaktiv. */
+document.addEventListener("DOMContentLoaded", function() {
     /* get Elements */
-    var main = document.getElementsByTagName("A");
-    console.log(main);
-    var anchors = document.getElementById("showroom");
+    var anchors = document.querySelectorAll(".storefront-anchor");
     console.log(anchors);
     var slider = document.getElementById("card-slider");
     var storefront = document.getElementById("storefront");
@@ -28,35 +23,30 @@ window.onload = function() {
     function test (el) {
         console.log(el)
     }
-    /* listen for :hover & :focus */
-    anchors.addEventListener("mouseenter", function() {
-        test("in");
-        test(this);
+    /* listen for :hover (& :focus) */
+    console.log(typeof anchors)
+    anchors.forEach(function(el) {
+        el.addEventListener("mouseenter", function() {
+            /* get data-attributes */
+            var dataImage = "{{ site.url | append: site.imageurl }}" + this.getAttribute("data-storefront-image");
+            var dataTitle = this.getAttribute("data-storefront-title");
+            var dataDescription = this.getAttribute("data-storefront-description");
 
-        /* get data-attribute */
-        /* var dataslug = this.getAttribute("data-slug"); */
-        var dataslug = "showroom/grauwert-303.png"
-        var imagesrc = imageurl + dataslug;
+            /* Verstecke den Slider */
+            slider.style.display = 'none';
 
-        /* Verstecke den Slider */
-        slider.style.display = 'none';
-
-        /* Zeige das passende Bild zu dem ge:hoverten Projekt */
-        var node = document.createElement("img");
-        node.src = imagesrc;
-        storefront.appendChild(node);
-        var project = projects.filter(project => project.image == dataslug)[0];
-        node = document.createElement("p");
-        node.appendChild(document.createTextNode(project.title));
-        storefront.appendChild(node);
-        node = document.createElement("p");
-        node.appendChild(document.createTextNode(project.description));
-        storefront.appendChild(node);
-        storefront.style.display = 'block';
+            /* Zeige das passende Bild zu dem ge:hoverten Projekt */
+            var img = document.getElementById("storefront-img");
+            img.src = dataImage;
+            var title = document.getElementById("storefront-title");
+            title.innerText = dataTitle;
+            var description = document.getElementById("storefront-description");
+            description.innerText = dataDescription;
+            storefront.classList.toggle("storefront-appear");
+        });
+        el.addEventListener("mouseleave", function() {
+            storefront.classList.toggle("storefront-appear");
+            slider.style.display = 'block';
+        });
     });
-    anchors.addEventListener("mouseleave", function() {
-        test("out");
-        storefront.style.display = 'none';
-        slider.style.display = 'block';
-    });
-}
+})

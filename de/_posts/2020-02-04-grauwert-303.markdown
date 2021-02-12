@@ -1,6 +1,6 @@
 ---
 title:  "Grauwert 303"
-decription: ""
+description: "Grauwert303 ist ein Nischenpodcast aus dem Mikrokosmos illegaler Graffiti. Er setzt sich zusammen aus dem, was einst nur Gedanken, Staub und Farbe war."
 layout: project
 categories: leben
 permalink: /showroom/grauwert-303
