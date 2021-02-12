@@ -1,0 +1,56 @@
+# Das ist die Datei für alle Kooperationspartner:innen
+# Es ist wichtig die Formatierung bzw. Einrückung im selben Muster beizubehalten
+partner:
+- name: Are We Europe
+  image: cooperations/are-we-europe.png
+  url: https://areweeurope.com
+- name: MDR Sachsen-Anhalt
+  image: cooperations/mdr-sachsen-anhalt.png
+- name: Landeszentrale für politische Bildung Sachsen-Anhalt
+  image: cooperations/lzfpb-sachsen-anhalt.png
+- name: Science 2 Public
+  image: cooperations/science-to-public.png
+- name: Detektor.fm
+  image: cooperations/detektor-fm.png
+- name: The Buzzard
+  image: cooperations/the-buzzard.png
+- name: halle.neu.stadt 2050
+  image: cooperations/halle-neu-stadt.png
+- name: interone
+  image: cooperations/interone.png
+- name: Umwelt und GeodatenManagement
+  image: cooperations/umgeodat.png
+- name: Eigenbaukombinat
+  image: cooperations/eigenbaukombinat.png
+- name: Vice
+  image: cooperations/vice.png
+- name: wahlinfo+
+  image: cooperations/wahlinfo.png
+- name: Schwäbische.de
+  image: cooperations/schwaebische.png
+- name: Du bist Politik
+  image: cooperations/du-bist-politik.png
+- name: MDR Wissen
+  image: cooperations/mdr-wissen.png
+- name: Mitteldeutsche Zeitung
+  image: cooperations/mitteldeutsche-zeitung.png
+- name: Stadtmuseum Halle
+  image: cooperations/stadtmuseum-halle.png
+- name: Universität Wien
+  image: cooperations/universitaet-wien.png
+- name: Public Data Lab
+  image: cooperations/public-data-lab.png
+- name: Fraunhofer IMWS
+  image: cooperations/fraunhofer-imws.png
+- name: Hochschule für Medien Kommunikation und Wirtschaft
+  image: cooperations/hmkw.png
+- name: Leibniz Institute für Tropospheric Research
+  image: cooperations/tropos-leibniz.png
+- name: Hannah-Arendt-Institut
+  image: cooperations/hannah-arendt-institut.png
+- name: Crossmedia
+  image: cooperations/crossmedia.png
+- name: Weinberg Campus Technologiepark
+  image: cooperations/weinberg-campus-technologiepark.png
+- name: Gründerservice
+  image: cooperations/gruenderservice.png
