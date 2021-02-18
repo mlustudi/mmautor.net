@@ -1,8 +1,7 @@
 ---
 title: Lab
-layout: default
-permalink: de/lab
-lang: de
+layout: lab
+permalink: lab
 ---
 
 # Lab

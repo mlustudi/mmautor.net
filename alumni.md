@@ -1,7 +1,5 @@
 ---
 title: Alumni
-lang: de
-layout: default
 exclude: true
 footer: true
 ---
