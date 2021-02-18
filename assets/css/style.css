@@ -183,6 +183,15 @@ main a:hover {
     text-decoration: none;
     color: var(--colors-font);
 }
+.icon_social {
+    max-height: 1em;
+    width: auto;
+    transition: all .2s ease;
+}
+.icon_social:hover {
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+}
 .header h1 {
     font-size: var(--title-size);
     line-height: .85;
@@ -354,3 +363,17 @@ main {
         --global-font-size: 24px;
     }
 }
+
+/* Druckversion */
+@media print {
+    .teaser, .switcher, .menu {
+        display: none;
+    }
+    main a[href]::after {
+        content: " <"attr(href)">";
+        color: #888;
+        background-color: inherit;
+        font-style: italic;
+        size: 80%;
+      } 
+  }
