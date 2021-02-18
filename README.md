@@ -5,29 +5,46 @@ Dies ist das Repository für die Website des Masterstudiengangs Multimedia & Aut
 ## To Do
 
 ### inhaltlich
-- Englisch: Übersetzungen
-- Social-Icons: Verlinkung Insta
-- verlinkung Studienangebot
-- Alumni-Texte
-- Collagen (Future, Diversität)
+- Vielleicht doch noch ein kurzer Text, was ein Advisory Board ist?
+- Alumni-Text (Frauke)
+- Collagen
+  - Jetzt bewerben
+  - Lab
+  - Über
+  - Alumni
+  - Startseite
+- Lab (Texte + Collage)
+- Kooperationspartner:innen einfügen (Frauke) --> https://github.com/soerenengels/mmautor.net/blob/main/_data/cooperations.yml
 
 ### technisch
 - Mobiles Menü-Icon verändern bei Toggle
+- Platzierung der Social-Icons
+- Abstände von ÜBerschriften
+- Showroom: Punkte beim Karrussel überlappen Text
+- Showroom: Animation bei :hover ?
+- Darstellung der 404-Seite
 - Über: Bildoptimierung (Größe)
 - "journalism & theory" --> j verschwindet bisschen
 - Smartphone: Collage wird lang gestrecht
 - Footer-Links größer auf Smartphone-Ansicht
 - Bilder: Kooperationspartner:innen
 - Showroom: :hover-Screenshot
+- print-Stylesheet
 
 ### Notwendig vor Umzug
 - 301-Weiterleitungen
-- httaccess-Weiterleitung von mmautor.net/ auf mmautor.net/de/
+- httaccess-Weiterleitungen
 - SEO
     - Google Search Console vorhanden?
 - Änderung in _config.yml, robots.txt & head-seo.html bzgl. testurl / url
 - Tracking --> Matomo.org (kein Banner notwendig: https://matomo.org/faq/new-to-piwik/how-do-i-use-matomo-analytics-without-consent-or-cookie-banner/)
 - Testing
+
+### perspektivisch
+- CI-Powerpoint
+- CI-Dokument
+- Englisch: Übersetzungen
+- FAQ
 
 # Dokumentation
 
