@@ -1,4 +1,5 @@
-description: false
+year: "2019"
+description: "Der Jahrgang 2019 hatte die Schwerpunkte Recherche & Diversität."
 students:
 - name: Meret Aupperle
   image: students/2019/meret-aupperle.png
@@ -7,6 +8,11 @@ students:
     - website:
       url: https://meretaupperle.com/
       handle: "Website"
+  graduation:
+    project:
+      title: false
+      description: false
+      url: false
 - name: Sören Engels
   image: students/2019/soeren-engels.jpg
   references:
