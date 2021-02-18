@@ -4,14 +4,19 @@
   name: Twitter
   handle: "@mmautor"
   url: "https://twitter.com/mmautor"
+  icon: icon-twitter.png
+  hidden: false
 - instagram:
   name: Instagram
   handle: "@multimedia_und_autorschaft"
   url: "https://instagram.com/multimedia_und_autorschaft"
+  icon: icon-instagram.png
+  hidden: false
 - facebook:
   name: Facebook
   handle: mmautorschaft
   url: "https://www.facebook.com/mmautorschaft/"
+  hidden: true
 - youtube:
   name: YouTube
   handle: ""
