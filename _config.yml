@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-url: ""
+url: https://dev-mma.soerenengels.de
 # change necessary in robots.txt + head-seo.html
 testurl: "https://dev-mma.soerenengels.de"
 imageurl: /assets/images/
@@ -14,12 +14,14 @@ github_username: mmautor
 languages:
   active: false
   possibilities:
-  - short: de
-    label: "DE"
-    slug: "/"
-  - short: en
-    label: "EN"
-    slug: "/en"
+    de:
+      short: de
+      label: "DE"
+      slug: "/"
+    en:
+      short: en
+      label: "EN"
+      slug: "/en"
 
 # Einstellungen zu Suchmaschinenoptimierung
 seo:
@@ -50,6 +52,7 @@ defaults:
       lang: "en"
 
 # Build-Einstellungen
+permalink: pretty
 exclude: ["README.md"]
 plugins:
   - jekyll-feed
