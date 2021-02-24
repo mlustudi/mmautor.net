@@ -5,11 +5,11 @@ layout: showroom
 
 <!-- Der Inhalt dieser Seite wird über _layouts/showroom.html generiert. -->
 
-# Showroom
-
 Innerhalb der zwei Jahre des Masterstudiums entwickeln und realisieren die Studierende, zum Teil in Kooperation mit den verschiedenen Partner:innen, Projekte zu vielfältigen Themenschwerpunkten. So ist es auch seit 2007 Tradition, die Geschichten, Schicksale und Biografien der Opfer des Nationalsozialismus in Halle filmisch aufzuarbeiten. Die Filmreihe _Stolpersteine - Filme gegen das Vergessen_ ist auf unserem [Youtube-Kanal](https://www.youtube.com/playlist?list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45) zu finden.
 
 Jeder Jahrgang entwickelt im 3. Semester außerdem ein digitales, zumeist journalistisches Jahrgangsprojekt, bei dem gesellschaftliche, politische und wissenschaftliche Zusammenhänge bearbeitet werden. Zum Abschluss des Studiums gehört neben einer Thesis auch ein praktisches Masterprojekt. Darin erarbeiten die Studierenden allein oder im Team ein selbstgewähltes Thema und setzen es digitaljournalistisch um. Die Projekte reichen von Dossiers über Podcasts bis hin zu journalistischen Instagramkanälen und medienpädagogischen Projekten. Im Showroom sind die Projekte der vergangenen Jahre zusammengestellt.
+
+# Showroom
 
 {% assign posts = site.posts | where:"lang", page.lang %}
 

@@ -17,7 +17,7 @@ layout: base
                     <a href="{{ site.url | append: "/" | append: page.lang | append: node.url }}"><img data-splide-lazy="{{ site.url | append: site.imageurl | append: node.image }}" alt="{{ node.imageAlternativeText }}"></a>
                         <h4>{{ node.title }}</h4>
                         <div>
-                            {{ node.description }}
+                            {{ node.highlight_logline }}
                         </div>
                 </li>
                 {% endfor %}
