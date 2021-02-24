@@ -1,0 +1,16 @@
+- organization: Digital Methods Initiative
+  url: https://digitalmethods.net
+  image: advisory-board/amsterdam-university.svg
+  member:
+    - name: Prof. Richard Rogers
+- organization: Dpt. of Digital Humanities
+  url: https://www.kcl.ac.uk/ddh
+  image: advisory-board/london-kings-collage.png
+  member:
+    - name: Dr. Jonathan Gray
+    - name: Dr. Liliana Bounegru
+- organization: Utrecht Data School
+  url: https://dataschool.nl/
+  image: advisory-board/utrecht-university.svg
+  member:
+    - name: Dr. Mirko Tobias Schäfer
