@@ -6,6 +6,7 @@ permalink: /showroom/grauwert-303
 image: showroom/grauwert-303.png
 imageAlternativeText: "Ein Schwarz-Weiß-Photo einer Person, die in der Dunkelheit steht und auf ihr Handy schaut. Das Gesicht ist erleuchtet."
 highlight: true
+highlight_logline: "Ein Nischenpodcast aus dem Mikrokosmos illegaler Graffiti"
 ---
 
 # Grauwert 303

@@ -8,6 +8,7 @@ image: showroom/choose-your-own-future.png
 imageAlternativeText: ""
 lang: de
 highlight: true
+highlight_logline: "Was die eigene Zukunft beeinflusst"
 ---
 
 # Choose your own Future

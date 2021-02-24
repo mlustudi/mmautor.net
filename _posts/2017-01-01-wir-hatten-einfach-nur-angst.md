@@ -2,7 +2,7 @@
 title: "Wir hatten einfach nur Angst"
 decription: ""
 layout: project
-categories: klimawandel
+categories: [klimawandel, sachsenanhalt]
 permalink: /showroom/wir-hatten-einfach-nur-angst
 image: wir-hatten-einfach-nur-angst.png
 imageAlternativeText: ""

@@ -8,6 +8,7 @@ image: showroom/nachhaltig-kritisch.png
 imageAlternativeText: ""
 lang: de
 highlight: true
+highlight_logline: "Ein journalistischer Instagramkanal"
 ---
 
 # nachhaltig.kritisch

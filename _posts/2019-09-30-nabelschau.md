@@ -8,6 +8,7 @@ image: showroom/nabelschau.png
 imageAlternativeText: ""
 lang: de
 highlight: true
+highlight_logline: Ein Nabel und die Welt
 ---
 
 # Nabelschau
