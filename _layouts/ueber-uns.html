@@ -1,0 +1,42 @@
+---
+layout: base
+---
+
+<!-- Teaser -->
+<section class="teaser">
+    <svg class="schmuck" viewBox="0 0 200 100">
+        <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
+    </svg>
+    <figure class="collage" style="margin: 2em;">
+        <svg viewBox="0 0 1200 1200">
+            <defs>
+                <style>
+                    a image:hover, a image:focus, #blacksquare:hover, #button:hover {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                    a image, #blacksquare, #button {
+                        transform: scale(0.95);
+                        opacity: 0.7;
+                        transform-origin: 50% 50%;
+                        transition: transform .5s, opacity .5s;
+                    }
+                    #blacksquare {
+                        fill: black;
+                        opacity: 1;
+                    }
+                </style>
+            </defs> 
+         
+            <image width="1200" height="1200" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/static.png">
+                <title>Collage zur Orientierung</title>
+            </image>
+        </svg>
+    </figure>
+</section>
+    
+<!-- Content -->
+<main>
+    {{ content }}
+    {% include footer.html %}
+</main>

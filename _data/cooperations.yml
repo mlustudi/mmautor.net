@@ -5,52 +5,77 @@ partner:
   image: cooperations/are-we-europe.png
   url: https://areweeurope.com
 - name: MDR Sachsen-Anhalt
-  image: cooperations/mdr-sachsen-anhalt.png
+  image: cooperations/mdr-sachsen-anhalt.jpeg
+  url: https://www.mdr.de/sachsen-anhalt/index.html
 - name: Landeszentrale für politische Bildung Sachsen-Anhalt
   image: cooperations/lzfpb-sachsen-anhalt.png
+  url: https://lpb.sachsen-anhalt.de/
 - name: Science 2 Public
   image: cooperations/science-to-public.png
+  url: https://www.science2public.com/
 - name: Detektor.fm
   image: cooperations/detektor-fm.png
+  url: https://detektor.fm/
 - name: The Buzzard
   image: cooperations/the-buzzard.png
+  url: https://www.buzzard.org/
 - name: halle.neu.stadt 2050
   image: cooperations/halle-neu-stadt.png
+  url: https://halle.neu.stadt-2050.de/
 - name: interone
-  image: cooperations/interone.png
+  image: cooperations/interone.svg
+  url: https://interone.de/
 - name: Umwelt und GeodatenManagement
   image: cooperations/umgeodat.png
+  url: https://www.umgeodat.de/
 - name: Eigenbaukombinat
-  image: cooperations/eigenbaukombinat.png
+  image: cooperations/eigenbaukombinat.svg
+  url: https://eigenbaukombinat.de/
 - name: Vice
   image: cooperations/vice.png
+  url: https://vice.de/
 - name: wahlinfo+
   image: cooperations/wahlinfo.png
+  url: http://wahlinfoplus.de/
 - name: Schwäbische.de
   image: cooperations/schwaebische.png
+  url: https://www.schwaebische.de/
 - name: Du bist Politik
   image: cooperations/du-bist-politik.png
+  url: https://www.du-bist-politik.de/
 - name: MDR Wissen
-  image: cooperations/mdr-wissen.png
+  image: cooperations/mdr-wissen.webp
+  url: https://www.mdr.de/wissen/index.html
 - name: Mitteldeutsche Zeitung
   image: cooperations/mitteldeutsche-zeitung.png
+  url: https://www.mz-web.de/
 - name: Stadtmuseum Halle
   image: cooperations/stadtmuseum-halle.png
+  url: https://stadtmuseumhalle.de/
 - name: Universität Wien
   image: cooperations/universitaet-wien.png
+  url: https://www.univie.ac.at/
 - name: Public Data Lab
-  image: cooperations/public-data-lab.png
+  image: cooperations/public-data-lab.svg
+  url: https://www.publicdatalab.org/
 - name: Fraunhofer IMWS
-  image: cooperations/fraunhofer-imws.png
+  image: cooperations/fraunhofer-imws.svg
+  url: https://www.imws.fraunhofer.de/
 - name: Hochschule für Medien Kommunikation und Wirtschaft
   image: cooperations/hmkw.png
+  url: https://www.hmkw.de/
 - name: Leibniz Institute für Tropospheric Research
   image: cooperations/tropos-leibniz.png
+  url: https://www.tropos.de/
 - name: Hannah-Arendt-Institut
   image: cooperations/hannah-arendt-institut.png
+  url: https://hait.tu-dresden.de/ext/
 - name: Crossmedia
-  image: cooperations/crossmedia.png
+  image: cooperations/crossmedia.svg
+  url: http://www.ma-crossmedia.de/
 - name: Weinberg Campus Technologiepark
-  image: cooperations/weinberg-campus-technologiepark.png
+  image: cooperations/weinberg-campus-technologiepark.svg
+  url: https://www.technologiepark-weinberg-campus.de/de
 - name: Gründerservice
   image: cooperations/gruenderservice.png
+  url: https://www.gruendung.uni-halle.de/

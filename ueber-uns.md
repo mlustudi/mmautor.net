@@ -1,5 +1,6 @@
 ---
-title: Über
+layout: ueber-uns
+title: Über uns
 description: false
 aktueller_jahrgang: "2019"
 ---
@@ -38,23 +39,30 @@ Was wir ohne Multimedia und Autorschaft nie gemacht hätten, welche Erkenntnisse
 
 ## Advisory Board
 
-**Prof. Richard Rogers**,
-Digital Methods Initiative
+Wissenschaftlich begleitet und beraten wird der Studiengang _Multimedia und Autorschaft_ durch renommierte Kolleg:innen aus Europa.
 
-**Dr. Jonathan Gray**
-**Dr. Liliana Bounegru**
-Dpt. of Digital Humanities
-
-**Dr. Mirko Tobias Schäfer**,
-Utrecht Data School
+<section class="advisory-board">
+{% for advisor in site.data.advisory_board %}
+    <section>
+        <img src="{{ site.url | append: site.imageurl | append: advisor.image }}" alt="{{ advisor.organization }}">
+        <div>
+        {% for member in advisor.member %}
+        <strong>{{ member.name }}</strong>,<br>
+        {% endfor %}
+        {{ advisor.organization }}
+        </div>
+    </section>
+{% endfor %}
+</section>
 
 ## Kooperationspartner:innen
 
-Logos der Partner*innen können wir aus der Präsi von Maren vom 01.02. übernehmen. 
-Ergänzen durch 1. areweeurope 2. Institute Medizin und 3. Ethnologie bzw. schaut Maren nochmal.
+Viele Projekte können erst in Zusammenarbeit mit Medienpartner:innen, akademischen Partner:innen oder zivilgesellschaftlichen Akteur:innen realisiert werden. Haben Sie Interesse an der Umsetzung eines gemeinsamen Projektes oder gar eine konkrete Idee, zögern Sie nicht uns zu [kontaktieren](/impressum).
 
-<section>
+<section class="cooperations">
 {% for partner in site.data.cooperations.partner %}
+{% if partner.url %}<a href="{{ partner.url }}">{% endif %}
 <img src="{{ site.url | append: "/assets/images/" | append: partner.image }}" alt="{{ partner.name }}">
+{% if partner.url %}</a>{% endif %}
 {% endfor %}
 </section>
