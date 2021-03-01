@@ -7,7 +7,91 @@ layout: base
     <svg class="schmuck" viewBox="0 0 200 100" width="100vw" height="auto">
         <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
     </svg>
-    <img src="{{ site.url }}/assets/images/collages/lab/lab.png" alt="">
+    <figure class="collage" style="margin: 2em; overflow: visible">
+        <svg viewBox="0 0 1200 1200" style="overflow: visible">
+            <defs>
+                <style>
+                    a image:hover, a image:focus, #blacksquare:hover, #button:hover {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                    a image, #blacksquare, #button {
+                        transform: scale(0.95);
+                        opacity: 0.7;
+                        transform-origin: 50% 50%;
+                        transition: transform .5s, opacity .5s;
+                    }
+                    .collage-label {
+                        opacity: 1;
+                    }
+                </style>
+            </defs> 
+         
+            <!-- <image width="1200" height="1200" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/static.png">
+                <title>Collage zur Orientierung</title>
+            </image> -->
+            <image width="1200" height="1200" x="0" y="0" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/linien.png">
+                <title>Linien</title>
+            </image>
+            
+            <a href="#medien-und-neue-rechte">
+                <image x="50" y="100" width="400" height="600" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/titelseite.png">
+                    <title>Cover: Ist was?</title>
+                </image>
+            </a>
+            <a href="#medien-und-neue-rechte">
+                <image x="5" y="10" width="400" height="130" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/medien-und-neue-rechte.png" class="collage-label">
+                    <title>Label: Medien und Neue Rechte</title>
+                </image>
+            </a>
+            <a href="#medien-und-neue-rechte">
+                <image x="-10" y="420" width="600" height="400" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/zeichnung.png">
+                    <title>Zeichnung</title>
+                </image>
+            </a>
+            <a href="#diagnose-unsichtbar">
+                <image x="50" y="600" width="500" height="350" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/diagnoseunsichtbar.png" class="collage-label">
+                    <title>Label: Diagnose: Unsichtbar</title>
+                </image>
+            </a>
+            <a href="#diagnose-unsichtbar">
+                <image x="100" y="850" width="250" height="250" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/Logo_symetrisch.png"">
+                    <title>Logo: Diagnose: Unsichtbar</title>
+                </image>
+            </a>
+            <a href="#feinstaub-projekt">
+                <image x="450" y="50" width="800" height="500" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/unsichtbarerfeinstaub.png">
+                    <title>Screenshot: Feinstaubprojekt</title>
+                </image>
+            </a>
+            <a href="#feinstaub-projekt">
+                <image x="950" y="350" width="300" height="400" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/feinstaubmessung.png">
+                    <title>Feinstaub-Messungsdaten</title>
+                </image>
+            </a>
+            <a href="#feinstaub-projekt">
+                <image x="600" y="430" width="500" height="250" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/feinstaubkit.png">
+                    <title>Feinstaubkit</title>
+                </image>
+            </a>
+            <a href="#feinstaub-projekt">
+                <image x="700" y="0" width="400" height="150" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/feinstaubprojekt.png" class="collage-label">
+                    <title>Label: Feinstaubprojekt</title>
+                </image>
+            </a>
+            <a href="#digital-talks">
+                <image x="500" y="750" width="700" height="400" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/digitaltalk_2020.png">
+                    <title>Screenshot: Field Trip</title>
+                </image>
+            </a>
+            <a href="#digital-talks">
+                <image x="650" y="650" width="400" height="200" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/digitaltalks.png" class="collage-label">
+                    <title>Label: Digital Talks</title>
+                </image>
+            </a>
+            
+        </svg>
+    </figure>
 </section>
 
 <!-- Content -->
