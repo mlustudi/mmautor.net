@@ -39,6 +39,10 @@ img {
     height: auto;
 }
 
+main h1, main h2, main h3, main h4 {
+    padding-top: 1em;
+}
+
 /* Text */
 main p, main ul {
     padding: var(--global-spacer) 0;
@@ -322,6 +326,40 @@ main {
 .students img {
     display: block;
     filter: grayscale(100%);
+}
+
+/* Advisory Board */
+.advisory-board section {
+    display: flex;
+    justify-content: flex-start;
+}
+.advisory-board section > img {
+    width: 20%;
+    max-height: 2em;
+    object-fit: contain;
+    padding-right: 1em;
+}
+
+/* Kooperationen */
+.cooperations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.cooperations img {
+    max-height: 2.5em;
+    width: auto;
+    object-fit: contain;
+}
+.cooperations a {
+    max-width: 30%;
+    padding: .5em;
+}
+.cooperations a, .cooperations a:hover {
+    text-decoration: none;
+    border: none;
+    border-bottom: none;
 }
 
 /* Responsiveness */
