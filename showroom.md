@@ -13,7 +13,7 @@ Jeder Jahrgang entwickelt im 3. Semester außerdem ein digitales, zumeist journa
 
 {% assign posts = site.posts | where:"lang", page.lang %}
 
-## Leben
+## Graffiti, Tofu, Zukunftsängste
 
 Was beeinflusst unser Leben und wonach streben wir? Die großen Fragen des Daseins stehen im Mittelpunkt dieser Projekte.
 
@@ -23,7 +23,7 @@ Was beeinflusst unser Leben und wonach streben wir? Die großen Fragen des Dasei
 <li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
-## Zeitgeschichte
+## Geschichten, die Geschichte schrieben
 
 Welche Ereignisse prägten die Stadt Halle (Saale), das Land Sachsen-Anhalt und Deutschland? Eine Auseinandersetzung mit den Verfolgten und Ermordeten im Nationalsozialismus, mit gesellschaftlichen Umbrüchen nach dem Mauerfall und Personen und Ereignissen der Vergangenheit, die bis heute nachwirken. Hier geht es um Regionales mit überregionaler Bedeutung.
 
@@ -33,7 +33,7 @@ Welche Ereignisse prägten die Stadt Halle (Saale), das Land Sachsen-Anhalt und 
 <li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
-## Klimawandel
+## Filter, Windräder, Aufklärung
 
 Wie kann ein umweltbewusstes und gesundes Leben aussehen? Feinstaub, Nachhaltigkeit und erneuerbare Energien stehen bei diesen Projekten im Fokus.
 
@@ -43,9 +43,9 @@ Wie kann ein umweltbewusstes und gesundes Leben aussehen? Feinstaub, Nachhaltigk
 <li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
-## Orte in Sachsen-Anhalt
+## Direkt vor der Tür
 
-Von Hühnern, Sagen oder dem Mauerfall: diese Stories aus Sachsen-Anhalt haben unsere Studierenden bewegt. 
+Von Hühnern, Sagen oder dem Mauerfall: diese Stories aus Sachsen-Anhalt, Halle (Saale) und der Umgebung haben unsere Studierenden bewegt. 
 
 {% assign sachsenanhalt = posts | where: "categories","sachsenanhalt" %}
 <ul class="showroom-list">
@@ -53,17 +53,7 @@ Von Hühnern, Sagen oder dem Mauerfall: diese Stories aus Sachsen-Anhalt haben u
 <li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
-## Stadtgeschichten Halle
-
-Die Stadt Halle (Saale) ist nicht nur der Standort von _Multimedia und Autorschaft_, sondern auch Schauplatz verschiedener Ereignisse. In diesen Projekten geht es um ein tragisches Unglück, hyperlokale Experimente und Naturschutzgebiete. 
-
-{% assign halle = posts | where: "categories","halle" %}
-<ul class="showroom-list">
-{% for post in halle %}
-<li><a href="{{ post.url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
-{% endfor %}</ul>
-
-## Biografien
+## Erfahrung und Erinnerung
 
 Zwischen Erinnerungskultur und Zukunftsperspektive beschäftigen sich diese Projekte mit individuellen Biografien und Lebensgeschichten von Hallenser:innen.
 
