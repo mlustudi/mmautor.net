@@ -42,14 +42,14 @@ Die zuständige Aufsichtsbehörde ist das Ministerium für Wirtschaft, Wissensch
 
 ### Institut/Lehrstuhl
 
-Martin-Luther-Universität Halle-Wittenberg
-Institut für Musik, Medien- und Sprechwissenschaften
+Martin-Luther-Universität Halle-Wittenberg  
+Institut für Musik, Medien- und Sprechwissenschaften  
 06099 Halle
 
 Vertreten durch:  
-Maren Schuster  
-Telefon: +49 345 / 55 236 29  
-E-Mail: maren.schuster@medienkomm.uni-halle.de
+Patrick Vonderau  
+Telefon: +49 345 / 55 235 70  
+E-Mail: patrick.vonderau@medienkomm.uni-halle.de
 
 ### Disclaimer
 
