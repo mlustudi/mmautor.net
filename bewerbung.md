@@ -1,8 +1,10 @@
 ---
+layout: bewerbung
 title: Jetzt bewerben
 description: false
 bewerbung:
     bewerbungsfrist: "15. Mai"
+    name: "Maren Schuster"
     email: "maren.schuster@medienkomm.uni-halle.de"
     eingungsfeststellung: "voraussichtlich Ende Juni"
     zulassung: "Ende Juli"
@@ -14,11 +16,15 @@ Du möchtest dich bewerben? Eine Immatrikulation für den Masterstudiengang _Mul
 
 ## Voraussetzungen
 
-Für die Zulassung zum Masterstudium benötigst du einen ersten berufsqualifizierenden Hochschulabschluss (Bachelor oder höherwertig). Von Vorteil ist ein Abschluss in einer geistes-, sozial-, kultur- oder gesellschaftswissenschaftlichen oder vergleichbaren Disziplin. Aber auch andere Fachbereiche sind willkommen. Der Masterstudiengang ist zurzeit **zulassungsfrei (ohne NC)**, allerdings gibt es eine Eignungsfeststellungsprüfung, die du bestehen musst, um zugelassen zu werden.
+Für die Zulassung zum Masterstudium benötigst du einen ersten berufsqualifizierenden Hochschulabschluss (Bachelor oder höherwertig). Von Vorteil ist ein Abschluss in einer geistes-, sozial-, kultur- oder gesellschaftswissenschaftlichen oder vergleichbaren Disziplin. Aber auch andere Fachbereiche sind willkommen.
+
+Der Masterstudiengang ist zurzeit **zulassungsfrei (ohne NC)**, allerdings gibt es eine Eignungsfeststellungsprüfung, die du bestehen musst, um zugelassen zu werden.
 
 Wenn du das Zeugnis des berufsqualifizierenden Hochschulabschlusses erst nach der Bewerbungsfrist vorliegen hast, kannst du mit den Bewerbungsunterlagen eine Fächer- und Notenübersicht über mindestens 2/3 der zu erbringenden Gesamtleistungen deines Studiums einreichen. Das Zeugnis muss dann bei der Einschreibung zum Wintersemester bis spätestens 31.1. des Folgejahres nachgereicht werden.
 
-Im Masterstudiengang kommen Studierende aus unterschiedlichen Fachrichtungen und mit verschiedenen Interessen und Erfahrungen zusammen. Allen gemein ist eine Aufgeschlossenheit gegenüber digitalen Medien und Journalismus, Neugier auf neue Fachgebiete, Lust sich wissenschaftlich mit Themen der digitalen Gegenwart auseinanderzusetzen und Teamgeist, um gemeinsam unterschiedliche Projekte realisieren zu können. Da der Studiengang praxisorientiert ausgerichtet ist, solltest du über ein eigenes Notebook verfügen und dieses auch zu den Seminaren mitbringen. Wenn du dafür finanzielle oder technische Unterstützung benötigst, kannst du dich an [{{ page.bewerbung.email }}](mailto:{{ page.bewerbung.email }}) wenden.
+Im Masterstudiengang kommen Studierende aus unterschiedlichen Fachrichtungen und mit verschiedenen Interessen und Erfahrungen zusammen. Allen gemein ist eine Aufgeschlossenheit gegenüber digitalen Medien und Journalismus, Neugier auf neue Fachgebiete, Lust sich wissenschaftlich mit Themen der digitalen Gegenwart auseinanderzusetzen und Teamgeist, um gemeinsam unterschiedliche Projekte realisieren zu können. 
+
+Da der Studiengang praxisorientiert ausgerichtet ist, solltest du über ein eigenes Notebook verfügen und dieses auch zu den Seminaren mitbringen. Wenn du dafür finanzielle oder technische Unterstützung benötigst, kannst du dich an [{{ page.bewerbung.name }}](mailto:{{ page.bewerbung.email }}) wenden.
  
 ## Zulassungsverfahren
 
