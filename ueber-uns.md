@@ -44,7 +44,7 @@ Wissenschaftlich begleitet und beraten wird der Studiengang _Multimedia und Auto
 <section class="advisory-board">
 {% for advisor in site.data.advisory_board %}
     <section>
-        <img src="{{ site.url | append: site.imageurl | append: advisor.image }}" alt="{{ advisor.organization }}">
+        <img src="{{ site.url | append: site.imageurl | append: advisor.image }}" alt="{{ advisor.organization }}" loading="lazy">
         <div>
         {% for member in advisor.member %}
         <strong>{{ member.name }}</strong>,<br>
@@ -62,7 +62,7 @@ Viele Projekte können erst in Zusammenarbeit mit Medienpartner:innen, akademisc
 <section class="cooperations">
 {% for partner in site.data.cooperations.partner %}
 {% if partner.url %}<a href="{{ partner.url }}">{% endif %}
-<img src="{{ site.url | append: "/assets/images/" | append: partner.image }}" alt="{{ partner.name }}">
+<img src="{{ site.url | append: "/assets/images/" | append: partner.image }}" alt="{{ partner.name }}" loading="lazy">
 {% if partner.url %}</a>{% endif %}
 {% endfor %}
 </section>
