@@ -5,7 +5,7 @@ categories: [biografien]
 permalink: /showroom/von-stolperstein-zu-stolperstein
 image: showroom/von-stolperstein-zu-stolperstein.png
 imageAlternativeText: "Screenshot von: Von Stolperstein zu Stolperstein"
-url: https://www.youtube.com/watch?v=xBpOQq6V8WI&list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45&index=20
+ext_url: https://www.youtube.com/watch?v=xBpOQq6V8WI&list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45&index=20
 ---
 
 # Von Stolperstein zu Stolperstein

@@ -2,8 +2,8 @@
 title: Sagenumwoben
 decription: ""
 categories: sachsenanhalt
-url: http://sagen-halle-saalekreis.de/
-image: showroom/sagenumwoben.jpg
+ext_url: http://sagen-halle-saalekreis.de/
+image: showroom/sagenumwoben.JPG
 imageAlternativeText: "Screenshot von: Sagenumwoben"
 permalink: /showroom/sagenumwoben
 ---

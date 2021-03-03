@@ -6,7 +6,7 @@ categories: klimawandel
 permalink: /showroom/nachhaltig-kritisch
 image: showroom/nachhaltig-kritisch.png
 imageAlternativeText: ""
-lang: de
+ext_url: https://nachhaltigkritisch.de/
 highlight: true
 highlight_logline: "Ein journalistischer Instagramkanal"
 ---

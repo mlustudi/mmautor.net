@@ -5,7 +5,7 @@ categories: [biografien]
 permalink: /showroom/gudrun-goeseke-gegen-das-vergessen
 image: showroom/gudrun-goeseke-gegen-das-vergessen.png
 imageAlternativeText: "Screenshot von: Gudrun Goeseke gegen das Vergessen"
-url: https://www.youtube.com/watch?v=4QNKJa89x2s&list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45&index=7
+ext_url: https://www.youtube.com/watch?v=4QNKJa89x2s&list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45&index=7
 ---
 
 # Gudrun Goeseke gegen das Vergessen

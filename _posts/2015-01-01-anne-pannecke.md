@@ -2,7 +2,7 @@
 title: Anne Pannecke
 decription: ""
 categories: leben
-url: https://annepannecke.com/
+ext_url: https://annepannecke.com/
 image: showroom/anne-pannecke.png
 imageAlternativeText: "Screenshot von annepannecke.com"
 permalink: /showroom/anne-pannecke
