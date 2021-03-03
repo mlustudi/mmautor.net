@@ -1,9 +1,7 @@
 title: "Master: Multimedia & Autorschaft"
 email: info@mmautor.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Beim Masterstudiengang Multimedia und Autorschaft in Halle (Saale) kommen medienaffine Menschen aus unterschiedlichen Fachrichtungen zusammen, um die Themen der digitalen Gegenwart zu erforschen und in journalistischen Projekten zu reflektieren.
 url: https://dev-mma.soerenengels.de
 # change necessary in robots.txt + head-seo.html
 testurl: "https://dev-mma.soerenengels.de"
@@ -17,7 +15,7 @@ languages:
     de:
       short: de
       label: "DE"
-      slug: "/"
+      slug: ""
     en:
       short: en
       label: "EN"
