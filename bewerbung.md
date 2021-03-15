@@ -1,7 +1,7 @@
 ---
 layout: bewerbung
 title: Jetzt bewerben
-description: false
+description: "Alle zwei Jahre ist eine Bewerbung für den Master Multimedia und Autorschaft möglich. Die nächste Bewerbungsfrist ist der 15. Mai 2021. Mehr zum Bewerbungsverfahren hier."
 bewerbung:
     bewerbungsfrist: "15. Mai"
     name: "Maren Schuster"
@@ -92,5 +92,5 @@ Weiterführende Informationen zur Immatrikulation, Merkblätter und FAQs findest
 Das Immatrikulationsamt informiert dich über alle weiteren Schritte.
  
 ## Formale Hintergründe zur Bewerbung
-- [Allgemeine Bestimmungen für Masterstudiengänge an der Martin-Luther-Universität Halle-Wittenberg](https://studium.verwaltung.uni-halle.de/ref1.4/pruefungsordnungen/)
-- [Fachspezifische Ordnung zur Regelung der Eignungsfeststellung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf)
+- [Allgemeine Bestimmungen](https://studium.verwaltung.uni-halle.de/ref1.4/pruefungsordnungen/) für Masterstudiengänge an der Martin-Luther-Universität Halle-Wittenberg
+- [Fachspezifische Ordnung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf) zur Regelung der Eignungsfeststellung
