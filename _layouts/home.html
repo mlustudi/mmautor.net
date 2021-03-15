@@ -4,70 +4,113 @@ layout: base
 
 <!-- Teaser -->
 <section class="teaser">
-    <svg class="schmuck" viewBox="0 0 200 100">
-        <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
-    </svg>
-    <figure class="collage">
-        <svg viewBox="0 0 1536 1024">
+    {% include teaser-schmuck.html %}
+    <figure class="collage" style="margin:2em;">
+        <svg viewBox="0 0 1200 1200" style="overflow: visible;">
             <defs>
                 <style>
                     a image:hover, a image:focus, #blacksquare:hover, #button:hover {
                         transform: scale(1);
                         opacity: 1;
                     }
-                    a image, #blacksquare, #button {
+                    a image, #button {
                         transform: scale(0.95);
                         opacity: 0.7;
                         transform-origin: 50% 50%;
                         transition: transform .5s, opacity .5s;
                     }
-                    #blacksquare {
-                        fill: black;
+                    .nontransparent {
                         opacity: 1;
                     }
                 </style>
             </defs> 
-         
-            <!--<image width="1400" height="1224" xlink:href="{{ site.url }}/assets/images/collage-home-2021.png">
-                <title>Collage zur Orientierung</title>
-            </image>-->
-            <image width="900" height="900" x="250" y="100" xlink:href="{{ site.url | append: site.imageurl }}collages/home/hintergrund.png">
-                <title>Zeitungen als Hintergrund</title>
+
+            <image width="1100" height="1100" x="50" y="50" xlink:href="{{ site.url | append: site.imageurl }}collages/home/background-paper.jpg">
             </image>
-            <a href="https://www.uni-halle.de/">
-                <image x="200" y="800" width="400" height="200" xlink:href="{{ site.url | append: site.imageurl }}collages/home/universitaet-halle-wittenberg.png">
-                    <title>Logo der Universität Halle</title>
+            <image x="20" y="20" width="850" height="850" xlink:href="{{ site.url | append: site.imageurl }}collages/home/middleground.png">
+            </image>
+            
+            <a href="https://correctiv.org/?ref=mmautor.net">
+                <image x="530" y="0" width="500" height="350" xlink:href="{{ site.url | append: site.imageurl }}collages/home/mobile-reporting.png">
+                    <title>Mobile Reporting</title>
                 </image>
             </a>
-            <a href="https://de.wikipedia.org/wiki/Das_Schwarze_Quadrat">
-                <rect x="50" y="400" width="200" height="200" id="blacksquare">
-                    <title>Das Schwarze Quadrat</title>
-                </rect>
+            <a href="https://www.adobe.com/de/products/premiere.html?ref=mmautor.net">
+                <image x="420" y="20" width="150" height="300" xlink:href="{{ site.url | append: site.imageurl }}collages/home/kamera-mit-gimbal.png">
+                    <title>Kamera mit Gimbal</title>
+                </image>
             </a>
-            <a href="https://mmz-halle.de/">
-                <image x="300" y="100" width="500" height="350" xlink:href="{{ site.url | append: site.imageurl }}collages/home/mmz-halle.png">
+            <a href="https://www.youtube.com/playlist?list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45">
+                <image x="540" y="50" width="300" height="200" xlink:href="{{ site.url | append: site.imageurl }}collages/home/kamera.png">
+                    <title>Kamera</title>
+                </image>
+            </a>
+            <a href="https://detektor.fm/?ref=mmautor.net">
+                <image x="340" y="110" width="200" height="200" xlink:href="{{ site.url | append: site.imageurl }}collages/home/tascam.png">
+                    <title>Tascam-Aufnahmegerät</title>
+                </image>
+            </a>
+            <image x="-30" y="190" width="380" height="600" xlink:href="{{ site.url | append: site.imageurl }}collages/home/protestierende-menschen.png">
+                <title>Medienereignis: Proteste</title>
+            </image>
+            <a href="https://diskriminierungsschutz.uni-halle.de/?ref=mmautor.net">
+                <image x="-30" y="-50" width="400" height="600" xlink:href="{{ site.url | append: site.imageurl }}collages/home/protest-schilder.png">
+                    <title>Protestschilder</title>
+                </image>
+            </a>
+            <a href="https://mmz-halle.de/?ref=mmautor.net">
+                <image class="nontransparent" x="-50" y="210" width="800" height="650" xlink:href="{{ site.url | append: site.imageurl }}collages/home/mmz-halle.png">
                     <title>Mitteldeutsches Multimediazentrum Halle/Saale</title>
                 </image>
             </a>
-            <a href="https://wetterberichtigung.org/">
-                <image x="700" y="200" width="400" height="300" xlink:href="{{ site.url | append: site.imageurl }}collages/home/fernsehen-wetter-tief-ahmet.png">
+            <a href="/showroom">
+                <image x="750" y="320" width="500" height="550" xlink:href="{{ site.url | append: site.imageurl }}collages/home/silhouetten.png">
+                    <title>Silhouetten von Studierenden</title>
+                </image>
+            </a>
+            <image class="nontransparent" x="450" y="650" width="650" height="500" xlink:href="{{ site.url | append: site.imageurl }}collages/home/codeeditor.png">
+                <title>Codeeditor</title>
+            </image>
+            <a href="https://wetterberichtigung.org/?ref=mmautor.net">
+                <image x="40" y="770" width="400" height="400" xlink:href="{{ site.url | append: site.imageurl }}collages/home/fernsehen-wetter-tief-ahmet.png">
                     <title>Wetterberichtigung der Neuen deutschen Medienmacher:innen</title>
+                </image>
+            </a>
+            <a href="https://www.medien-kompetenz-netzwerk.de/netzwerkstelle/ueber-das-netzwerk/?ref=mmautor.net">
+                <image x="350" y="850" width="500" height="250" xlink:href="{{ site.url | append: site.imageurl }}collages/home/drohne.png">
+                    <title>Drohne</title>
+                </image>
+            </a>
+            <a href="https://scidea.uni-halle.de/?ref=mmautor.net">
+                <image x="750" y="750" width="500" height="550" xlink:href="{{ site.url | append: site.imageurl }}collages/home/virtual-reality.png">
+                    <title>Inkubator mit Möglichkeiten für VR-Projekte</title>
                 </image>
             </a>
             {% if page.bewerbung_aktiv %}
             <a href="/bewerbung" id="button">
-                <rect x="610" y="810" width="400" height="100" fill="#418B80" rx="50" ry="50"></rect>
+                <rect x="610" y="1060" width="400" height="100" fill="#418B80" rx="50" ry="50"></rect>
                 <g>
-                    <rect x="600" y="800" width="400" height="100" fill="#520B76" rx="50" ry="50"></rect>
-                    <text x="700" y="870" font-size="50" fill="#FDFAED">
+                    <rect x="600" y="1050" width="400" height="100" fill="#520B76" rx="50" ry="50"></rect>
+                    <text x="700" y="1120" font-size="50" fill="#FDFAED">
                         Bewerben
                     </text>
                 </g>
             </a>
             {% endif %}
-            <a href="https://scidea.uni-halle.de/">
-                <image x="800" y="650" width="500" height="500" xlink:href="{{ site.url | append: site.imageurl }}collages/home/virtual-reality.png">
-                    <title>Inkubator mit Möglichkeiten für VR-Projekte</title>
+            
+            <a href="https://www.mdr.de/sachsen-anhalt/halle/halle/mma-studenten-schreiben-fuer-mdr-sachsen-anhalt-100.html?ref=mmautor.net">
+                <image x="980" y="50" width="220" height="100" xlink:href="{{ site.url | append: site.imageurl }}collages/home/logos.png">
+                    <title>Logos von journalistischen Kooperationspartner:innen</title>
+                </image>
+            </a> 
+            <a href="https://www.vice.com/de/article/59nvqd/instagram-die-applausfabrik-geld-verdienen-mit-gekauften-likes-und-followern?ref=mmautor.net">
+                <image x="880" y="90" width="300" height="300" xlink:href="{{ site.url | append: site.imageurl }}collages/home/social-icons.png">
+                    <title>Social Media Icons</title>
+                </image>
+            </a>
+            <a href="https://www.uni-halle.de/?ref=mmautor.net">
+                <image x="520" y="680" width="400" height="160" xlink:href="{{ site.url | append: site.imageurl }}collages/home/universitaet-halle-wittenberg.png">
+                    <title>Logo der Universität Halle</title>
                 </image>
             </a>
         </svg>

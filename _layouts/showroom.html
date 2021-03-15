@@ -4,18 +4,17 @@ layout: base
 
 <!-- Teaser -->
 <section class="teaser">
-    <svg class="schmuck" viewBox="0 0 200 100" width="100vw" height="auto">
-        <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
-    </svg>
+    {% include teaser-schmuck.html %}
     {% assign pages_list = site.posts | where:"lang", page.lang %}
     {% assign highlights = pages_list | where:"highlight", true %}
+    {% assign languagecode = site.languages.possiblities[page.lang].slug %}
     <div id="card-slider" class="showroom splide">
         <div class="splide__track">
             <ul class="splide__list">
                 {% for node in highlights %}
                 <li class="splide__slide">
-                    <a href="{{ site.url | append: "/" | append: page.lang | append: node.url }}"><img data-splide-lazy="{{ site.url | append: site.imageurl | append: node.image }}" alt="{{ node.imageAlternativeText }}"></a>
-                        <h4>{{ node.title }}</h4>
+                    <a href="{{ site.url | append: "/" | append: languagecode | append: node.url }}"><img data-splide-lazy="{{ site.url | append: site.imageurl | append: node.image }}" alt="{{ node.imageAlternativeText }}"></a>
+                        <strong>{{ node.title }}</strong>
                         <div>
                             {{ node.highlight_logline }}
                         </div>
@@ -25,8 +24,8 @@ layout: base
         </div>
     </div>
     <div id="storefront" class="showroom">
-        <img id="storefront-img" loading="lazy">
-        <h4 id="storefront-title"></h4>
+        <img id="storefront-img">
+        <strong id="storefront-title"></strong>
         <p id="storefront-description">
         </p>
     </div>

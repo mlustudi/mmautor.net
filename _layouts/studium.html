@@ -3,12 +3,10 @@ layout: base
 ---
 
 <section class="teaser">
-    <svg class="schmuck" viewBox="0 0 200 100" width="100vw" height="auto">
-        <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
-    </svg>
+    {% include teaser-schmuck.html %}
 
-    <figure style="z-index: 30; margin: 2em;">
-        <svg viewBox="0 0 500 500" height="auto" width="100%" style="overflow: visible;">
+    <figure class="collage" style="z-index: 30; margin: 2em;">
+        <svg viewBox="0 0 500 500" style="overflow: visible;">
             <defs>
                 <style>
                     #booksnpapers image:hover, #vicedog image:hover, a image:hover, a image:focus {
@@ -67,11 +65,18 @@ layout: base
                     <title>Hand hält Smartphone, welches Pokemon Go geöffnet hat. Zusehenist ein Pikachu auf dem halleschen Marktplatz.</title>
                 </image>
             </a>
+            <g>
             <a href="https://www.routledge.com/Production-Studies-Cultural-Studies-of-Media-Industries/Mayer-Banks-Caldwell/p/book/9780415997966?utm_source=mmautor.net" id="digitaltalks">
                 <image x="100" y="350" width="300" height="150" xlink:href="{{ site.url }}/assets/images/collages/studium/digital-talks-caldwell.png">
                     <title>Digital Talks: Caldwell</title>
                 </image>
             </a>
+            <a href="#">
+                <image x="120" y="410" width="300" height="100" xlink:href="{{ site.url | append: site.imageurl }}collages/studium/pronomen.png">
+                    <title>Pronomen</title>
+                </image>
+            </a>
+        </g>
         </svg>
     </figure>
 </section>

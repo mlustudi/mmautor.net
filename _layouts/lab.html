@@ -4,9 +4,7 @@ layout: base
 
 <!-- Teaser -->
 <section class="teaser">
-    <svg class="schmuck" viewBox="0 0 200 100" width="100vw" height="auto">
-        <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
-    </svg>
+    {% include teaser-schmuck.html %}
     <figure class="collage" style="margin: 2em; overflow: visible">
         <svg viewBox="0 0 1200 1200" style="overflow: visible">
             <defs>
@@ -27,11 +25,11 @@ layout: base
                 </style>
             </defs> 
          
-            <!-- <image width="1200" height="1200" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/static.png">
-                <title>Collage zur Orientierung</title>
-            </image> -->
+            <image width="1200" height="1200" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/paper.jpg">
+                <title></title>
+            </image>
             <image width="1200" height="1200" x="0" y="0" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/linien.png">
-                <title>Linien</title>
+                <title></title>
             </image>
             
             <a href="#medien-und-neue-rechte">
@@ -40,7 +38,7 @@ layout: base
                 </image>
             </a>
             <a href="#medien-und-neue-rechte">
-                <image x="5" y="10" width="400" height="130" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/medien-und-neue-rechte.png" class="collage-label">
+                <image x="5" y="10" width="400" height="130" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/neuerechte.png" class="collage-label">
                     <title>Label: Medien und Neue Rechte</title>
                 </image>
             </a>
@@ -79,13 +77,18 @@ layout: base
                     <title>Label: Feinstaubprojekt</title>
                 </image>
             </a>
-            <a href="#digital-talks">
-                <image x="500" y="750" width="700" height="400" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/digitaltalk_2020.png">
+            <a href="https://fieldtrip.tagesspiegel.de/">
+                <image x="565" y="710" width="700" height="400" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/digitaltalk_2020.png">
                     <title>Screenshot: Field Trip</title>
                 </image>
             </a>
             <a href="#digital-talks">
-                <image x="650" y="650" width="400" height="200" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/digitaltalks.png" class="collage-label">
+                <image x="500" y="900" width="600" height="400" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/digitaltalk_2019.png">
+                    <title>Digital Talks: Gruppe lauscht Masarah Paquet-Clouston</title>
+                </image>
+            </a>
+            <a href="#digital-talks">
+                <image x="660" y="600" width="450" height="250" xlink:href="{{ site.url | append: site.imageurl }}collages/lab/digitaltalks.png" class="collage-label">
                     <title>Label: Digital Talks</title>
                 </image>
             </a>
