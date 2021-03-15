@@ -1,0 +1,97 @@
+/* Header */
+
+/* Menü */
+.menuicon rect {
+    fill: var(--colors-purple);
+}
+.menu {
+    display: none;
+}
+.menu.menu-opened {
+    display: block;
+}
+
+.header {
+    grid-area: header;
+}
+.header header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.header a {
+    text-decoration: none;
+    color: var(--colors-font);
+}
+.icon_social {
+    height: 1.8em;
+    width: 1.8em;
+    transition: all .2s ease;
+}
+.icon_social:hover {
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+}
+.header h1 {
+    font-size: var(--title-size);
+    line-height: .85;
+    font-family: 'Arial Black', 'Arial Bold', sans-serif;
+    letter-spacing: -.05em;
+    margin-left: -.1em;
+    transition: background-color .3s ease;
+}
+.header h1:hover, .header p:hover {
+    background: -webkit-linear-gradient(135deg, var(--colors-orange), var(--colors-purple));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header p {
+    font-size: calc(var(--title-size) * 4 / 9);
+}
+.header nav ul {
+    margin: calc(1 * var(--global-spacer)) 0;
+}
+ nav li {
+    list-style-type: none;
+}
+nav a {
+    color: var(--colors-font);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav a.active {
+    font-weight: bold;
+}
+.header nav a::after {
+    display: inline-block;
+    content: "";
+    height: 0;
+    width: 0;
+    
+    border-radius: .4em;
+    transition: height .3s;
+}
+.header nav a:hover::after {
+    display: inline-block;
+    height: .1em;
+    width: .1em;
+    background-color: var(--colors-purple);
+    border: .3em solid var(--colors-orange);
+    margin-left: var(--global-spacer);
+}
+.switcher {
+    display: inline-flex;
+    align-items: center;
+}
+.switcher a {
+    color: var(--languageSwitcher);
+    fill: var(--languageSwitcher);
+    margin-left: calc(2 * var(--global-spacer));
+}
+.languageSwitcher {
+    color: var(--languageSwitcher);
+    text-decoration: none;
+    font-size: calc(var(--title-size) * 4 / 9);
+}

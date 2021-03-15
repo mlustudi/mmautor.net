@@ -1,0 +1,62 @@
+---
+---
+
+@import './abstracts';
+@import './base';
+
+/* Komponenten */
+@import './components';
+
+/* Layouts */
+@import './layouts';
+
+/* Responsiveness */
+@media screen and (min-width: 750px) {
+    :root {
+        --global-font-size: 16px;
+    }
+}
+@media screen and (min-width: 800px) {
+    :root {
+        --title-size: 4rem;
+        --global-font-size: 18px;
+    }
+    body {
+        grid-template: 
+        [row1-start] "teaser header" auto [row1-end]
+        [row2-start] "teaser main" 1fr [row2-end]
+        / 50% 50%;
+    }
+    .teaser {
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    .header nav {
+        display: block;
+    }
+    .header, main {
+        padding: calc(4 * var(--global-spacer));
+    }
+    main {
+        align-self: end;
+    }
+    .menuicon {
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    :root {
+        --global-font-size: 24px;
+    }
+    footer nav a {
+        font-size: .7em;
+        color: var(--colors-purple);
+    }
+}
+
+/* Splide.js */
+@import './vendors/splide';
+

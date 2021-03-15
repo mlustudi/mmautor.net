@@ -1,0 +1,13 @@
+/* Menü: Footer */
+footer nav a {
+    font-size: .85em;
+    color: var(--colors-purple);
+}
+footer nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: calc(2 * var(--global-spacer));
+}
+footer nav li {
+    margin-left: var(--global-spacer);
+}

@@ -1,0 +1,12 @@
+@import './splide.min';
+.splide__pagination {
+    justify-content: right;
+    transform: unset;
+    left: unset;
+    width: initial;
+    right: 0;
+    bottom: 2em;
+}
+.splide__slide strong {
+    padding: 1em 0 .25em;
+}

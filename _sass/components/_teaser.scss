@@ -1,0 +1,25 @@
+/* Teaser */
+.teaser {
+    grid-area: teaser;
+    background-color: var(--colors-orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+.teaser img { margin: 2em; z-index: 20; }
+.schmuck {
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+}
+.schmuck polygon {
+    fill: var(--colors-purple);
+}
+.teaser .collage {
+    z-index: 30;
+}

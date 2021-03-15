@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; }
+html, body {
+    font-family: var(--global-font-family);
+    font-size: var(--global-font-size);
+    scroll-behavior:smooth;
+}
+body {
+    background-color: var(--colors-beige);
+    color: var(--colors-font);
+    box-sizing: border-box;
+    display: grid;
+    grid-template: 
+        [row1-start] "header" auto [row1-end]
+        [row2-start] "teaser" 100vw [row2-end]
+        [row3-start] "main" 1fr [row3-end]
+        / 1fr;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@import './typography';

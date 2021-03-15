@@ -1,4 +1,5 @@
 title: "Master: Multimedia & Autorschaft"
+alternateName: "MMA"
 email: info@mmautor.net
 description: >- # this means to ignore newlines until "baseurl:"
   Beim Masterstudiengang Multimedia und Autorschaft in Halle (Saale) kommen medienaffine Menschen aus unterschiedlichen Fachrichtungen zusammen, um die Themen der digitalen Gegenwart zu erforschen und in journalistischen Projekten zu reflektieren.
@@ -54,6 +55,10 @@ permalink: pretty
 exclude: ["README.md"]
 plugins:
   - jekyll-target-blank
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-admin
+  - jekyll-feed
+
+sass:
+  sass_dir: _sass
+  style: compressed

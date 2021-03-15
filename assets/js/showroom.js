@@ -6,7 +6,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	new Splide( '#card-slider', {
 		perPage    : 1,
         type   : 'loop',
-        lazyLoad: 'nearby'
+        lazyLoad: 'sequential'
 	} ).mount();
 } );
 
@@ -19,51 +19,60 @@ document.addEventListener("DOMContentLoaded", function() {
     var slider = document.getElementById("card-slider");
     var storefront = document.getElementById("storefront");
 
+    function hideSlider() {
+        slider.style.visibility = '';
+        slider.style.display = 'none';
+    }
+    function showSlider() {
+        slider.style.display = 'block';
+        slider.style.visibility = 'visible';
+    }
+    function getDataAttributes(el) {
+        var dataImage = "{{ site.url | append: site.imageurl }}" + el.getAttribute("data-storefront-image");
+        var dataTitle = el.getAttribute("data-storefront-title");
+        var dataDescription = el.getAttribute("data-storefront-description");
+        return [dataTitle, dataDescription, dataImage]
+    }
+    function setStorefront([title, description, imageSrc]) {
+        document.getElementById("storefront-img").src = imageSrc;
+        document.getElementById("storefront-title").innerText = title;
+        document.getElementById("storefront-description").innerText = description;
+    }
+    function showStorefront() {
+        storefront.classList.toggle("storefront-appear", true);
+    }
+    function hideStorefront() {
+        storefront.classList.toggle("storefront-appear", false);
+        document.getElementById("storefront-img").src = '';
+        document.getElementById("storefront-title").innerText = '';
+        document.getElementById("storefront-description").innerText = '';
+    }
+
     /* listen for :hover (& :focus) */
     anchors.forEach(function(el) {
-        el.addEventListener("mouseenter", function() {
-            /* get data-attributes */
-            var dataImage = "{{ site.url | append: site.imageurl }}" + this.getAttribute("data-storefront-image");
-            var dataTitle = this.getAttribute("data-storefront-title");
-            var dataDescription = this.getAttribute("data-storefront-description");
-
-            /* Verstecke den Slider */
-            slider.style.display = 'none';
-
-            /* Zeige das passende Bild zu dem ge:hoverten Projekt */
-            var img = document.getElementById("storefront-img");
-            img.src = dataImage;
-            var title = document.getElementById("storefront-title");
-            title.innerText = dataTitle;
-            var description = document.getElementById("storefront-description");
-            description.innerText = dataDescription;
-            storefront.classList.toggle("storefront-appear");
+        el.addEventListener("mouseover", function() {
+            /* Suche die passenden Werte für die Kinderlemente von #storefront und füge sie enstprechend ein */
+            setStorefront(getDataAttributes(this));
+            hideSlider();
+            showStorefront();
         });
         el.addEventListener("focusin", function() {
-            /* get data-attributes */
-            var dataImage = "{{ site.url | append: site.imageurl }}" + this.getAttribute("data-storefront-image");
-            var dataTitle = this.getAttribute("data-storefront-title");
-            var dataDescription = this.getAttribute("data-storefront-description");
-
-            /* Verstecke den Slider */
-            slider.style.display = 'none';
-
-            /* Zeige das passende Bild zu dem ge:hoverten Projekt */
-            var img = document.getElementById("storefront-img");
-            img.src = dataImage;
-            var title = document.getElementById("storefront-title");
-            title.innerText = dataTitle;
-            var description = document.getElementById("storefront-description");
-            description.innerText = dataDescription;
-            storefront.classList.toggle("storefront-appear");
+            setStorefront(getDataAttributes(this));
+            hideSlider();
+            showStorefront();
         });
         el.addEventListener("mouseleave", function() {
-            storefront.classList.toggle("storefront-appear");
-            slider.style.display = 'block';
+            hideStorefront();
+            showSlider();
         });
         el.addEventListener("blur", function() {
-            storefront.classList.toggle("storefront-appear");
-            slider.style.display = 'block';
+            hideStorefront()
+            showSlider();
+        });
+        el.addEventListener("click", function() {
+            hideStorefront();
+            showSlider();
+            this.blur();
         });
     });
 })
