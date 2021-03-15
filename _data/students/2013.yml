@@ -9,6 +9,10 @@ students:
   - name: Henning Grabow
     graduation-project_title: „Kein Reich Komme“ – Auf den Spuren von „Matthias“ BAADER Holst
   - name: Daniel Heißenstein
+    image: students/2013/daniel-heissenstein.jpg
+    highlight: true
+    now:
+      description: "Mit dem _Multimedia und Autorschaft_-Master bin ich **Sportjournalist** geworden. Ich schreibe über Fußball, kreiere Beiträge über Tennis und erwecke Sendungen bei _Sky Sport News_ zum Leben."
     graduation-project_title: „Rund und bunt“ – Ein Fotoprojekt über die Fußballlandschaft in Halle
   - name: Christin Iffert
   - name: Marie-Kristin Kirschning
@@ -16,6 +20,10 @@ students:
   - name: Luise Kotulla
     graduation-project_title: „Drei neue Leben“ – Aus der Welt in die Saalestadt
   - name: Evi Lemberger
+    image: students/2013/evi-lemberger.jpg
+    highlight: true
+    now:
+      description: "Seit meinem Abschluss 2015 bewegt sich meine Arbeit zwischen **Kunst, editorialer und kommerzieller Arbeit, offline und online**: eine Buchveröffentlichung, ein Postkartenwettbewerb, ein Jahr Fuerteventura und kommerzielle Fotografie. Ich bin in die Vollzeitberufswelt von _Getty Images_ abgetaucht, habe ein Fotostudio eröffnet und schließlich einen Lehrauftrag im Masterkurs _Multimedia und Autorschaft_ angenommen - dazwischen Fotoausstellungen, konzeptuelle Projekte für Geld, aber auch für das Herz, ein bisschen Journalismus. Derzeit  ist ein Buch übers Wandern in Arbeit."
     graduation-project_title: „Meine Welt, Deine Welt, Unsere Welt“ – Jugendliche und Kinder erzählen von sich, ihren Träumen, Wünschen und Meinungen
   - name: Markus Reiniger
     graduation-project_title: „Ab durch die Heide“ – ein multimedialer Rundgang durch Halles Stadtwald!
@@ -24,6 +32,10 @@ students:
   - name: Stefanie Weiser
     graduation-project_title: „Ohne Perspektive? – Über den Integrationswillen von Flüchtlingen in Halle“
   - name: Jessica Zanner
+    image: students/2013/jessica-zanner.jpg
+    highlight: true
+    now:
+      description: "Nach dem Studium habe ich in der **IT im öffentlichen Dienst** Fuß gefasst und arbeite heute beim _Statistischen Landesamt_. Nebenbei kümmere ich mich um eine gemeinnützige Webseite - mein ehemaliges Masterprojekt. "
     graduation-project_title: „Die Geschichte um das Schloss Rammelburg“
   - name: Kristin Zimmermann
     graduation-project_title: „Das Paulusviertel“

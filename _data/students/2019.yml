@@ -4,6 +4,7 @@ students:
 - name: Meret Aupperle
   image: students/2019/meret-aupperle.png
   description: false
+  mmaist: "Wenn selbst vier Tassen Kaffee kein **Herzrasen** mehr auslösen, dann bist du _#mmangekommen_."
   references:
     - website:
       url: https://meretaupperle.com/
@@ -15,6 +16,7 @@ students:
       url: false
 - name: Sören Engels
   image: students/2019/soeren-engels.jpg
+  mmaist: "Ohne _MMA_ hätte ich nie einen **digitalen Journalismus-Buchclub** mit meinen Kommiliton:innen initiiert."
   references:
     - website:
       url: https://soerenengels.de/
@@ -24,26 +26,28 @@ students:
       handle: "Twitter"
 - name: Milena Giskes
   image: students/2019/milena-giskes.jpg
+  mmaist: "Journalismus, Universität und Praxisprojekte: auf den ersten Blick keine naheliegende Kombination, aber perfekt, um **Neues auszuprobieren**."
   references:
     - instagram:
       url: https://www.instagram.com/mi_lena_fox/
       handle: Instagram
-  statement: 
-    "Das hätte ich ohne MMA nie gemacht? eine Untersuchung der Produktionsprozesse der deutschen Pornoindustrie Diese Erkenntnis im Studium hat mich beeindruckt: Wie spannend Mediengeschichte sein kann 3 Zutaten, die auf den ersten Blick nicht zusammen passen und in MMA positiv zusammenkommen: Journalismus, Universität und Praxisprojekte: auf den ersten Blick keine naheliegende Kombination, aber perfekt, um Neues auszuprobieren"
 - name: Maike Grabow
   image: students/2019/maike-grabow.jpg
+  mmaist: "_MMA_ ist, wenn **Vampire, Gesundheit und Spaziergänge** zusammenkommen."
   references:
     - instagram:
       url: https://www.instagram.com/maike_gr_/
       handle: Instagram
 - name: Oliver Haupt
   image: students/2019/oliver-haupt.jpg
+  mmaist: "In MMA kommen verschiedene Fachrichtungen (auch bei den Studieninhalten), viele Großprojekte nebeneinander sowie **Social Distancing und Gruppenarbeit** zusammen."
   references:
     - twitter:
       url: https://twitter.com/oliverhpt
       handle: Twitter
 - name: Sarah-Maria Köpf
   image: students/2019/sarah-maria-koepf.jpg
+  mmaist: "_MMA_ vereint kreative Mediengestaltung, **spannende Diskussionen** und gibt einem die journalistischen Grundlagen für die Umsetzung eigener Projekte an die Hand."
   references:
     - website:
       url: https://www.thefashionableblog.com/
@@ -53,26 +57,31 @@ students:
       handle: Instagram
 - name: Jenny Lehmann
   image: students/2019/jenny-lehmann.jpg
+  mmaist: "Menschen aus allen möglichen wissenschaftlichen Fachrichtungen, **verschiedenen Leveln an medialer Expertise** und journalistischer Praxiserfahrung werden zusammengeworfen und gestalten einen Medien-Master zusammen. Und naja, es klappt."
   references:
     - instagram:
       url: https://www.instagram.com/pfirsich.eistee/
       handle: Instagram
 - name: Alexandra Pubantz
   image: students/2019/alexandra-pubantz.jpg
+  mmaist: "Im Studium hat mich beeindruckt, was wir **trotz digitalen Semestern** während der Corona-Pandemie **alles auf die Beine stellen** konnten."
 - name: Frauke Rummler
   image: students/2019/frauke-rummler.jpg
+  mmaist: "Ohne _MMA_ hätte ich mich nie mit verschiedensten Formaten ausprobiert, mich gewagt zu **filmen**, zu **programmieren** oder mich **Social Media** anzunähern."
   references:
     - instagram:
       url: https://www.instagram.com/fraukerummler/
       handle: Instagram
 - name: Irene Schulz
   image: students/2019/irene-schulz.jpg
+  mmaist: "Witzigerweise hätte ich ohne _MMA_ wahrscheinlich nie angefangen, so exzessiv mit meiner analogen Kamera zu fotografieren. Das ist das Tolle – in diesem Studium ist eben auch **Platz für Experimente mit „alter“ Technologie**."
   references:
     - instagram:
       url: https://www.instagram.com/ireneundso/
       handle: Instagram
 - name: Yevgeniya Shcherbakova
   image: students/2019/yevgeniya-shcherbakova.jpg
+  mmaist: "Mich hat beeindruckt, wie sich unterschiedliche Ideen in Gruppenarbeiten zu tollen Ergebnissen ergänzen können und wie viel man in weniger Zeit gemeinsam **als Team wuppen** kann."
   references:
     - instagram:
       url: https://www.instagram.com/shcherbenkoffer/
@@ -82,14 +91,17 @@ students:
       handle: "@alles.koscher"
 - name: Denise Stell
   image: students/2019/denise-stell.jpg
+  mmaist: "Im Studium hat mich vor allem die Erkenntnis beeindruckt, welche einzigartigen Projekte möglich sind, wenn man gewillt ist, unterschiedliche Expertisen **miteinander** zu teilen, **anstatt** sie **gegenüber** zu stellen."
   references:
     - instagram:
       url: https://www.instagram.com/undenisebar/
       handle: Instagram
 - name: David Sticker
   image: students/2019/david-sticker.jpg
+  mmaist: "Ohne _MMA_ hätte ich nie ein **Skypeinterview mit einer Pornodarstellerin** geführt."
 - name: Maren Wilczek
   image: students/2019/maren-wilczek.jpg
+  mmaist: "_MMA_ ist **Mut**, stapelweise **Lesestoff und Freundschaft**."
   references:
     - twitter:
       handle: Twitter
@@ -99,3 +111,4 @@ students:
       url: https://sachsennaht.de
 - name: Britta Zwigart
   image: students/2019/britta-zwigart.jpg
+  mmaist: "Ich wollte zwar schon immer mal eine **Webseite programmieren** oder einen **Dokumentarfilm drehen**, aber ohne _MMA_ wär’s wohl nie dazu gekommen."

@@ -11,6 +11,10 @@ students:
     appendix: Online-Journalismus
   - name: Anja Gutmair
   - name: Marco Härtl
+    image: students/2009/marco-haertl.jpg
+    now: 
+      description: "Bereits während meines Studiums hatte ich mein **Medien- und Videoproduktionsgewerbe** angemeldet. Die Idee einer Unternehmensgründung setzte ich dann auch direkt nach meinem Abschluss im Mai 2012 um - zunächst als Einzelunternehmen in Kooperation mit einer klassischen Werbeagentur. 2017 kehrte ich in mein Heimatdorf Wernersreuth zurück und zog dort mit dem Unternehmen in einen denkmalgeschützten Pfarrhof. Heute arbeiten wir als Kreativ- und Produktionsdienstleistende für viele Firmen, sowohl im **Content Marketing** als auch im **Performance Marketing**."
+    highlight: true
   - name: Cornelia Hennersdorf
     appendix: Online-Journalismus
   - name: Romina Kempt

@@ -19,7 +19,11 @@ students:
   - name: Brigitte Neufeldt
     heute: selbstständige Künstlerin
   - name: Sadasivam Y. Rao
-    heute: Filmemacher
+    image: students/2003/sadasivam-rao.jpg
+    highlight: true
+    now: 
+      jobTitle: Filmemacher
+      description: "Ich arbeite als **Filmemacher** in Leipzig und drehe **Spiel- und Dokumentarfilme**. Seit dem anregendem Multimedia-Studium in Halle finde ich neue kreative Wege und baue zum Beispiel regelmäßig 3D Animationen mit Visual Effects in meine Filme ein."
     references:
       - website:
         handle: Website

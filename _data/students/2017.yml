@@ -22,6 +22,9 @@ students:
     image: students/2017/daniela-schulze.jpg
   - name: Alisa Sonntag
     image: students/2017/alisa-sonntag.jpg
+    highlight: true
+    now:
+      description: "Schon während der Schulzeit habe ich angefangen, für die Lokalzeitung zu schreiben. Mittlerweile bin ich **freie Journalistin und Fotografin** und arbeite unter anderem für den _MDR Sachsen-Anhalt_, _Krautreporter_ und _den Freitag_."
   - name: Anja Tanita Steckel
     image: students/2017/anja-tanita-steckel.jpg
   - name: Steffen Wrede

@@ -4,39 +4,79 @@ layout: base
 
 <!-- Teaser -->
 <section class="teaser">
-    <svg class="schmuck" viewBox="0 0 200 100">
-        <polygon points="0,0 200,0 200,100 180,70 120,30 0,0" fill="purple" />
-    </svg>
+    {% include teaser-schmuck.html %}
     <figure class="collage" style="margin: 2em;">
         <svg viewBox="0 0 1200 1200">
             <defs>
                 <style>
-                    a image:hover, a image:focus, #blacksquare:hover, #button:hover {
+                    a image:hover, a image:focus {
                         transform: scale(1);
                         opacity: 1;
                     }
-                    a image, #blacksquare, #button {
+                    a image {
                         transform: scale(0.95);
                         opacity: 0.7;
                         transform-origin: 50% 50%;
                         transition: transform .5s, opacity .5s;
                     }
-                    #blacksquare {
-                        fill: black;
+                    /* reverse */
+                    a image.reverse {
+                        transform: scale(1);
                         opacity: 1;
+                        transform-origin: 50% 50%;
+                        transition: transform .5s, opacity .5s;
+                    }
+                    a:hover image.reverse, a:focus image.reverse {
+                        transform: scale(0.95);
+                        opacity: 0.7;
                     }
                 </style>
             </defs> 
          
-            <image width="1200" height="1200" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/static.png">
+            <!-- <image width="1200" height="1200" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/static.png">
                 <title>Collage zur Orientierung</title>
+            </image> -->
+            <image width="1200" height="1200" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/paper-background.jpg" alt="">
             </image>
+            <a href="#kooperationspartnerinnen">
+                <image width="600" height="600" x="50" y="50" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/logowolke.png">
+                    <title>Logos von journalistischen Kooperationspartner:innen</title>
+                </image>
+            </a>
+            <image width="400" height="900" x="800" y="0" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/newspaper.png">
+                <title>Zeitungen</title>
+            </image>
+            <a href="">
+                <image width="700" height="400" x="400" y="800" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/praesentation-fotoprojekt.png">
+                    <title>Präsentation des Fotoprojektes zu Corona & Transformation</title>
+                </image>
+            </a>
+            <a href="">
+                <image width="700" height="400" x="-50" y="800" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/praesentation-fotoprojekt-menschen.png">
+                    <title>Präsentation des Fotoprojektes zu Corona & Transformation</title>
+                </image>
+            </a>
+            <a href="">
+                <image class="reverse" width="570" height="700" x="630" y="0" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/marktkirche-halle.jpg" style="mix-blend-mode: multiply;">
+                    <title>Marktkirche in Halle</title>
+                </image>
+            </a>
+            <a href="https://de.wikipedia.org/wiki/Alfred_Neven_DuMont_(Verleger,_1927)">
+                <image width="250" height="300" x="950" y="700" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/dumont-portrait.jpg" style="mix-blend-mode: multiply;">
+                    <title>Portrait von Alfred Neven DuMont</title>
+                </image>
+            </a>
+            <a href="#fakten--hintergründe">
+                <image width="500" height="200" x="550" y="670" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/alfred-neven-dumont-font.png">
+                    <title>Schriftzug: Alfred Neven DuMont</title>
+                </image>
+            </a>
         </svg>
     </figure>
 </section>
     
 <!-- Content -->
-<main>
+<main id="ueber-uns">
     {{ content }}
     {% include footer.html %}
 </main>
