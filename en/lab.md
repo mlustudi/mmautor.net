@@ -1,6 +1,6 @@
 ---
 title: Lab
-layout: default
+layout: lab
 lang: en
 ---
 
