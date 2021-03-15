@@ -1,0 +1,84 @@
+---
+layout: base
+---
+
+<!-- Teaser -->
+<section class="teaser">
+    {% include teaser-schmuck.html %}
+    <figure class="collage" style="margin: 2em; overflow: visible">
+        <svg viewBox="0 0 1200 1200" style="overflow: visible">
+            <defs>
+                <style>
+                    image:hover {
+                        transform: scale(1);
+                    }
+                    image {
+                        transform: scale(0.95);
+                        transform-origin: 50% 50%;
+                        transition: transform .5s, opacity .5s;
+                    }
+                    .grayscale {
+                        filter: grayscale();
+                    }
+                </style>
+            </defs> 
+         
+            <!-- <image width="1200" height="1200" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/static.png">
+                <title>Collage zur Orientierung</title>
+            </image> -->
+            
+            <image width="700" height="400" x="100" y="700" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies2.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="600" height="300" x="540" y="520" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies1.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="750" height="250" x="250" y="220" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies3.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="750" height="200" x="60" y="420" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies4.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="250" height="100" x="70" y="690" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies5.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="360" height="100" x="110" y="260" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies6.png">
+                <title>Cookie-Banner</title>
+            </image> 
+            <image class="grayscale" width="250" height="100" x="150" y="340" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies7.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="360" height="150" x="800" y="220" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies8.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="400" height="200" x="300" y="720" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies9.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="220" height="130" x="920" y="550" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies10.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="580" height="160" x="600" y="390" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies11.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="300" height="100" x="20" y="850" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies12.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image class="grayscale" width="840" height="100" x="30" y="590" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies13.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image width="400" height="300" x="700" y="50" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies14.png">
+                <title>Cookie-Banner</title>
+            </image>
+            <image class="grayscale" width="500" height="200" x="600" y="830" xlink:href="{{ site.url | append: site.imageurl }}collages/datenschutz/cookies15.png">
+                <title>Cookie-Banner</title>
+            </image>
+            
+        </svg>
+    </figure>
+</section>
+
+<!-- Content -->
+<main>
+    {{ content }}
+    {% include footer.html %}
+</main>
