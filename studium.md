@@ -1,16 +1,18 @@
 ---
 layout: studium
 title: Studium
-description: "Der Masterstudiengang Multimedia und Autorschaft erforscht die Themen der digitalen Zeit und reflektiert diese mit medialen Mitteln."
+description: "Der Masterstudiengang Multimedia und Autorschaft verbindet medienwissenschaftliche Theorie mit journalistischer Praxis mit Schwerpunkt auf digitalen Medien."
 ---
 
 # Studium
 
 Der Masterstudiengang _Multimedia und Autorschaft_ erforscht die Themen der digitalen Zeit und reflektiert diese mit medialen Mitteln.
 
-Neben einer praktischen Medienausbildung mit Schwerpunkt auf digitalem Journalismus bieten wir medienwissenschaftliche Seminare, die Journalismus und Themen der digitalen Gegenwart **diskutieren und erforschen**. Ziel ist es, während des Masterstudiums sowohl im Team als auch einzeln erfolgreich mediale und wissenschaftliche Projekte zu entwickeln und umzusetzen. Am Ende des Studiums haben sich die Absolvent:innen ein relevantes Portfolio für den eigenen Berufseinstieg erarbeitet. Darüber hinaus verfügen sie über die Fähigkeit, Theorie und Praxis der Medien in journalistischen, investigativen und wissenschaftlich-argumentativen Formaten miteinander zu verbinden.
+Neben einer praktischen Medienausbildung mit Schwerpunkt auf digitalem Journalismus bieten wir medienwissenschaftliche Seminare, die Journalismus und Themen der digitalen Gegenwart **diskutieren und erforschen**. Ziel ist es, während des Masterstudiums sowohl im Team als auch einzeln erfolgreich mediale und wissenschaftliche Projekte zu entwickeln und umzusetzen.
 
-## Die Praxis
+Am Ende des Studiums haben sich die Absolvent:innen ein relevantes Portfolio für den eigenen Berufseinstieg erarbeitet. Darüber hinaus verfügen sie über die Fähigkeit, Theorie und Praxis der Medien in journalistischen, investigativen und wissenschaftlich-argumentativen Formaten miteinander zu verbinden.
+
+## Praxis
 
 Im angewandten Teil legt der Master seinen **Schwerpunkt auf digitalen Journalismus und Storytelling**. Das beinhaltet praktische Medienproduktionen, Formatentwicklungen und mediales Prototyping. Der Studiengang vermittelt journalistisches Handwerk in den Bereichen Text, Bild, Ton, audiovisuelle Medien und ihr Zusammenspiel in multimedialen Projekten. Dabei bietet das Studium Raum, um sich auszuprobieren und mit unterschiedlichen Formaten zu experimentieren. Gefördert wird die Umsetzung dieser Projekte durch die Vermittlung von Wissen über agiles Projektmanagement und Kreativtechniken.
 
@@ -22,7 +24,9 @@ Innerhalb der ersten 3 Semester **entwickeln und realisieren** die Studierenden 
 - journalistische Kurzbeiträge und Berichterstattungen auf Social-Media-Kanälen,
 - Fotoprojekte und visuelle Gestaltungsarbeiten.
 
-Durch die praktische Arbeit eignen sich die Studierenden Kenntnisse im Umgang mit diversen Design-, Audio- und Videoschnittprogrammen sowie Auszeichungssprachen an. Ein gemeinschaftliches **Jahrgangsprojekt** im 3. Semester baut auf dem Gelernten auf und bietet darüber hinaus die Möglichkeit, auf Wunsch der Studierenden hin weitere Formate wie Podcasts, Newsletter oder Scrollytelling-Projekte zu entwickeln. Auch können sich die Studierenden in investigativen Recherchen und Datenvisualisierungen ausprobieren.
+Durch die praktische Arbeit eignen sich die Studierenden Kenntnisse im Umgang mit diversen Design-, Audio- und Videoschnittprogrammen sowie Auszeichungssprachen an. 
+
+Ein gemeinschaftliches **Jahrgangsprojekt** im 3. Semester baut auf dem Gelernten auf und bietet darüber hinaus die Möglichkeit, auf Wunsch der Studierenden hin weitere Formate wie Podcasts, Newsletter oder Scrollytelling-Projekte zu entwickeln. Auch können sich die Studierenden in investigativen Recherchen und Datenvisualisierungen ausprobieren.
 
 ## Theorie
 

@@ -1,11 +1,12 @@
 ---
 title: Showroom
 layout: showroom
+description: "Im Masterstudium entwickeln die Studierenden Filme, Podcasts, journalistische Social Media Kanäle, Webseiten u. v. m. Hier eine Auswahl studentischer Medienprojekte."
 ---
 
 <!-- Der Inhalt dieser Seite wird über _layouts/showroom.html generiert. -->
 
-Innerhalb der zwei Jahre des Masterstudiums entwickeln und realisieren die Studierende, zum Teil in Kooperation mit den verschiedenen Partner:innen, Projekte zu vielfältigen Themenschwerpunkten. So ist es auch seit 2007 Tradition, die Geschichten, Schicksale und Biografien der Opfer des Nationalsozialismus in Halle filmisch aufzuarbeiten. Die Filmreihe _Stolpersteine - Filme gegen das Vergessen_ ist auf unserem [Youtube-Kanal](https://www.youtube.com/playlist?list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45) zu finden.
+Innerhalb der zwei Jahre des Masterstudiums entwickeln und realisieren die Studierenden, zum Teil in Kooperation mit den verschiedenen Partner:innen, Projekte zu vielfältigen Themenschwerpunkten. So ist es auch seit 2007 Tradition, die Geschichten, Schicksale und Biografien der Opfer des Nationalsozialismus in Halle filmisch aufzuarbeiten. Die Filmreihe _Stolpersteine - Filme gegen das Vergessen_ ist auf unserem [Youtube-Kanal](https://www.youtube.com/playlist?list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45) zu finden.
 
 Jeder Jahrgang entwickelt im 3. Semester außerdem ein digitales, zumeist journalistisches Jahrgangsprojekt, bei dem gesellschaftliche, politische und wissenschaftliche Zusammenhänge bearbeitet werden. Zum Abschluss des Studiums gehört neben einer Thesis auch ein praktisches Masterprojekt. Darin erarbeiten die Studierenden allein oder im Team ein selbstgewähltes Thema und setzen es digitaljournalistisch um. Die Projekte reichen von Dossiers über Podcasts bis hin zu journalistischen Instagramkanälen und medienpädagogischen Projekten. Im Showroom sind die Projekte der vergangenen Jahre zusammengestellt.
 
@@ -20,7 +21,7 @@ Was beeinflusst unser Leben und wonach streben wir? Die großen Fragen des Dasei
 {% assign leben = posts | where: "categories","leben" %}
 <ul class="showroom-list">
 {% for post in leben %}
-<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
+<li><a href="{% if post.ext_url %}{{ post.ext_url }}{% else %}{{ post.url }}{% endif %}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Geschichten, die Geschichte schrieben

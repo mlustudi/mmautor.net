@@ -1,6 +1,7 @@
 ---
 title: Datenschutz
-layout: default
+layout: datenschutz
+description: "Datenschutzerklärung nach DSGVO für die Seite zum Masterstudiengang Multimedia und Autorschaft an der Martin-Luther-Universität Halle-Wittenberg."
 lang-ref: datenschutz
 exclude: true
 footer: true
@@ -9,10 +10,11 @@ footer: true
 # Datenschutz
 
 Verantwortung für den Inhalt nach § 55 Abs. 2 RStV und verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO):
-Martin-Luther-Universität Halle-Wittenberg
-Institut für Musik, Medien- und Sprechwissenschaften
-Maren Schuster
-06099 Halle
+
+Martin-Luther-Universität Halle-Wittenberg  
+Institut für Musik, Medien- und Sprechwissenschaften  
+Maren Schuster  
+06099 Halle  
 
 ## Umfang der Verarbeitung personenbezogener Daten
 
@@ -21,19 +23,22 @@ Wir verarbeiten personenbezogene Daten unserer Nutzer:innen grundsätzlich nur, 
 ## Rechtsgrundlagen für die Verarbeitung personenbezogener Daten
 
 Die Verarbeitung personenbezogener Daten aus einer Einwilligung der betroffenen Person erfolgt auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO. Hierbei beachten wir zusätzlich die Anforderungen des Art. 7 DSGVO an eine Einwilligung.
+
 Zur Erfüllung eines Vertrages, dessen Vertragspartei die betroffene Person ist, stützt sich die erforderliche Datenverarbeitung auf Art. 6 Abs. 1 lit. b DSGVO. Dies gilt ebenso für Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind.
+
 Soweit eine Verarbeitung personenbezogener Daten zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der wir als Hochschule unterliegen, dient Art. 6 Abs. 1 lit. c DSGVO als Rechtsgrundlage.
+
 Erfolgt eine Verarbeitung zur Wahrung unseres berechtigten Interesses und überwiegen die Interessen, Grundrechte und Grundfreiheiten des Betroffenen das erstgenannte Interesse nicht, so verarbeiten wir Ihre personenbezogenen Daten nach Art. 6 Abs. 1 lit. f DSGVO.
 
 ## Berechtigtes Interesse
 
 Die Verarbeitung zu den oben genannten Zwecken erfolgt aufgrund der folgenden Interessen:
-Sicherheitsinteressen, Schutz der Webseite
-Bearbeitung von Kontaktanfragen, Dokumentation von Kontaktanfragen
-Erstellung von Statistiken zur Analyse und Verbesserung unserer Webseite und des Onlineangebotes
-Präsenz in sozialen Medien
-Präsentation der Universität und des universitären Lebens
-werbliche Präsentation von Veranstaltungen und Angeboten der Universität
+- Sicherheitsinteressen, Schutz der Webseite
+- Bearbeitung von Kontaktanfragen, Dokumentation von Kontaktanfragen
+- Erstellung von Statistiken zur Analyse und Verbesserung unserer Webseite und des Onlineangebotes
+- Präsenz in sozialen Medien
+- Präsentation der Universität und des universitären Lebens
+- werbliche Präsentation von Veranstaltungen und Angeboten der Universität
 
 ## Kategorien der Empfänger
 
