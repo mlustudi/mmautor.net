@@ -2,4 +2,4 @@
 exclude: true
 layout: none
 ---
-sitemap: {{ site.testurl }}/sitemap.xml
+sitemap: {{ site.url }}/sitemap.xml
