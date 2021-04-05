@@ -4,9 +4,15 @@
     transform: unset;
     left: unset;
     width: initial;
-    right: 0;
-    bottom: 2em;
+    right: .5em;
+    bottom: calc(100% - 1.2em);
 }
-.splide__slide strong {
-    padding: 1em 0 .25em;
+.splide__slide p {
+    padding: .25em 0;
+}
+.splide__slide div {
+    padding: 1em 0;
+}
+.splide__arrow {
+    top: calc(50% - 3em);
 }
