@@ -7,5 +7,5 @@
     {% include header.html %}
     {{ content }}
 </body>
-<script src="{{ site.url }}/assets/js/splide.min.js"></script>
+{% if page.splide %}<script src="{{ site.url }}/assets/js/splide.min.js"></script>{% endif %}
 </html>
