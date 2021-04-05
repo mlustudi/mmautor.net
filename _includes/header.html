@@ -1,9 +1,12 @@
 <section class="header">
     <header>
-        {% assign languagecode = site.languages.possiblities[page.lang].slug %}
+        {% assign languages = site.languages %}
+        {% assign languageslug = languages.possibilities[page.lang].slug %}
+        {% assign languagecode = languages.possibilities[page.lang].short %}
+        
         <div>
-            <h1><a href="/{{ languagecode }}">MMA</a></h1>
-            <p><a href="/{{ languagecode }}">journalism & theory</a></p>
+            <h1><a href="{{ site.url | append: languageslug }}">MMA</a></h1>
+            <p><a href="{{ site.url | append: languageslug }}">journalism & theory</a></p>
         </div>
         <div class="switcher">
             <!-- Social Media Icons-->
@@ -13,21 +16,74 @@
             {%- endfor %}
 
             <!-- Sprachswitcher -->
-            {% if languagecode == site.languages.possibilities[0].short %}
-                {% assign differentlanguagecode = site.languages.possibilities[1] %}
+            {% if languagecode == languages.possibilities.de.short %}
+                {% assign differentlanguagecode = languages.possibilities.en %}
             {% else %}
-                {% assign differentlanguagecode = site.languages.possibilities[0] %}
+                {% assign differentlanguagecode = languages.possibilities.de %}
             {% endif %}
-            {% if site.languages.active == true %}
+            {% if languages.active == true %}
             <a href="{{ site.url | append: differentlanguagecode.slug }}" class="languageSwitcher">{{ differentlanguagecode.label }}</a>
             {% endif %}
             
             <!-- Mobiles Menü-Icon -->
             <a href="javascript:void(0);" onclick="toggleMenu()" class="menuicon" aria-label="Menü öffnen">
-                <svg viewBox="0 0 100 80" width="40" height="40" aria-hidden="true">
-                    <rect width="90" x="10" height="20" rx="14"></rect>
-                    <rect y="30" width="100" height="20" rx="12"></rect>
-                    <rect y="60" x="10" width="90" height="20" rx="14"></rect>
+                <svg class="menuBurger" viewBox="0 0 100 80" width="40" height="40" aria-hidden="true">
+                    <defs>
+                        <style>
+                            .menuBurger {
+                                transition: transform .45s ease;
+                            }
+                            .menuBurger:hover {
+                                transform: scaleX(0.9) rotate(4deg);
+                                opacity: 0.8;
+                                transform-origin: center;
+                                transition: transform .3s;
+                            }
+                            .menuBurger:hover #bar3 {
+                                fill: var(--colors-orange);
+                                transition: fill .2s ease;
+                            }
+                            .menuBurger.menu-opened #bar1 {
+                                fill: var(--colors-purple);
+                                transform: rotate(35deg) scaleX(0.9);
+                                transform-origin: top left;
+                                transition: transform .3s;
+                            }
+                            .menuBurger.menu-opened #bar2 {
+                                transform: scaleX(0);
+                                opacity: .5;
+                                transform-origin: center center;
+                                transition: all .3s ease;
+                            }
+                            .menuBurger.menu-opened #bar3 {
+                                transform-origin: bottom left;
+                                transition: transform .3s;
+                                fill: var(--colors-orange);
+                                transform: rotate(-35deg) scaleX(0.9);
+                            }
+                            .menuBurger #bar1 {
+                                transform: rotate(0) scaleX(1);
+                                transform-origin: top left;
+                                transition: transform .3s;
+                                fill: var(--colors-purple);
+                            }
+                            .menuBurger #bar2 {
+                                transform: scaleX(1);
+                                transform-origin: center center;
+                                transition: all .3s ease;
+                                fill: var(--colors-purple);
+                            }
+                            .menuBurger #bar3 {
+                                transform-origin: bottom left;
+                                transition: transform .3s;
+                                transform: rotate(0) scaleX(1);
+                                fill: var(--colors-purple);
+                            }
+                        </style>
+                    </defs>
+                    <rect id="bar1" width="90" x="10" height="20" rx="14"></rect>
+                    <rect id="bar2" y="30" width="100" height="20" rx="12"></rect>
+                    <rect id="bar3" y="60" x="10" width="90" height="20" rx="14"></rect>
                 </svg>
             </a>
         </div>
