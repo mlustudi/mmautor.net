@@ -4,7 +4,7 @@ decription: ""
 layout: project
 categories: klimawandel
 permalink: /showroom/erneuerbarer-energien-in-der-kritik
-image: showroom/erneuerbare-energien-in-der-kritik.png
+image: showroom/erneuerbare-energien-in-der-kritik.jpg
 imageAlternativeText: ""
 lang: de
 ext_url: https://www.youtube.com/watch?v=7oJD-1Xwysw
