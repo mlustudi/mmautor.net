@@ -34,6 +34,7 @@ Um für den Masterstudiengang zugelassen zu werden, musst du eine Eignungsfestst
 
 - ein formloser Antrag auf Zulassung zu den Eignungsgesprächen (als Anschreiben verfasst),
 - ein schriftlicher Bericht (elektronisch) im Umfang von ca. zwei DIN-A4-Seiten, in dem die persönlichen sowie fachspezifischen Gründe für die Bewerbung zum Masterstudiengang _Multimedia und Autorschaft_ aufgeführt sind,
+- ein tabellarischer Lebenslauf
 - den ausgefüllten biografischen [Fragebogen](http://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2007/07%275%2709.htm#Anlage_1),
 - sämtliche Zeugnisse und Dokumente in Abschrift oder Kopie, die den bisherigen Werdegang belegen. Hierzu zählen insbesondere auch Nachweise über schulische / berufliche Ausbildungen (z.B. Abitur, fachspezifische Hochschulreife), aktuelle Hochschulabschlüsse (z.B. Bachelor-Zeugnisse oder Übersicht über bisher erbrachte Leistungen), frühere Studien, Praktika, besondere Befähigungen oder Auslandsaufenthalte.
 

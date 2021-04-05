@@ -19,18 +19,20 @@ Im angewandten Teil legt der Master seinen **Schwerpunkt auf digitalen Journalis
 Innerhalb der ersten 3 Semester **entwickeln und realisieren** die Studierenden folgende Medienprodukte:
 
 - klassische journalistische Darstellungsformen wie Nachricht, Bericht und Interview,
+- journalistische Beiträge und Formate für Social-Media,
 - Videobeiträge unterschiedlicher Länge,
 - Programmierung von Webseiten mit HTML und CSS und Veröffentlichung mittels Content Management Systeme wie Wordpress
-- journalistische Kurzbeiträge und Berichterstattungen auf Social-Media-Kanälen,
-- Fotoprojekte und visuelle Gestaltungsarbeiten.
+- Fotoprojekte und visuelle Gestaltungsarbeiten
+- journalistische Projekt- und Formatentwicklung
+- ein journalistisches Jahrgangsprojekt
 
-Durch die praktische Arbeit eignen sich die Studierenden Kenntnisse im Umgang mit diversen Design-, Audio- und Videoschnittprogrammen sowie Auszeichungssprachen an. 
+Durch die praktische Arbeit eignen sich die Studierenden Kenntnisse im Umgang mit Design-, Audio- und Videoschnittprogrammen sowie Auszeichungssprachen an.
 
 Ein gemeinschaftliches **Jahrgangsprojekt** im 3. Semester baut auf dem Gelernten auf und bietet darüber hinaus die Möglichkeit, auf Wunsch der Studierenden hin weitere Formate wie Podcasts, Newsletter oder Scrollytelling-Projekte zu entwickeln. Auch können sich die Studierenden in investigativen Recherchen und Datenvisualisierungen ausprobieren.
 
 ## Theorie
 
-Der hohe Praxisanteil des Studiums wird durch wissenschaftliche Seminare ergänzt, die Themen im Spannungsfeld von Informationstechnik und Gesellschaft erforschen. Am Ende ihres Studiums verfügen die Absolvent:innen über ein vertieftes Wissen und Verständnis der **zentralen Ansätze, Methoden und Begriffe der Medienwissenschaft**. Hierzu zählen insbesondere Mediendramaturgie sowie die Geschichte der Massenmedien. Die Studierenden wenden das erworbene Wissen und Verständnis selbstständig auf aktuelle Problem- und Themenbereiche digitaler Kulturen an und untersuchen, wie diese gegenwärtig unter Begriffen wie Desinformation, Big Data, Algorithmen, künstliche Intelligenz und digitale Märkte verhandelt werden.
+Medienwissenschaftliche Seminare, die Themen im Spannungsfeld von Informationstechnik und Gesellschaft erforschen, sind die akademische Basis des Masters. Am Ende ihres Studiums verfügen die Absolvent:innen über ein vertieftes Wissen und Verständnis der **zentralen Ansätze, Methoden und Begriffe der Medienwissenschaft**. Hierzu zählen insbesondere Mediendramaturgie sowie die Geschichte der Massenmedien. Die Studierenden wenden das erworbene Wissen und Verständnis selbstständig auf aktuelle Problem- und Themenbereiche digitaler Kulturen an und untersuchen, wie diese gegenwärtig unter Begriffen wie Desinformation, Big Data, Algorithmen, künstliche Intelligenz und digitale Märkte verhandelt werden.
 
 Neben medien- und kommunikationswissenschaftlichen Forschungsfragen werden stets neue **interdisziplinäre Schnittstellen** zur Sozial- und Kulturanthropologie, Soziologie, Rechtswissenschaft, Informatik, Medizin und weiteren Disziplinen gesucht, welche die journalistische Arbeit reflektieren und neue Anstöße für die Medienpraxis der Studierenden geben.
 

@@ -59,4 +59,6 @@ Alle Angebote sind freibleibend und unverbindlich. Die MLU behält es sich ausdr
 
 ## Credits
 
-Diese Website wurde konzipiert und realisiert von Irene Schulz, Frauke Rummler, Alexandra Pubantz, Jenny Lehmann, Sarah-Maria Köpf, Maike Grabow und [Sören Engels](https://soerenengels.de/?ref=mmautor.net).
+Diese Website wurde konzipiert, gestaltet und realisiert von Irene Schulz, Frauke Rummler, Alexandra Pubantz, Jenny Lehmann, Sarah-Maria Köpf, Maike Grabow und [Sören Engels](https://soerenengels.de/?ref=mmautor.net).
+
+Sie wurde in HTML, CSS und JS geschrieben und mit Hilfe von [Jekyll](https://jekyllrb.com/) erstellt. Die Slideshow im Showroom baut auf [Splide.js](https://splidejs.com/) auf.
