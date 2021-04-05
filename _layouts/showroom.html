@@ -13,10 +13,10 @@ layout: base
             <ul class="splide__list">
                 {% for node in highlights %}
                 <li class="splide__slide">
-                    <a href="{{ site.url | append: "/" | append: languagecode | append: node.url }}"><img data-splide-lazy="{{ site.url | append: site.imageurl | append: node.image }}" alt="{{ node.imageAlternativeText }}"></a>
-                        <strong>{{ node.title }}</strong>
+                    <a href="{{ site.url | append: languagecode | append: node.url }}"><img data-splide-lazy="{{ site.url | append: site.imageurl | append: node.image }}" alt="{{ node.imageAlternativeText }}"></a>
                         <div>
-                            {{ node.highlight_logline }}
+                            <strong>{{ node.title }}</strong>
+                            <p>{{ node.highlight_logline }}</p>
                         </div>
                 </li>
                 {% endfor %}
