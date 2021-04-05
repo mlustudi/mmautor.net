@@ -79,3 +79,9 @@ partner:
 - name: Gründerservice
   image: cooperations/gruenderservice.png
   url: https://www.gruendung.uni-halle.de/
+- name: Freiwillige Sebstkontrolle Fernsehen
+  image: cooperations/fsf.png
+  url: https://fsf.de/
+- name: tv diskurs
+  image: cooperations/tv-diskurs.jpg
+  url: https://tvdiskurs.de/start/
