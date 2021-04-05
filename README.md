@@ -213,7 +213,7 @@ Die _svg_-Viewbox ist mit 1200x1200 Punkten bezeichnet. Im _defs > style_-Bereic
 
 Darunter werden die einzelnen Elemente der Collage entweder mit reinen _image_-Elementen (für statische Bilder ohne Verweise) oder mit zusätzlich umgebenen _a_-Elementen (für dynamische Bilder mit _:hover_-Effekt) ausgezeichnet.
 
-Die x- und y-Koordinaten werden jeweils von der oberen linken Ecke aus betrachtet.
+Die x- und y-Koordinaten werden jeweils von der oberen linken Ecke aus betrachtet.^
 
 ## _site
 
