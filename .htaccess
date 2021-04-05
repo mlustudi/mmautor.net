@@ -1,5 +1,37 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^mmautor\.net$ [NC]
+RewriteRule ^(.*)$ https://mmautor.net/$1 [R=301,L]
+
 # RewriteEngine On
 # RewriteCond %{REQUEST_FILENAME} !-f
 # RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 ErrorDocument 404 /404.html
+
+Redirect 301 /feed/ /feed.xml
+
+Redirect 301 /projekte-2/ /showroom
+Redirect 301 /projekte-2/fotoprojekt-transformation/ /showroom/fotoprojekt-corona-transformation
+Redirect 301 /projekte-2/stolpersteine-filme-gegen-das-vergessen/ /showroom/fotoprojekt-corona-transformation
+Redirect 301 /projekte-2/grenzenlos/ /showroom/grenzenlos-was-kam-nach-der-wende
+Redirect 301 /projekte-2/mma-auf-youtube/ /showroom
+
+Redirect 301 /studium-2/ /studium
+Redirect 301 /studium-2/studienplan/ /studium
+
+Redirect 301 /bewerbung-2/ /bewerbung
+Redirect 301 /bewerbung-2/bewerbung/ /bewerbung
+Redirect 301 /bewerbung-2/22voraussetzungen/ /bewerbung
+Redirect 301 /bewerbung-2/dokumente/ /bewerbung
+Redirect 301 /bewerbung-2/haufige-fragen/ /bewerbung
+
+Redirect 301 /personen/leitung/ /ueber-uns
+Redirect 301 /team/foellmer.shtml /ueber-uns
+
+Redirect 301 /personen/alumni/ /alumni
+Redirect 301 /personen/alumni-2/ /alumni
+
+Redirect 301 /anschrift/ /impressum
+Redirect 301 /anschrift/anfahrt/ /impressum
+
+Redirect 301 /wp-content/uploads/2015/01/studyguide_mma_2015.pdf /studium
