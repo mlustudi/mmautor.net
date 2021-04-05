@@ -1,11 +1,10 @@
 title: "Master: Multimedia & Autorschaft"
 alternateName: "MMA"
-email: info@mmautor.net
+email: maren.schuster@medienkomm.uni-halle.de
 description: >- # this means to ignore newlines until "baseurl:"
   Beim Masterstudiengang Multimedia und Autorschaft in Halle (Saale) kommen medienaffine Menschen aus unterschiedlichen Fachrichtungen zusammen, um die Themen der digitalen Gegenwart zu erforschen und in journalistischen Projekten zu reflektieren.
-url: https://dev-mma.soerenengels.de
-# change necessary in robots.txt + head-seo.html
-testurl: "https://dev-mma.soerenengels.de"
+url: https://mmautor.net
+# url: https://dev-mma.soerenengels.de
 imageurl: /assets/images/
 github_username: mmautor
 
@@ -28,6 +27,32 @@ seo:
     handle: mmautor
     card: summary_large_image
     image: social/twitter_card_summary-large.png
+  program:
+    name: Multimedia und Autorschaft
+    alternateName: MMA
+    programType: Master of Arts (M.A.)
+    programPrerequisites: Bachelor
+    maximumEnrollment: 15
+    numberOfCredits: 120
+    typicalCreditsPerTerm: 30
+    termsPerYear: 2
+    termDuration: P6M
+    timeToComplete: P2Y
+    applicationDeadline: 2021-05-15 # ggfs. aktualisieren
+    occupationalCategory: 2642
+    provider:
+      name: Martin-Luther-Universität Halle-Wittenberg
+      alernateName: Uni Halle
+      url: https://uni-halle.de/
+      address:
+        streetAddress: Mansfelder Straße 56
+        addressLocality: Halle (Saale)
+        addressRegion: SAN
+        postalCode: 06108
+        addressCountry: DE
+    contactPoint:
+      email: maren.schuster@medienkomm.uni-halle.de
+      telephone: "+493455523629"
 
 # Default-Einstellungen
 defaults:
