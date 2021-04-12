@@ -1,47 +1,91 @@
-<meta property="og:title" content="{{ page.title }} — {{ site.title }}" />
-<meta property="og:locale" content="{% if page.lang == 'en' %}en-US{% else %}de-DE{% endif %}" />
-{%- if page.twitter != true %}
-{%- if page.description %}
-<meta name="description" content="{{ page.description }}" />
-<meta property="og:description" content="{{ page.description }}" />
-{% else %}
-<meta name="description" content="{{ site.description }}" />
-<meta property="og:description" content="{{ site.description }}" />
-{% endif %}
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="{{ site.testurl | append: site.imageurl }}twitter_summary-large_default" />
-<meta property="twitter:image:alt" content="{{ site.title }}" />
-{%- else %}
-<meta name="description" content="{{ site.description }}" />
-<meta property="og:description" content="{{ site.description }}" />
-<meta name="twitter:card" content="{{ site.twitter.card}}" />
-{%- endif %}
+  <meta property="og:title" content="{{ page.title }} — {{ site.title }}" />
+  <meta property="og:locale" content="{% if page.lang == 'en' %}en-US{% else %}de-DE{% endif %}" />
+  <meta property="og:type" content="website" />
+  {%- if page.twitter != true %}
+  {%- if page.description %}
+  <meta name="description" content="{{ page.description }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  {% else %}
+  <meta name="description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  {% endif %}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:image" content="{{ site.url | append: site.imageurl }}twitter_summary-large_default" />
+  <meta property="twitter:image:alt" content="{{ site.title }}" />
+  <meta property="og:image" content="{{ site.url | append: site.imageurl }}twitter_summary-large_default" />
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="512">
+  {%- else %}
+  <meta name="description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta name="twitter:card" content="{{ site.twitter.card}}" />
+  {%- endif %}
 
-<link rel="canonical" href="{{ site.url}}/{{ page.url }}" />
-<link rel="me" href="https://twitter.com/mmautor" />
-<meta property="og:url" content="{{ site.url}}/{{ page.url }}" />
-<meta property="site_name" content="{{ page.title }} — {{ site.title }}" />
-<meta property="twitter:title" content="{{ page.title }} — {{ site.title }}" />
-<meta name="twitter:site" content="{{ site.data.social.twitter.handle }}" />
+  <link rel="canonical" href="{{ site.url | append: page.url }}" />
+  <link rel="me" href="https://twitter.com/mmautor" />
+  <meta property="og:url" content="{{ site.url}}/{{ page.url }}" />
+  <meta property="site_name" content="{{ page.title }} — {{ site.title }}" />
+  <meta property="twitter:title" content="{{ page.title }} — {{ site.title }}" />
+  <meta name="twitter:site" content="{{ site.data.social.twitter.handle }}" />
 
-<script type="application/ld+json">
-    {
-  "@context": "http://schema.org",
-  "@type": "EducationalOccupationalProgram",
-  "@id": "{{ site.url }}/#program",
-  "url": "{{ site.url }}",
-  "name": "{{ site.title }}",
-  "logo": {
-    "url": "{{ site.url | append: site.imageurl }}logo-512.png",
-    "width": "512",
+  <!-- Linked Data -->
+  <script type="application/ld+json">
+      {
     "@context": "http://schema.org",
-    "@type": "ImageObject"
-  },
-  "sameAs": [
-    {%- for media in site.data.social %}
-    "{{ media.url }}"{%- if forloop.last != true %},{%- endif %}
-    {%- endfor %}
-  ],
-  "parentOrganization": "https://www.wikidata.org/wiki/Q32120"
-}
-</script>
+    "@type": "EducationalOccupationalProgram",
+    "@id": "{{ site.url }}/#program",
+    "url": "{{ site.url }}",
+    "name": "{{ site.title }}",
+    "alternateName": "{{ site.alternateName }}",
+    "programType": "Master of Arts (M. A.)",
+    "occupationalCredentialAwarded": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Master of Arts (M.A.) Multimedia und Autorschaft"
+    },
+    "programPrerequisites": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Bachelor"
+    },
+    "financialAidEligible": "PUBLIC_AID",
+    "description": "{{ site.description }}",
+    "maximumEnrollment": "15",
+    "numberOfCredits": "120",
+    "typicalCreditsPerTerm": "30",
+    "educationalProgramMode": "IN_PERSON",
+    "termsPerYear": "2",
+    "termDuration": "P6M",
+    "timeToComplete": "P2Y",
+    "applicationDeadline": "2021-05-15",
+    "occupationalCategory": "2642",
+    "image": {
+      "url": "{{ site.url | append: site.imageurl }}logo-512.png",
+      "width": "512",
+      "@context": "http://schema.org",
+      "@type": "ImageObject"
+    },
+    "sameAs": [
+      {%- for media in site.data.social %}
+      "{{ media.url }}"{%- if forloop.last != true %},{%- endif %}
+      {%- endfor %}
+    ],
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "Universität Halle-Wittenberg",
+      "url": "https://uni-halle.de/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Mansfelder Straße 56",
+        "addressLocality": "Halle (Saale)",
+        "addressRegion": "SAN",
+        "postalCode": "06108",
+        "addressCountry": "DE"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Admissions"
+        "email": "maren.schuster@medienkomm.uni-halle.de",
+        "telephone": "+493455523629"
+      }
+    }
+  }
+  </script>
