@@ -2,6 +2,7 @@
 title: Showroom
 layout: showroom
 description: "Im Masterstudium entwickeln die Studierenden Filme, Podcasts, journalistische Social Media Kanäle, Webseiten u. v. m. Hier eine Auswahl studentischer Medienprojekte."
+splide: true
 ---
 
 <!-- Der Inhalt dieser Seite wird über _layouts/showroom.html generiert. -->
@@ -21,7 +22,7 @@ Was beeinflusst unser Leben und wonach streben wir? Die großen Fragen des Dasei
 {% assign leben = posts | where: "categories","leben" %}
 <ul class="showroom-list">
 {% for post in leben %}
-<li><a href="{% if post.ext_url %}{{ post.ext_url }}{% else %}{{ post.url }}{% endif %}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
+<li><a href="{% if post.ext_url %}{{ post.ext_url }}{% else %}{{ post.url }}{% endif %}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description | smartify }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Geschichten, die Geschichte schrieben
