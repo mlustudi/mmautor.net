@@ -41,7 +41,7 @@ Viele Projekte können erst in Zusammenarbeit mit Medienpartner:innen, akademisc
 
 <section class="cooperations">
 {% for partner in site.data.cooperations.partner %}
-{% if partner.url %}<a href="{{ partner.url }}">{% endif %}
+{% if partner.url %}<a href="{{ partner.url }}?ref=mmautor.net">{% endif %}
 <img src="{{ site.url | append: "/assets/images/" | append: partner.image }}" alt="{{ partner.name }}" loading="lazy">
 {% if partner.url %}</a>{% endif %}
 {% endfor %}
