@@ -85,3 +85,9 @@ partner:
 - name: tv diskurs
   image: cooperations/tv-diskurs.jpg
   url: https://tvdiskurs.de/start/
+- name: Hans-Bredow-Institut
+  image: cooperations/hans-bredow-institut.png
+  url: https://www.hans-bredow-institut.de/de
+- name: Wir sind der Osten
+  image: cooperations/wir-sind-der-osten.jpeg
+  url: https://wirsindderosten.de/
