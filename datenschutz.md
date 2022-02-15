@@ -1,11 +1,14 @@
 ---
 title: Datenschutz
 layout: datenschutz
-description: "Datenschutzerklärung nach DSGVO für die Seite zum Masterstudiengang Multimedia und Autorschaft an der Martin-Luther-Universität Halle-Wittenberg."
+description: "Datenschutzerklärung nach DSGVO für die Seite zum Master-Studiengang Multimedia und Autorschaft an der Martin-Luther-Universität Halle-Wittenberg."
 lang-ref: datenschutz
 exclude: true
 footer: true
+lang-ref: privacy
 ---
+
+{% comment %}Bei Änderungen auch auf dem englischsprachigen Equivalent durchführen{% endcomment %}
 
 # Datenschutz
 
@@ -69,6 +72,7 @@ Sofern Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten
 Eine Verpflichtung zur Bereitstellung Ihrer personenbezogenen Daten besteht nicht. Die Datenerhebung erfolgt zum Teil allerdings bereits mit Aufruf unserer Webseite bzw. ist für die Bearbeitung Ihrer Anfragen oder zum Abonnieren der Newsletter erforderlich. Im Falle einer Nichtbereitstellung können Sie bedauerlicherweise weder unsere Webseite noch unsere Kontaktierungsmöglichkeiten oder Informationsangebote per Newsletter nutzen.
 
 ## Bereitstellung der Website und Erstellung von Logfiles
+
 Bei jedem Aufruf der Webseite der Hochschule erfasst unser System automatisiert Daten und Informationen des aufrufenden Rechners.
 Folgende Daten werden hierbei erhoben:
 Informationen über den verwendeten Browsertyp und dessen Version
@@ -77,6 +81,20 @@ Die IP-Adresse de:rs Nutzer:ins
 Datum und Uhrzeit des Zugriffs auf unsere Webseite oder ihren Unterseiten
 Websites, von denen das System de:rs Nutzer:ins auf unsere Internetseite gelangt (Referer)
 Die Daten werden ebenfalls in den Logfiles unseres Systems gespeichert. Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten de:rs Nutzer:ins findet nicht statt.
+
+## Webanalyse durch Matomo (ehemals PIWIK)
+
+Wir nutzen auf unserer Website das Open-Source-Software-Tool Matomo (ehemals PIWIK) zur Analyse des Surfverhaltens unserer Nutzer. Die Software setzt ein Cookie auf dem Rechner der Nutzer (zu Cookies siehe bereits oben). Werden Einzelseiten unserer Website aufgerufen, so werden folgende Daten gespeichert, sofern die Do-Not-Trackfunktion des Browsers nicht aktiviert ist:
+
+- Die ersten zwei Bytes der IP-Adresse des aufrufenden Systems des Nutzers
+- Die aufgerufene Webseite
+- Die Website, von der der Nutzer auf die aufgerufene Webseite gelangt ist (Referrer)
+- Die Unterseiten, die von der aufgerufenen Webseite aus aufgerufen werden
+- Die Verweildauer auf der Webseite
+- Die Häufigkeit des Aufrufs der Webseite
+- Die Software läuft dabei ausschließlich auf den Servern unserer Webseite. Eine Speicherung der personenbezogenen Daten der Nutzer findet nur dort statt. Eine Weitergabe der Daten an Dritte erfolgt nicht.
+
+Die Software ist so eingestellt, dass die IP-Adressen nicht vollständig gespeichert werden, sondern 2 Bytes der IP-Adresse maskiert werden (Bsp.:  192.168.xxx.xxx). Auf diese Weise ist eine Zuordnung der gekürzten IP-Adresse zum aufrufenden Rechner nicht mehr möglich.
 
 ## Verwendung von Cookies
 

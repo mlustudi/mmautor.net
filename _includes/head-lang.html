@@ -1,0 +1,6 @@
+<link rel="alternate" hreflang="{{ page.lang }}" href="{{ site.url | append: page.url }}" />
+{% if page.lang-ref %}
+{%- if page.lang == "de" %}{% assign langDiff = "en" %}{% else %}{% assign langDiff = "de" %}{% endif -%}
+{%- assign ref = site.pages | where:"lang", langDiff | where:"lang-ref", page.lang-ref -%}
+<link rel="alternate" hreflang="{{ ref[0].lang }}" href="{{ site.url | append: ref[0].url }}" />
+{% endif -%}

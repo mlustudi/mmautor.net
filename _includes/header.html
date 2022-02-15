@@ -22,7 +22,11 @@
                 {% assign differentlanguagecode = languages.possibilities.de %}
             {% endif %}
             {% if languages.active == true %}
-            <a href="{{ site.url | append: differentlanguagecode.slug }}" class="languageSwitcher">{{ differentlanguagecode.label }}</a>
+            {% comment %}
+            Sicherheitsmechanismus einbauen, falls es kein equivalent gibt.
+            {% endcomment %}
+            {% assign ref = site.pages | where:"lang", differentlanguagecode.short | where:"lang-ref", page.lang-ref %}
+            <a href="{{ site.url | append: ref[0].url }}" class="languageSwitcher">{{ differentlanguagecode.label }}</a>
             {% endif %}
             
             <!-- Mobiles Menü-Icon -->

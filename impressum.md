@@ -1,10 +1,13 @@
 ---
 layout: impressum
 title: Impressum
-description: "Impressum nach § 5 TMG für die Seite zum Masterstudiengang Multimedia und Autorschaft an der Martin-Luther-Universität Halle-Wittenberg."
+description: "Impressum nach § 5 TMG für die Seite zum Master-Studiengang Multimedia und Autorschaft an der Martin-Luther-Universität Halle-Wittenberg."
 exclude: true
 footer: true
+lang-ref: imprint
 ---
+
+{% comment %}Bei Änderungen auch auf dem englischsprachigen Equivalent durchführen{% endcomment %}
 
 # Kontakt
 

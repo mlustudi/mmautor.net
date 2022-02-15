@@ -1,9 +1,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <title>{{ page.title }} - {% if page.lang == "de" %}{{ site.title }}{% else %}Master: Multimedia and Authorship{% endif %}</title>
     <link type="text/css" rel="stylesheet" media="screen" href="/assets/css/style.css" />
     <link type="text/css" rel="stylesheet" media="print" href="/assets/css/print.css" />
     
+    <!-- Internationalisierung -->
+    {% include head-lang.html %}
+
     <!-- Icons, Theme-Farbe -->
     {% include head-icons.html %}
 

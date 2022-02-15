@@ -1,12 +1,14 @@
 ---
 layout: studium
 title: Studium
-description: "Der Masterstudiengang Multimedia und Autorschaft verbindet medienwissenschaftliche Theorie mit journalistischer Praxis mit Schwerpunkt auf digitalen Medien."
+description: "Der Master-Studiengang Multimedia und Autorschaft verbindet medienwissenschaftliche Theorie mit journalistischer Praxis mit Schwerpunkt auf digitalen Medien."
+lang-ref: studies
+order: 3
 ---
 
 # Studium
 
-Der Masterstudiengang _Multimedia und Autorschaft_ erforscht die Themen der digitalen Zeit und reflektiert diese mit medialen Mitteln.
+Der Master-Studiengang _Multimedia und Autorschaft_ erforscht die Themen der digitalen Zeit und reflektiert diese mit medialen Mitteln.
 
 Neben einer praktischen Medienausbildung mit Schwerpunkt auf digitalem Journalismus bieten wir medienwissenschaftliche Seminare, die Journalismus und Themen der digitalen Gegenwart **diskutieren und erforschen**. Ziel ist es, während des Masterstudiums sowohl im Team als auch einzeln erfolgreich mediale und wissenschaftliche Projekte zu entwickeln und umzusetzen.
 

@@ -3,6 +3,8 @@ title: Showroom
 layout: showroom
 description: "Im Masterstudium entwickeln die Studierenden Filme, Podcasts, journalistische Social Media Kanäle, Webseiten u. v. m. Hier eine Auswahl studentischer Medienprojekte."
 splide: true
+lang-ref: showroom
+order: 2
 ---
 
 <!-- Der Inhalt dieser Seite wird über _layouts/showroom.html generiert. -->
@@ -22,7 +24,7 @@ Was beeinflusst unser Leben und wonach streben wir? Die großen Fragen des Dasei
 {% assign leben = posts | where: "categories","leben" %}
 <ul class="showroom-list">
 {% for post in leben %}
-<li><a href="{% if post.ext_url %}{{ post.ext_url }}{% else %}{{ post.url }}{% endif %}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description | smartify }}" class="storefront-anchor">{{ post.title }}</a></li>
+<li><a href="{% if post.ext_url %}{{ post.ext_url }}{% else %}{{ post.url }}{% endif %}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | smartify }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Geschichten, die Geschichte schrieben
@@ -32,7 +34,7 @@ Welche Ereignisse prägten die Stadt Halle (Saale), das Land Sachsen-Anhalt und 
 {% assign zeitgeschichte = posts | where: "categories","zeitgeschichte" %}
 <ul class="showroom-list">
 {% for post in zeitgeschichte %}
-<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
+<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | escape }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Filter, Windräder, Aufklärung
@@ -42,7 +44,7 @@ Wie kann ein umweltbewusstes und gesundes Leben aussehen? Feinstaub, Nachhaltigk
 {% assign klimawandel = posts | where: "categories","klimawandel" %}
 <ul class="showroom-list">
 {% for post in klimawandel %}
-<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
+<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | escape }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Direkt vor der Tür
@@ -52,7 +54,7 @@ Von Hühnern, Sagen oder dem Mauerfall: diese Stories aus Sachsen-Anhalt, Halle 
 {% assign sachsenanhalt = posts | where: "categories","sachsenanhalt" %}
 <ul class="showroom-list">
 {% for post in sachsenanhalt %}
-<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
+<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | escape }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 ## Erfahrung und Erinnerung
@@ -62,5 +64,5 @@ Zwischen Erinnerungskultur und Zukunftsperspektive beschäftigen sich diese Proj
 {% assign biografien = posts | where: "categories","biografien" %}
 <ul class="showroom-list">
 {% for post in biografien %}
-<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title }}" data-storefront-description="{{ post.description }}" class="storefront-anchor">{{ post.title }}</a></li>
+<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | escape }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>

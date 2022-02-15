@@ -4,6 +4,7 @@ title: Alumni
 description: "Wer hat alles Multimedia und Autorschaft an der Uni Halle studiert? Hier eine Liste aller Absolvent:innen, die unser umfassendes Alumni-Netzwerk aufzeigt."
 exclude: true
 footer: true
+lang-ref: alumni
 ---
 
 {% assign all_students = site.data.students | sort %}

@@ -2,7 +2,7 @@ title: "Master: Multimedia & Autorschaft"
 alternateName: "MMA"
 email: maren.schuster@medienkomm.uni-halle.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Beim Masterstudiengang Multimedia und Autorschaft in Halle (Saale) kommen medienaffine Menschen aus unterschiedlichen Fachrichtungen zusammen, um die Themen der digitalen Gegenwart zu erforschen und in journalistischen Projekten zu reflektieren.
+  Beim Master-Studiengang Multimedia und Autorschaft in Halle (Saale) kommen medienaffine Menschen aus unterschiedlichen Fachrichtungen zusammen, um die Themen der digitalen Gegenwart zu erforschen und in journalistischen Projekten zu reflektieren.
 url: https://mmautor.net
 # url: https://dev-mma.soerenengels.de
 imageurl: /assets/images/
@@ -10,7 +10,7 @@ github_username: mmautor
 
 # Spracheinstellungen
 languages:
-  active: false
+  active: true
   possibilities:
     de:
       short: de

@@ -1,6 +1,6 @@
 # M.A. Multimedia und Autorschaft
 
-Dies ist das Repository für die Website des Masterstudiengangs **Multimedia und Autorschaft**. Die Website ist mit Jekyll gebaut und wird mit der Git verwaltet.
+Dies ist das Repository für die [Website](https://mmautor.net/?ref=https://github.com/soerenengels/mmautor.net) des Masterstudiengangs **Multimedia und Autorschaft**. Die Website ist mit _Jekyll_ gebaut und wird mit _Git_ verwaltet.
 
 Die nachfolgende **Dokumentation** soll folgenden Generationen bei der Pflege und Weiterentwicklung der Website des Studiengangs Multimedia & Autorschaft helfen.
 
@@ -43,7 +43,7 @@ Es gibt einen übergreifenden Punkt, an dem der aktuelle Stand gespeichert wird.
 #### Arbeitsverzeichnis erstmalig herunterladen
 
 ```bash
-git clone https://...
+git clone https://github.com/soerenengels/mmautor.net.git
 ```
 
 #### Arbeitsverzeichnis updaten
@@ -63,14 +63,14 @@ git push
 
 ### Was ist Markdown?
 
-Markdown ist eine Auszeichnungssprache. Hier findest du einen kurzen Guide. Hier einen ausführlichen.
+Markdown ist eine Auszeichnungssprache, ähnlich wie HTML nur simpler und text-bezogener. Hier findest du einen [kurzen Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) und ein [kurzes Tutorial](https://www.markdowntutorial.com/).
 
 ----
 
 ## Einrichten
 
 1. Installiere Jekyll auf deinem Rechner entsprechend eines der [folgenden Guides](https://jekyllrb.com/docs/installation/).
-2. Klone das git-Repository mit Hilfe von ``` git clone ```
+2. Klone das git-Repository mit Hilfe von ``` git clone https://github.com/soerenengels/mmautor.net.git ```
 3. Starte
 
 ## Struktur
@@ -207,17 +207,17 @@ Hiebei handelt es sich um das Layout der Projektseiten des Showrooms. Sie zeigen
 
 ### Collagen
 
-Die Collagen sind mittels _svg_-Elementen kombiniert und von einem _figure_-Element mit der Klasse _collage_ umgeben.  
+Die Collagen sind _image_-Elemente mittels _svg_-Element kombiniert und von einem _figure_-Element mit der Klasse _collage_ umgeben.  
 
 Die _svg_-Viewbox ist mit 1200x1200 Punkten bezeichnet. Im _defs > style_-Bereich sind Gestaltungsanweisungen für _:hover_-Effekte angegeben.
 
 Darunter werden die einzelnen Elemente der Collage entweder mit reinen _image_-Elementen (für statische Bilder ohne Verweise) oder mit zusätzlich umgebenen _a_-Elementen (für dynamische Bilder mit _:hover_-Effekt) ausgezeichnet.
 
-Die x- und y-Koordinaten werden jeweils von der oberen linken Ecke aus betrachtet.^
+Die x- und y-Koordinaten werden jeweils von der oberen linken Ecke aus betrachtet.
 
 ## _site
 
-Beim ersten Herunterladen, ist dieser Ordner noch nicht vorhanden, denn der Ordner *_site* entsteht erst im Rahmen des _build_-Prozesses von Jekyll.
+Beim ersten Herunterladen, ist dieser Ordner noch nicht vorhanden, denn der Ordner *_site* entsteht erst im Rahmen des _build_-Prozesses von Jekyll. Um die Website aus den verschiedenen Einzelteilen zusammenzusetzen, musst du _Jekyll_ sagen, dass die Website gebaut werden soll.
 
 ```bash
 bundle exec jekyll build
@@ -285,6 +285,8 @@ _TikTok_ ist im Mainstream angekommen und der MMA möchte auch darauf stattfinde
 ### Neue:n Projektpartner:in hinzufügen
 
 _data/cooperations.yml
+assets/images/cooperations/
+Bildoptimierung: Größenverhältnis, Komprimierung (z.B. mit ImageOptim)
 
 ### Ich möchte ändern, welches Projekt im Showroom hervorgehoben wird.
 
@@ -345,11 +347,10 @@ Eine Sitemap ist eine Form der Darstellung der Webseitenstruktur. Sie ist insbes
 
 ### Gemfile
 
-Die Datei _Gemfile_ (als auch Gemfile.lock) gehören zu _Jekyll_ bzw. _Ruby_, der Sprache, in der _Jekyll_ geschrieben ist. Es gibt an, welche _Jekyll_-Version verwendet werden soll und beinhaltet Verweise auf die installierten Plugins.
+Die Datei _Gemfile_ (als auch Gemfile.lock) gehören zu _Jekyll_ bzw. _Ruby_, der Sprache, in der _Jekyll_ geschrieben ist. Sie gibt an, welche _Jekyll_-Version verwendet werden soll und beinhaltet Verweise auf die installierten Plugins.
 
 ## To Do
 
 ### perspektivisch
 - Englisch: Übersetzungen
 - FAQ
-- Tracking

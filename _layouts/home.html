@@ -63,7 +63,7 @@ layout: base
                     <title>Mitteldeutsches Multimediazentrum Halle/Saale</title>
                 </image>
             </a>
-            <a href="/showroom">
+            <a href="{% if page.lang == "de" %}/showroom{% else %}/en/showroom{% endif %}">
                 <image x="750" y="320" width="500" height="550" xlink:href="{{ site.url | append: site.imageurl }}collages/home/silhouetten.png">
                     <title>Silhouetten von Studierenden</title>
                 </image>

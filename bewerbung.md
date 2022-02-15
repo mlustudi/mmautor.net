@@ -1,6 +1,6 @@
 ---
 layout: bewerbung
-title: Jetzt bewerben
+title: Bewerbung
 description: "Alle zwei Jahre ist eine Bewerbung für den Master Multimedia und Autorschaft möglich. Die nächste Bewerbungsfrist ist der 15. Mai 2021. Mehr zum Bewerbungsverfahren hier."
 bewerbung:
     bewerbungsfrist: "15. Mai"
@@ -8,21 +8,23 @@ bewerbung:
     email: "maren.schuster@medienkomm.uni-halle.de"
     eingungsfeststellung: "voraussichtlich Ende Juni"
     zulassung: "Ende Juli"
+lang-ref: application
+order: 5
 ---
 
 # Bewerbung
 
-Du möchtest dich bewerben? Eine Immatrikulation für den Masterstudiengang _Multimedia und Autorschaft_ ist nur in ungeraden Jahren möglich. Bewerben kannst du dich immer **bis zum {{ page.bewerbung.bewerbungsfrist }}**. Informationen zur Bewerbung findest du hier oder auf der [Internetseite der Martin-Luther-Universität Halle-Wittenberg](https://studienangebot.uni-halle.de/multimedia-und-autorschaft-master-120).
+Du möchtest dich bewerben? Eine Immatrikulation für den Master-Studiengang _Multimedia und Autorschaft_ ist nur in ungeraden Jahren möglich. Bewerben kannst du dich immer **bis zum {{ page.bewerbung.bewerbungsfrist }}**. Informationen zur Bewerbung findest du hier oder auf der [Internetseite der Martin-Luther-Universität Halle-Wittenberg](https://studienangebot.uni-halle.de/multimedia-und-autorschaft-master-120).
 
 ## Voraussetzungen
 
 Für die Zulassung zum Masterstudium benötigst du einen ersten berufsqualifizierenden Hochschulabschluss (Bachelor oder höherwertig). Von Vorteil ist ein Abschluss in einer geistes-, sozial-, kultur- oder gesellschaftswissenschaftlichen oder vergleichbaren Disziplin. Aber auch andere Fachbereiche sind willkommen.
 
-Der Masterstudiengang ist zurzeit **zulassungsfrei (ohne NC)**, allerdings gibt es eine Eignungsfeststellungsprüfung, die du bestehen musst, um zugelassen zu werden.
+Der Master-Studiengang ist zurzeit **zulassungsfrei (ohne NC)**, allerdings gibt es eine Eignungsfeststellungsprüfung, die du bestehen musst, um zugelassen zu werden.
 
 Wenn du das Zeugnis des berufsqualifizierenden Hochschulabschlusses erst nach der Bewerbungsfrist vorliegen hast, kannst du mit den Bewerbungsunterlagen eine Fächer- und Notenübersicht über mindestens 2/3 der zu erbringenden Gesamtleistungen deines Studiums einreichen. Das Zeugnis muss dann bei der Einschreibung zum Wintersemester bis spätestens 31.1. des Folgejahres nachgereicht werden.
 
-Im Masterstudiengang kommen Studierende aus unterschiedlichen Fachrichtungen und mit verschiedenen Interessen und Erfahrungen zusammen. Allen gemein ist eine Aufgeschlossenheit gegenüber digitalen Medien und Journalismus, Neugier auf neue Fachgebiete, Lust sich wissenschaftlich mit Themen der digitalen Gegenwart auseinanderzusetzen und Teamgeist, um gemeinsam unterschiedliche Projekte realisieren zu können. 
+Im Master-Studiengang kommen Studierende aus unterschiedlichen Fachrichtungen und mit verschiedenen Interessen und Erfahrungen zusammen. Allen gemein ist eine Aufgeschlossenheit gegenüber digitalen Medien und Journalismus, Neugier auf neue Fachgebiete, Lust sich wissenschaftlich mit Themen der digitalen Gegenwart auseinanderzusetzen und Teamgeist, um gemeinsam unterschiedliche Projekte realisieren zu können. 
 
 Da der Studiengang praxisorientiert ausgerichtet ist, solltest du über ein eigenes Notebook verfügen und dieses auch zu den Seminaren mitbringen. Wenn du dafür finanzielle oder technische Unterstützung benötigst, kannst du dich an [{{ page.bewerbung.name }}](mailto:{{ page.bewerbung.email }}) wenden.
  
@@ -30,12 +32,12 @@ Da der Studiengang praxisorientiert ausgerichtet ist, solltest du über ein eige
 
 ### 1. Zulassungsantrag für die Eignungsfeststellungsprüfung
 
-Um für den Masterstudiengang zugelassen zu werden, musst du eine Eignungsfeststellungsprüfung absolvieren. Diese findet in Form eines persönlichen Gesprächs statt. Um dazu eingeladen  zu werden, musst du einen Zulassungsantrag stellen, der aus folgenden Unterlagen besteht:
+Um für den Master-Studiengang zugelassen zu werden, musst du eine Eignungsfeststellungsprüfung absolvieren. Diese findet in Form eines persönlichen Gesprächs statt. Um dazu eingeladen  zu werden, musst du einen Zulassungsantrag stellen, der aus folgenden Unterlagen besteht:
 
 - ein formloser Antrag auf Zulassung zu den Eignungsgesprächen (als Anschreiben verfasst),
-- ein schriftlicher Bericht (elektronisch) im Umfang von ca. zwei DIN-A4-Seiten, in dem die persönlichen sowie fachspezifischen Gründe für die Bewerbung zum Masterstudiengang _Multimedia und Autorschaft_ aufgeführt sind,
+- ein schriftlicher Bericht (elektronisch) im Umfang von ca. zwei DIN-A4-Seiten, in dem die persönlichen sowie fachspezifischen Gründe für die Bewerbung zum Master-Studiengang _Multimedia und Autorschaft_ aufgeführt sind,
 - ein tabellarischer Lebenslauf
-- den ausgefüllten biografischen [Fragebogen](http://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2007/07%275%2709.htm#Anlage_1),
+- den ausgefüllten biografischen [Fragebogen](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf),
 - sämtliche Zeugnisse und Dokumente in Abschrift oder Kopie, die den bisherigen Werdegang belegen. Hierzu zählen insbesondere auch Nachweise über schulische / berufliche Ausbildungen (z.B. Abitur, fachspezifische Hochschulreife), aktuelle Hochschulabschlüsse (z.B. Bachelor-Zeugnisse oder Übersicht über bisher erbrachte Leistungen), frühere Studien, Praktika, besondere Befähigungen oder Auslandsaufenthalte.
 
 #### Tipps für die Bewerbung
@@ -76,7 +78,7 @@ Mansfelder Str. 56
 1.Etage, Raum 206  
 D-06108 Halle (Saale)  
 
-Die [Ordnung zur Regelung der Eignungsfeststellungsprüfung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf) für den Masterstudiengang _Multimedia und Autorschaft_ (120 Leistungspunkte) vom 20.05.2020 ist Grundlage für die Durchführung des Auswahlverfahrens.
+Die [Ordnung zur Regelung der Eignungsfeststellungsprüfung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf) für den Master-Studiengang _Multimedia und Autorschaft_ (120 Leistungspunkte) vom 20.05.2020 ist Grundlage für die Durchführung des Auswahlverfahrens.
 
 ### Antrag auf Zulassung zum Studium
 
@@ -93,5 +95,5 @@ Weiterführende Informationen zur Immatrikulation, Merkblätter und FAQs findest
 Das Immatrikulationsamt informiert dich über alle weiteren Schritte.
  
 ## Formale Hintergründe zur Bewerbung
-- [Allgemeine Bestimmungen](https://studium.verwaltung.uni-halle.de/ref1.4/pruefungsordnungen/) für Masterstudiengänge an der Martin-Luther-Universität Halle-Wittenberg
+- [Allgemeine Bestimmungen](https://studium.verwaltung.uni-halle.de/ref1.4/pruefungsordnungen/) für Master-Studiengänge an der Martin-Luther-Universität Halle-Wittenberg
 - [Fachspezifische Ordnung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf) zur Regelung der Eignungsfeststellung

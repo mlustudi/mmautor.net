@@ -2,6 +2,8 @@
 title: Lab
 layout: lab
 description: "Multimedia und Autorschaft wagt kreative Experimente mit Medien, Journalismus und Wissenschaft. Dazu zählen interdisziplinäre Kooperationen, Vorträge und Tagungen."
+lang-ref: lab
+order: 1
 ---
 
 # Lab
@@ -33,7 +35,7 @@ Die Mediziner:innen teilten ihr Fachwissen mit unseren Studierenden und gemeinsa
 
 Für die Mediziner:innen bot diese Zusammenarbeit die Möglichkeit, die Medizin gesamtgesellschaftlich zu betrachten und **neue Formen** sowie Ideen zu entwickeln, **sich mit Sozialmedizin auseinanderzusetzen** und das Wissen in eine breite Öffentlichkeit zu tragen. Die Erfahrungen der Kooperation können sie in ihr Berufsfeld einbringen. Außerdem bildete sich ein Netzwerk von Mediziner:innen und Journalist:innen, welches auch für weitere Projekte genutzt wird.
 
-Entstanden sind der **Unbehandelt**-Podcast, der Sozialmedizin-Newsletter [Upstream](https://upstream-newsletter.de/?ref=mmautor.net), der multimediale Longread **Von ungleichen (T)Räumen** und das journalistische Instagram-Projekt [@bittere.pille](https://www.instagram.com/bittere.pille/?ref=mmautor.net).
+Entstanden sind der [Unbehandelt](https://soundcloud.com/unbehandelt?ref=mmautor.net)-Podcast, der Sozialmedizin-Newsletter [Upstream](https://upstream-newsletter.de/?ref=mmautor.net), der multimediale Longread [Von ungleichen (T)Räumen](https://vonungleichentraeumen.medienkomm.uni-halle.de/?ref=mmautor.net) und das journalistische Instagram-Projekt [@bittere.pille](https://www.instagram.com/bittere.pille/?ref=mmautor.net).
 
 Konzeptionell und journalistisch verantwortete Maren Schuster das Projekt. [Amand Führer](https://www.medizin.uni-halle.de/einrichtungen/institute/medizinische-epidemiologie-biometrie-und-informatik/team/fuehrer-amand-gabriel?ref=mmautor.net), Forscher am Institut für Epidemiologie, Biometrie und Informatik der MLU, unterstützte als Mediziner das Projekt fachlich und mit seinem Netzwerk. Inputs von Wissenschaftler:innen und Journalist:innen zu Podcasting, Journalismus bei Instagram sowie Datenjournalismus begleiteten das Projekt _Diagnose: Unsichtbar_ in der Umsetzungsphase.
 

@@ -46,12 +46,12 @@ layout: base
             <image width="400" height="900" x="800" y="0" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/newspaper.png">
                 <title>Zeitungen</title>
             </image>
-            <a href="{{ site.url }}/showroom/fotoprojekt-corona-transformation">
+            <a href="{{ site.url }}{%- if page.lang == "en" %}/en{% endif -%}/showroom/fotoprojekt-corona-transformation">
                 <image width="700" height="400" x="400" y="800" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/praesentation-fotoprojekt.png">
                     <title>Präsentation des Fotoprojektes zu Corona & Transformation</title>
                 </image>
             </a>
-            <a href="{{ site.url }}/showroom/fotoprojekt-corona-transformation">
+            <a href="{{ site.url }}{%- if page.lang == "en" %}/en{% endif -%}/showroom/fotoprojekt-corona-transformation">
                 <image width="700" height="400" x="-50" y="800" xlink:href="{{ site.url | append: site.imageurl }}/collages/ueber-uns/praesentation-fotoprojekt-menschen.png">
                     <title>Präsentation des Fotoprojektes zu Corona & Transformation</title>
                 </image>

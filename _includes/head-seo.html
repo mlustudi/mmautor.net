@@ -30,62 +30,148 @@
 
   <!-- Linked Data -->
   <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph": [
+      {% if page.layout == "home" %}
       {
-    "@context": "http://schema.org",
-    "@type": "EducationalOccupationalProgram",
-    "@id": "{{ site.url }}/#program",
-    "url": "{{ site.url }}",
-    "name": "{{ site.title }}",
-    "alternateName": "{{ site.alternateName }}",
-    "programType": "Master of Arts (M. A.)",
-    "occupationalCredentialAwarded": {
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Master of Arts (M.A.) Multimedia und Autorschaft"
-    },
-    "programPrerequisites": {
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Bachelor"
-    },
-    "financialAidEligible": "PUBLIC_AID",
-    "description": "{{ site.description }}",
-    "maximumEnrollment": "15",
-    "numberOfCredits": "120",
-    "typicalCreditsPerTerm": "30",
-    "educationalProgramMode": "IN_PERSON",
-    "termsPerYear": "2",
-    "termDuration": "P6M",
-    "timeToComplete": "P2Y",
-    "applicationDeadline": "2021-05-15",
-    "occupationalCategory": "2642",
-    "image": {
-      "url": "{{ site.url | append: site.imageurl }}logo-512.png",
-      "width": "512",
-      "@context": "http://schema.org",
-      "@type": "ImageObject"
-    },
-    "sameAs": [
-      {%- for media in site.data.social %}
-      "{{ media.url }}"{%- if forloop.last != true %},{%- endif %}
-      {%- endfor %}
-    ],
-    "provider": {
-      "@type": "EducationalOrganization",
-      "name": "Universität Halle-Wittenberg",
-      "url": "https://uni-halle.de/",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Mansfelder Straße 56",
-        "addressLocality": "Halle (Saale)",
-        "addressRegion": "SAN",
-        "postalCode": "06108",
-        "addressCountry": "DE"
+        "@type":"EducationalOrganization",
+        "@id":"{{ site.url }}/#organization",
+        "name":"{{ site.title }}",
+        "url":"{{ site.url }}",
+        "sameAs":[
+          {%- for media in site.data.social %}
+          "{{ media.url }}"{%- if forloop.last != true %},{%- endif %}
+          {%- endfor %}
+        ],
+        "logo":{
+          "@type":"ImageObject",
+          "@id":"{{ site.url }}/#logo",
+          "inLanguage":"de-DE",
+          "url":"{{ site.url | append: site.imageurl | append: "logo_social-512.png" }}",
+          "width": 512,
+          "height": 512,
+          "caption":"{{ site.alternateName }} - {{ site.title }}"
+        },
+        "image":{
+          "@id":"{{ site.url }}/#logo"
+        },
+        "alumni": [
+          {% assign all_students = site.data.students | sort %}
+          {%- for jahrgang in all_students reversed -%}
+          {%- for student in jahrgang[1].students %}
+          {
+            "@type": "Person",
+            "name": "{{ student.name }}"{% if student.references %},
+            "sameAs": [
+              {%- for reference in student.references %}"{{ reference.url }}"{%- if forloop.last == false %},{% endif -%}{% endfor -%}
+            ]{% endif %}
+          }{%- if forloop.last == false %},{% endif -%}
+          {% endfor -%}{%- if forloop.last == false %},{%- endif -%}
+          {%- endfor -%}
+        ]
       },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "Admissions"
-        "email": "maren.schuster@medienkomm.uni-halle.de",
-        "telephone": "+493455523629"
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "name": "{{ site.title }}",
+        "alternateName": "{{ site.alternateName }}",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ site.url | append: site.imageurl | append: "logo_social-512.png" }}",
+          "width": "512",
+          "height": "512"
+        },
+        "provider": {
+        },
+        "sameAs": [
+          {%- for media in site.data.social %}
+          "{{ media.url }}"{%- if forloop.last != true %},{%- endif %}
+          {%- endfor %}
+        ]
+      },
+      {
+        "@type":"Course",
+        "@id": "{{ site.url }}/#program",
+        "name": "{{ site.seo.program.programType }} {{ site.seo.program.name }}",
+        "description": "{{ site.description }}",
+        "provider": {
+          "@type": "CollegeOrUniversity",
+          "name": "{{ site.seo.program.provider.name }}",
+          "sameAs": "{{ site.seo.program.provider.url }}"
+        }
+      },
+      {% endif %}
+      {
+        "@type":"WebPage",
+        "@id":"{{ site.url }}{{ page.url }}#webpage",
+        "url":"{{ site.url }}{{ page.url }}",
+        "name":"{{ page.title }} - {{ site.title }}",
+        "isPartOf": {
+          "@id":"{{ site.url }}/#website",
+          "@type": "WebSite"
+        },
+        "breadcrumb":{
+          "@type":"BreadcrumbList",
+          "itemListElement":[
+            {
+              "@type":"ListItem",
+              "position":1,
+              "item": { 
+                "@type":"WebPage",
+                "@id":"{{ site.url }}/#webpage",
+                "url":"{{ site.url }}",
+                "name":"{{ site.alternateName }}"
+              }
+            }{% if page.layout != "home" and page.layout != "project" %},{
+              "@type":"ListItem",
+              "position":2,
+              "item":{
+                "@type":"WebPage",
+                "@id":"{{ site.url }}{{ page.url }}/#webpage",
+                "url":"{{ site.url }}{{ page.url }}",
+                "name": "{{ page.title }}"
+              }
+            }{% endif %}
+            {% if page.layout == "project" %},
+            {
+              "@type":"ListItem",
+              "position":2,
+              "item":{
+                "@type":"WebPage",
+                "@id":"{{ site.url }}/showroom/#webpage",
+                "url":"{{ site.url }}/showroom",
+                "name": "{{ page.title }}"
+              }
+            },
+            {
+              "@type":"ListItem",
+              "position":3,
+              "item":{
+                "@type":"WebPage",
+                "@id":"{{ site.url }}{{ page.url }}/#webpage",
+                "url":"{{ site.url }}{{ page.url }}",
+                "name": "{{ page.title }}"
+              }
+            }
+            {% endif %}
+          ]
+        },
+        "inLanguage":"de-DE",
+        "potentialAction":[
+          { 
+            "@type":"ReadAction",
+            "target":["{{ site.url }}{{ page.url }}"]
+          }
+        ]
       }
-    }
+      {%- if page.layout == "project" %}
+      ,{
+        "@type": "CreativeWork",
+        "name": "{{ page.title }}",
+        "url": "{% if post.ext_url %}{{ post.ext_url }}{% else %}{{ site.url | append: page.url }}{% endif %}"
+      }
+      {% endif -%}
+    ]
   }
   </script>
