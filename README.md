@@ -1,6 +1,6 @@
 # M.A. Multimedia und Autorschaft
 
-Dies ist das Repository für die [Website](https://mmautor.net/?ref=https://github.com/soerenengels/mmautor.net) des Masterstudiengangs **Multimedia und Autorschaft**. Die Website ist mit _Jekyll_ gebaut und wird mit _Git_ verwaltet.
+Dies ist das Repository für die [Website](https://mmautor.net/?ref=https://github.com/soerenengels/mmautor.net) des Master-Studiengangs **Multimedia und Autorschaft**. Die Website ist mit _Jekyll_ gebaut und wird mit _Git_ verwaltet.
 
 Die nachfolgende **Dokumentation** soll folgenden Generationen bei der Pflege und Weiterentwicklung der Website des Studiengangs Multimedia & Autorschaft helfen.
 
@@ -255,7 +255,7 @@ Für das Karussel wurde [Splide.js](https://splidejs.com/) ([Github](https://git
 
 ## _posts/
 
-In diesem Ordner liegen die Dateien für die englischsprachige Übersetzung der Website.
+In diesem Ordner liegen die Projekte. Beim Anlegen von Projekten sollte auf die Komprimierung der Projektbilder geachtet werden.
 
 ## Englischsprachige Übersetzung
 
@@ -352,5 +352,4 @@ Die Datei _Gemfile_ (als auch Gemfile.lock) gehören zu _Jekyll_ bzw. _Ruby_, de
 ## To Do
 
 ### perspektivisch
-- Englisch: Übersetzungen
-- FAQ
+- Sitemap an englischsprachige Seiten anpassen
