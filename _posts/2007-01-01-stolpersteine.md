@@ -10,7 +10,7 @@ permalink: /showroom/stolpersteine
 
 # Stolpersteine
 
-[Stolpersteine – Filme gegen das Vergessen](https://www.youtube.com/playlist?list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45) ist eine Filmreihe des Masterstudiengangs _MultiMedia und Autorschaft_. Inspiriert vom Stolpersteinprojekt des Künstlers Gunther Demnig, das an das Schicksal jüdischer Opfer des Nationalsozialismus erinnert, setzen sich die Studierenden jedes Jahrganges auf vielfältige Weise mit dem Thema auseinander. Seit über zehn Jahren ist dabei eine Filmreihe entstanden, die in dokumentarischen Kurzfilmen u.a. die individuellen Lebenswege der Betroffenen nacherzählt, die Rolle der Psychatrie im Rahmen der Vernichtungspolitik des Dritten Reiches untersucht, den gegenwärtigen Umgang mit diesem Teil der Geschichte thematisiert oder als Animationsfilm Kindern dieses Thema vermittelt.
+[Stolpersteine – Filme gegen das Vergessen](https://www.youtube.com/playlist?list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45) ist eine Filmreihe des Master-Studiengangs _Multimedia und Autorschaft_. Inspiriert vom Stolpersteinprojekt des Künstlers Gunther Demnig, das an das Schicksal jüdischer Opfer des Nationalsozialismus erinnert, setzen sich die Studierenden jedes Jahrganges auf vielfältige Weise mit dem Thema auseinander. Seit über zehn Jahren ist dabei eine Filmreihe entstanden, die in dokumentarischen Kurzfilmen u.a. die individuellen Lebenswege der Betroffenen nacherzählt, die Rolle der Psychatrie im Rahmen der Vernichtungspolitik des Dritten Reiches untersucht, den gegenwärtigen Umgang mit diesem Teil der Geschichte thematisiert oder als Animationsfilm Kindern dieses Thema vermittelt.
 
 Eine Auswahl der Projekte findest du hier:
 
