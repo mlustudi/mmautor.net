@@ -53,7 +53,7 @@ Eine Übermittlung in Drittstaaten findet nicht statt.
 
 ## Dauer der Speicherung
 
-Eine Löschung Ihrer personenbezogenen Daten erfolgt, sobald diese für die vorgenannten Zwecke nicht mehr erforderlich sind. Dies kann u.a. auch eine Speicherung bis zum Eintritt der Verjährung von uns gegenüber gegebenenfalls geltend gemachter Ansprüche beinhalten. Darüber hinaus erfolgt eine Speicherung Ihrer personenbezogenen Daten solange hierzu eine gesetzliche Aufbewahrungs- und Nachweisverpflichtung unsererseits besteht.
+Eine Löschung Ihrer personenbezogenen Daten erfolgt, sobald diese für die vorgenannten Zwecke nicht mehr erforderlich sind. Dies kann u. a. auch eine Speicherung bis zum Eintritt der Verjährung von uns gegenüber gegebenenfalls geltend gemachter Ansprüche beinhalten. Darüber hinaus erfolgt eine Speicherung Ihrer personenbezogenen Daten solange hierzu eine gesetzliche Aufbewahrungs- und Nachweisverpflichtung unsererseits besteht.
 
 ## Betroffenenrechte
 
@@ -150,4 +150,4 @@ Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wi
 
 ### Urheberrecht
 
-Die durch die Seitenbetreiber:innen erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht von den Betreiber:innenvom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+Die durch die Seitenbetreiber:innen erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht von den Betreiber:innen/ vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.

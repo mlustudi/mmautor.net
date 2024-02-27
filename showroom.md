@@ -9,60 +9,51 @@ order: 2
 
 <!-- Der Inhalt dieser Seite wird über _layouts/showroom.html generiert. -->
 
-Innerhalb der zwei Jahre des Masterstudiums entwickeln und realisieren die Studierenden, zum Teil in Kooperation mit den verschiedenen Partner:innen, Projekte zu vielfältigen Themenschwerpunkten. So ist es auch seit 2007 Tradition, die Geschichten, Schicksale und Biografien der Opfer des Nationalsozialismus in Halle filmisch aufzuarbeiten. Die Filmreihe _Stolpersteine - Filme gegen das Vergessen_ ist auf unserem [Youtube-Kanal](https://www.youtube.com/playlist?list=PLxt_Og7CuhTYAPvq2aYLgvHPvZojaJh45) zu finden.
-
-Jeder Jahrgang entwickelt im 3. Semester außerdem ein digitales, zumeist journalistisches Jahrgangsprojekt, bei dem gesellschaftliche, politische und wissenschaftliche Zusammenhänge bearbeitet werden. Zum Abschluss des Studiums gehört neben einer Thesis auch ein praktisches Masterprojekt. Darin erarbeiten die Studierenden allein oder im Team ein selbstgewähltes Thema und setzen es digitaljournalistisch um. Die Projekte reichen von Dossiers über Podcasts bis hin zu journalistischen Instagramkanälen und medienpädagogischen Projekten. Im Showroom sind die Projekte der vergangenen Jahre zusammengestellt.
+Innerhalb der zwei Jahre des Masterstudiums entwickeln und realisieren die Studierenden, zum Teil in Kooperation mit den verschiedenen Partner:innen, Projekte zu vielfältigen Themenschwerpunkten.  Ziel ist es, innerhalb des Studiums ein relevantes Portfolio für den Berufseinstieg aufzubauen.
+Im 3. Semester entwickelt jeder Jahrgang ein journalistisches Jahrgangsprojekt, bei dem gesellschaftliche, politische und wissenschaftliche Zusammenhänge bearbeitet werden. Zum Abschluss des Studiums gehört neben einer Thesis auch ein praktisches Masterprojekt. Darin erarbeiten die Studierenden allein oder im Team ein selbstgewähltes Thema und setzen es digitaljournalistisch um. Die Projekte reichen von Dossiers über Podcasts bis hin zu journalistischen Instagramkanälen oder medienpädagogischen Projekten.
+Im Showroom sind Projekte der vergangenen Jahre zusammengestellt.
 
 # Showroom
 
 {% assign posts = site.posts | where:"lang", page.lang %}
 
-## Graffiti, Tofu, Zukunftsängste
+## Klima und Zukunft
 
-Was beeinflusst unser Leben und wonach streben wir? Die großen Fragen des Daseins stehen im Mittelpunkt dieser Projekte.
+Diese Projekte widmen sich der Klimakrise, ihren spürbaren Folgen und Ideen, wie wir die Zukunft dennoch besser gestalten können. 
 
-{% assign leben = posts | where: "categories","leben" %}
+{% assign klima = posts | where: "categories","klima" %}
 <ul class="showroom-list">
-{% for post in leben %}
+{% for post in klima %}
 <li><a href="{% if post.ext_url %}{{ post.ext_url }}{% else %}{{ post.url }}{% endif %}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | smartify }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
-## Geschichten, die Geschichte schrieben
+## Identität und Gesellschaft
 
-Welche Ereignisse prägten die Stadt Halle (Saale), das Land Sachsen-Anhalt und Deutschland? Eine Auseinandersetzung mit den Verfolgten und Ermordeten im Nationalsozialismus, mit gesellschaftlichen Umbrüchen nach dem Mauerfall und Personen und Ereignissen der Vergangenheit, die bis heute nachwirken. Hier geht es um Regionales mit überregionaler Bedeutung.
+Wer bin ich und warum? Diese Projekte geben Antworten. 
 
-{% assign zeitgeschichte = posts | where: "categories","zeitgeschichte" %}
+{% assign identgs = posts | where: "categories","identgs" %}
 <ul class="showroom-list">
-{% for post in zeitgeschichte %}
+{% for post in identgs %}
+<li><a href="{% if post.ext_url %}{{ post.ext_url }}{% else %}{{ post.url }}{% endif %}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | smartify }}" class="storefront-anchor">{{ post.title }}</a></li>
+{% endfor %}</ul>
+
+## Erfahren und Erinnern
+
+Seit 2007 arbeiten wir in der Filmreihe [Stolpersteine - Filme gegen das Vergessen](https://stolpersteine.medienkomm.uni-halle.de/) Geschichten hinter den Stolpersteinen auf. Weitere Geschichten und historische Biografien arbeiten unter anderem diese Projekte auf: 
+
+{% assign erinnern = posts | where: "categories","erinnern" %}
+<ul class="showroom-list">
+{% for post in erinnern %}
 <li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | escape }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
-## Filter, Windräder, Aufklärung
+## Halle und Sachsen-Anhalt
 
-Wie kann ein umweltbewusstes und gesundes Leben aussehen? Feinstaub, Nachhaltigkeit und erneuerbare Energien stehen bei diesen Projekten im Fokus.
+Themen direkt vor der eigenen Tür oder in der näheren Umgebung bearbeiten diese Projekte:
 
-{% assign klimawandel = posts | where: "categories","klimawandel" %}
+{% assign halsan = posts | where: "categories","halsan" %}
 <ul class="showroom-list">
-{% for post in klimawandel %}
+{% for post in halsan %}
 <li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | escape }}" class="storefront-anchor">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
-## Direkt vor der Tür
-
-Von Hühnern, Sagen oder dem Mauerfall: diese Stories aus Sachsen-Anhalt, Halle (Saale) und der Umgebung haben unsere Studierenden bewegt. 
-
-{% assign sachsenanhalt = posts | where: "categories","sachsenanhalt" %}
-<ul class="showroom-list">
-{% for post in sachsenanhalt %}
-<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | escape }}" class="storefront-anchor">{{ post.title }}</a></li>
-{% endfor %}</ul>
-
-## Erfahrung und Erinnerung
-
-Zwischen Erinnerungskultur und Zukunftsperspektive beschäftigen sich diese Projekte mit individuellen Biografien und Lebensgeschichten von Hallenser:innen.
-
-{% assign biografien = posts | where: "categories","biografien" %}
-<ul class="showroom-list">
-{% for post in biografien %}
-<li><a href="{{ post.ext_url }}" data-storefront-image="{{ post.image }}" data-storefront-title="{{ post.title | escape }}" data-storefront-description="{{ post.description | escape }}" class="storefront-anchor">{{ post.title }}</a></li>
-{% endfor %}</ul>

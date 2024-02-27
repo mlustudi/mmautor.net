@@ -1,12 +1,12 @@
 ---
 layout: bewerbung
 title: Bewerbung
-description: "Alle zwei Jahre ist eine Bewerbung für den Master Multimedia und Autorschaft möglich. Die nächste Bewerbungsfrist ist der 15. Mai 2021. Mehr zum Bewerbungsverfahren hier."
+description: "Alle zwei Jahre ist eine Bewerbung für den Master Multimedia und Autorschaft möglich. Die nächste Bewerbungsfrist ist der 15. Mai 2023. Mehr zum Bewerbungsverfahren hier."
 bewerbung:
     bewerbungsfrist: "15. Mai"
-    name: "Maren Schuster"
-    email: "maren.schuster@medienkomm.uni-halle.de"
-    eingungsfeststellung: "voraussichtlich Ende Juni"
+    name: "Patrick Vonderau"
+    email: "aptrick.vonderau@medienkomm.uni-halle.de"
+    eingungsfeststellung: "voraussichtlich Mitte Juni"
     zulassung: "Ende Juli"
 lang-ref: application
 order: 5
@@ -36,9 +36,8 @@ Um für den Master-Studiengang zugelassen zu werden, musst du eine Eignungsfests
 
 - ein formloser Antrag auf Zulassung zu den Eignungsgesprächen (als Anschreiben verfasst),
 - ein schriftlicher Bericht (elektronisch) im Umfang von ca. zwei DIN-A4-Seiten, in dem die persönlichen sowie fachspezifischen Gründe für die Bewerbung zum Master-Studiengang _Multimedia und Autorschaft_ aufgeführt sind,
-- ein tabellarischer Lebenslauf
 - den ausgefüllten biografischen [Fragebogen](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf),
-- sämtliche Zeugnisse und Dokumente in Abschrift oder Kopie, die den bisherigen Werdegang belegen. Hierzu zählen insbesondere auch Nachweise über schulische / berufliche Ausbildungen (z.B. Abitur, fachspezifische Hochschulreife), aktuelle Hochschulabschlüsse (z.B. Bachelor-Zeugnisse oder Übersicht über bisher erbrachte Leistungen), frühere Studien, Praktika, besondere Befähigungen oder Auslandsaufenthalte.
+- sämtliche Zeugnisse und Dokumente in Abschrift oder Kopie, die den bisherigen Werdegang belegen. Hierzu zählen insbesondere auch Nachweise über schulische / berufliche Ausbildungen (z. B. Abitur, fachspezifische Hochschulreife), aktuelle Hochschulabschlüsse (z. B. Bachelor-Zeugnisse oder Übersicht über bisher erbrachte Leistungen), frühere Studien, Praktika, besondere Befähigungen oder Auslandsaufenthalte.
 
 #### Tipps für die Bewerbung
 
@@ -48,7 +47,7 @@ Name, Anschrift, Rufnummer, E-Mail-Adresse, Geburtsdatum/-ort.
 - Verzichte darauf, die Unterlagen in Bewerbungsmappen oder Heftern zu senden. 
 - Einzelne Seiten in einem Briefumschlag, in der richtigen Reihenfolge gelegt und möglichst gelocht, sind ausreichend.
 - Wenn du eine Rücksendung von Originalen oder beglaubigten Kopien wünschst, lege einen frankierten Rückumschlag in der richtigen Größe bei. Du erhältst die Unterlagen nach Abschluss der Bewerbungsphase bis Ende August zurück.
-- Sende sämtliche Bewerbungsunterlagen in jedem Fall sowohl postalisch als auch per E-Mail (idealerweise im PDF-Format) an: [{{ page.bewerbung.email }}](mailto:{{ page.bewerbung.email }})
+- Sende sämtliche Bewerbungsunterlagen in jedem Fall sowohl postalisch als auch per E-Mail (idealerweise im PDF-Format) an: [Claudia Rabe](mailto:claudia.rabe@medienkomm.uni-halle.de)
 
 Dieser Zulassungsantrag muss mit den vollständigen Unterlagen spätestens bis zum {{ page.bewerbung.bewerbungsfrist }} beim Prüfungsamt der Philosophischen Fakultät II der Martin-Luther-Universität Halle-Wittenberg vorliegen. Sende die Unterlagen deshalb rechtzeitig an folgende Adresse:
 
@@ -66,7 +65,7 @@ Wenn deine Bewerbung eingegangen ist und alles auf Vollständigkeit und Richtigk
 - interdisziplinäres Fachwissen und Urteilskompetenz, vor allem in den Bereichen Medien, Kommunikation, Digitalisierung, Journalismus und deren Theorien, 
 - Befähigung und Aufgeschlossenheit für den Studiengang Multimedia und Autorschaft.
 
-Um ein qualitativ hochwertiges Studium garantieren zu können, ist die Anzahl der verfügbaren Studienplätze auf 12 Plätze begrenzt. Die Vergabe erfolgt mittels einer Rangliste, für die die Gesamtnote des Hochschulabschlusses und das Ergebnis des Eignungsgespräches ausschlaggebend sind. Du erfährst bis {{ page.bewerbung.zulassung }}, ob du zum Studium zugelassen bist. Weitere Informationen findest du in der [Studien- und Prüfungsordnung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_09.pdf).
+Um ein qualitativ hochwertiges Studium garantieren zu können, ist die Anzahl der verfügbaren Studienplätze auf 10 Plätze begrenzt. Die Vergabe erfolgt mittels einer Rangliste, für die die Gesamtnote des Hochschulabschlusses und das Ergebnis des Eignungsgespräches ausschlaggebend sind. Du erfährst bis {{ page.bewerbung.zulassung }}, ob du zum Studium zugelassen bist. Weitere Informationen findest du in der [Studien- und Prüfungsordnung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_09.pdf).
 
 Die Gespräche finden am _Institut für Musik, Medien- und Sprechwissenschaften_ statt.
 
@@ -78,7 +77,7 @@ Mansfelder Str. 56
 1.Etage, Raum 206  
 D-06108 Halle (Saale)  
 
-Die [Ordnung zur Regelung der Eignungsfeststellungsprüfung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf) für den Master-Studiengang _Multimedia und Autorschaft_ (120 Leistungspunkte) vom 20.05.2020 ist Grundlage für die Durchführung des Auswahlverfahrens.
+Die [Ordnung zur Regelung der Eignungsfeststellungsprüfung](https://www.verwaltung.uni-halle.de/KANZLER/ZGST/ABL/2020/20_11_10.pdf) für den Master-Studiengang _Multimedia und Autorschaft_ (120 Leistungspunkte) vom 28.07.2020 ist Grundlage für die Durchführung des Auswahlverfahrens.
 
 ### Antrag auf Zulassung zum Studium
 
